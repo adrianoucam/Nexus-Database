@@ -14,7 +14,8 @@ aéreas, países e tipos de aeronaves.
 > disponibilidade de voos em tempo real, frequência atual, preço,
 > emissão de bilhetes ou garantia de que uma combinação de trechos possa
 > ser comprada como um único itinerário.
-
+![Example Image](imagem1.png)
+> ![Example Image](imagem2.png)
 ------------------------------------------------------------------------
 
 ## 1. Objetivo do exemplo

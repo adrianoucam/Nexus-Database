@@ -2,6 +2,9 @@
 
 ## Análise de Cadeias de Suprimentos com Banco de Dados Orientado a Grafos
 
+
+![Texto Alternativo](imagem1.png)
+
 Este projeto demonstra a utilização do **NexusDB**, um banco de dados
 orientado a grafos desenvolvido em **Rust**, para modelagem, exploração
 e análise de uma cadeia de suprimentos.

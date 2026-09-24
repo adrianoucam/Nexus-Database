@@ -1,0 +1,58 @@
+{
+  "database": "OPENFLIGHTS_GRAPH",
+  "labels": {
+    "Country": [
+      "name",
+      "iso_code",
+      "dafif_code"
+    ],
+    "Airport": [
+      "airport_id",
+      "name",
+      "city",
+      "country",
+      "iata",
+      "icao",
+      "latitude",
+      "longitude",
+      "altitude_ft",
+      "timezone_offset",
+      "dst",
+      "tz_database",
+      "type",
+      "source"
+    ],
+    "Airline": [
+      "airline_id",
+      "name",
+      "alias",
+      "iata",
+      "icao",
+      "callsign",
+      "country",
+      "active"
+    ],
+    "AircraftType": [
+      "name",
+      "iata_code",
+      "icao_code"
+    ],
+    "Route": [
+      "route_key",
+      "airline_code",
+      "source_airport_id",
+      "destination_airport_id",
+      "codeshare",
+      "stops",
+      "equipment"
+    ]
+  },
+  "relationships": [
+    "LOCATED_IN",
+    "BASED_IN",
+    "DEPARTURE",
+    "ARRIVAL",
+    "OPERATES",
+    "USES_AIRCRAFT"
+  ]
+}

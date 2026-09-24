@@ -1,0 +1,14 @@
+# Local build files and credentials
+/target/
+/installer/output/
+/tmp/
+.env
+.env.*
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.pyc
+__pycache__/
+/data/
+/backups/
+SENHA_ADMIN*

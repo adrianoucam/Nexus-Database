@@ -11,8 +11,8 @@ AppPublisher={#MyAppPublisher}
 DefaultDirName={autopf}\NexusDB
 DefaultGroupName=NexusDB
 DisableProgramGroupPage=yes
-LicenseFile=LICENSE
-OutputDir=installer\output
+LicenseFile=..\LICENSE
+OutputDir=output
 OutputBaseFilename=NexusDB-{#MyAppVersion}-windows-x64-setup
 Compression=lzma2/ultra64
 SolidCompression=yes
@@ -42,16 +42,16 @@ Name: "{commonappdata}\NexusDB\backups"; Flags: uninsneveruninstall
 Name: "{commonappdata}\NexusDB\logs"; Flags: uninsneveruninstall
 
 [Files]
-Source: "target\release\nexusdb.exe"; DestDir: "{app}\bin"; Flags: ignoreversion
-Source: "README.md"; DestDir: "{app}\docs"; Flags: ignoreversion
-Source: "SECURITY.md"; DestDir: "{app}\docs"; Flags: ignoreversion
-Source: "LICENSE"; DestDir: "{app}"; Flags: ignoreversion
-Source: "Docs\Manual_NexusDB_Comandos_e_Exemplos.docx"; DestDir: "{app}\docs"; Flags: ignoreversion
+Source: "..\target\release\nexusdb.exe"; DestDir: "{app}\bin"; Flags: ignoreversion
+Source: "..\README.md"; DestDir: "{app}\docs"; Flags: ignoreversion
+Source: "..\SECURITY.md"; DestDir: "{app}\docs"; Flags: ignoreversion
+Source: "..\LICENSE"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\Docs\Manual_NexusDB_Comandos_e_Exemplos.docx"; DestDir: "{app}\docs"; Flags: ignoreversion
 
-Source: "backup_app\nexus_backup.py"; DestDir: "{app}\backup"; Flags: ignoreversion
-Source: "backup_app\nexus-backup.cmd"; DestDir: "{app}\backup"; Flags: ignoreversion
-Source: "backup_app\README.md"; DestDir: "{app}\backup"; Flags: ignoreversion
-Source: "Docs\SQL_USERS_AND_GRANTS.md"; DestDir: "{app}\docs"; Flags: ignoreversion
+Source: "..\backup_app\nexus_backup.py"; DestDir: "{app}\backup"; Flags: ignoreversion
+Source: "..\backup_app\nexus-backup.cmd"; DestDir: "{app}\backup"; Flags: ignoreversion
+Source: "..\backup_app\README.md"; DestDir: "{app}\backup"; Flags: ignoreversion
+Source: "..\Docs\SQL_USERS_AND_GRANTS.md"; DestDir: "{app}\docs"; Flags: ignoreversion
 
 [Icons]
 Name: "{group}\Backup e restore (terminal)"; Filename: "{cmd}"; Parameters: "/K """"{app}\backup\nexus-backup.cmd"" --help"""; WorkingDir: "{commonappdata}\NexusDB\backups"

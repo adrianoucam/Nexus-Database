@@ -143,6 +143,37 @@ begin
   end;
 end;
 
+{ Explicit ACLs also repair upgrades where service install is skipped. }
+procedure GrantNexusAccess(const Path, ServiceAccess: String; IsDirectory: Boolean);
+var
+  ResultCode: Integer;
+  Prefix, Parameters: String;
+begin
+  Prefix := '';
+  if IsDirectory then Prefix := '(OI)(CI)';
+  Parameters := '"' + Path + '" /grant:r ' +
+    '"*S-1-5-32-544:' + Prefix + 'F" ' +
+    '"*S-1-5-18:' + Prefix + 'F" ' +
+    '"*S-1-5-19:' + Prefix + ServiceAccess + '"';
+  if not Exec(ExpandConstant('{sys}\icacls.exe'), Parameters, '',
+    SW_HIDE, ewWaitUntilTerminated, ResultCode) then
+    RaiseException('Nao foi possivel executar icacls para: ' + Path);
+  if ResultCode <> 0 then
+    RaiseException('Falha configurando permissoes: ' + Path +
+      ' (icacls ' + IntToStr(ResultCode) + ').');
+end;
+
+procedure EnsureNexusPermissions();
+begin
+  GrantNexusAccess(ExpandConstant('{commonappdata}\NexusDB'), 'RX', True);
+  GrantNexusAccess(ExpandConstant('{commonappdata}\NexusDB\config'), 'RX', True);
+  GrantNexusAccess(ExpandConstant('{commonappdata}\NexusDB\data'), 'M', True);
+  GrantNexusAccess(ExpandConstant('{commonappdata}\NexusDB\backups'), 'M', True);
+  GrantNexusAccess(ExpandConstant('{commonappdata}\NexusDB\logs'), 'M', True);
+  if FileExists(NexusConfig()) then
+    GrantNexusAccess(NexusConfig(), 'R', False);
+end;
+
 function ReplaceBootstrapPassword(const FileName, Password: String): Boolean;
 var
   Lines: TArrayOfString;
@@ -171,7 +202,9 @@ end;
 
 procedure ClearBootstrapPassword();
 begin
-  ReplaceBootstrapPassword(NexusConfig(), '');
+  if not ReplaceBootstrapPassword(NexusConfig(), '') then
+    RaiseException('Nao foi possivel remover a senha de bootstrap da configuracao.');
+  EnsureNexusPermissions();
 end;
 
 procedure CurStepChanged(CurStep: TSetupStep);
@@ -192,6 +225,7 @@ begin
     end;
   end;
 
+  EnsureNexusPermissions();
   if not ReplaceBootstrapPassword(NexusConfig(), PasswordPage.Values[0]) then
   begin
     MsgBox('Não foi possível gravar a configuração protegida do NexusDB.',
@@ -199,6 +233,8 @@ begin
     Exit;
   end;
 
+  { Saving can recreate the file; apply file permissions again before start. }
+  EnsureNexusPermissions();
   StartRequested := WizardIsTaskSelected('startservice') or ExistingService;
   if StartRequested then
   begin

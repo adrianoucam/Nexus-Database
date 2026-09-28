@@ -53,3 +53,11 @@ A desinstalação remove o serviço e os arquivos de programa. O diretório
 `C:\ProgramData\NexusDB` é intencionalmente preservado. Exclua-o manualmente
 somente se também quiser apagar definitivamente bancos, credenciais, backups e
 logs.
+
+## Permissoes do servico
+
+O instalador aplica permissoes explicitas para Administradores e SYSTEM
+(controle total) e LocalService (leitura da configuracao; modificacao em dados,
+backups e logs). A verificacao tambem ocorre em atualizacoes e as permissoes
+sao reaplicadas apos salvar nexusdb.env, antes de iniciar o servico e apos
+remover a senha de bootstrap. Falhas do icacls interrompem essa etapa com erro.

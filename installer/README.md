@@ -3,6 +3,9 @@
 O arquivo `nexusdb.iss` cria um instalador x64 com Inno Setup 6 ou 7. O pacote:
 
 - instala o executável release em `C:\Program Files\NexusDB\bin`;
+- compila o servidor com `--features cuda` e inclui `nexusdb_cuda.dll` junto ao executavel;
+- inclui processamento CPU paralelo via Rayon e CUDA opcional para PageRank;
+- cria novas configuracoes com backend `AUTO`, preservando configuracoes existentes;
 - registra o NexusDB como Windows Service sob `LocalService`;
 - cria configuração, dados, backups e logs em `C:\ProgramData\NexusDB`;
 - solicita a senha administrativa inicial em campo oculto;
@@ -12,21 +15,27 @@ O arquivo `nexusdb.iss` cria um instalador x64 com Inno Setup 6 ou 7. O pacote:
 - inclui `backup\nexus-backup.cmd`, o aplicativo Python de backup/restore e seu manual;
 - inclui a referência dos comandos SQL de usuários, OWNER, GRANT e REVOKE.
 
-## Compilar
+## Reempacotar
 
-Abra um terminal na raiz do projeto e execute:
+Este repositorio distribui o pacote pronto e nao inclui os fontes Rust.
+Instale Inno Setup 6 ou 7 e disponibilize `target/release/nexusdb.exe` com
+suporte CUDA e `target/release/nexusdb_cuda.dll`. Execute na raiz:
 
 ```bat
 build_installer_windows.bat
 ```
 
-Este repositorio de distribuicao nao inclui os fontes Rust. Disponibilize o
-executavel atualizado em `target/release/nexusdb.exe` antes de compilar.
-Se `Cargo.toml` estiver presente, o script executa o build release antes de
-empacotar. A saida fica em `installer/output`.
+O resultado fica em `installer/output`. Quando Cargo.toml, fontes Rust e o
+diretorio cuda estao presentes, o script recompila o servidor e a DLL; esse
+build tambem exige Rust, CUDA Toolkit e Visual Studio C++ Build Tools.
 
-Versione os scripts .iss/.bat, backup_app e os documentos incluidos em Docs.
-Dados locais, credenciais e artefatos de compilacao ficam fora do versionamento.
+O pacote inclui `Docs/COMPUTE_CPU.md` e `conf_examples/nexusdb_compute.conf`.
+No destino, CUDA exige GPU NVIDIA compativel com compute_75 ou superior e
+um driver compativel com o Toolkit do build. O Toolkit nao precisa estar
+instalado no destino. AUTO usa CPU se CUDA nao estiver disponivel.
+Degree usa CPU; CUDA explicito suporta somente PageRank.
+
+O instalador e seu SHA-256 estao em `output/` e na release `v0.1.1`.
 
 ## Backup por terminal
 
@@ -53,11 +62,3 @@ A desinstalação remove o serviço e os arquivos de programa. O diretório
 `C:\ProgramData\NexusDB` é intencionalmente preservado. Exclua-o manualmente
 somente se também quiser apagar definitivamente bancos, credenciais, backups e
 logs.
-
-## Permissoes do servico
-
-O instalador aplica permissoes explicitas para Administradores e SYSTEM
-(controle total) e LocalService (leitura da configuracao; modificacao em dados,
-backups e logs). A verificacao tambem ocorre em atualizacoes e as permissoes
-sao reaplicadas apos salvar nexusdb.env, antes de iniciar o servico e apos
-remover a senha de bootstrap. Falhas do icacls interrompem essa etapa com erro.

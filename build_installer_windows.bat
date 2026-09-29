@@ -3,16 +3,14 @@ setlocal
 chcp 65001 >nul
 cd /d "%~dp0"
 
-if exist "Cargo.toml" (
-    call build_once_windows.bat release
-    if errorlevel 1 exit /b 1
+echo Compilando NexusDB atualizado em modo release...
+if exist Cargo.toml (
+    call build_once_windows.bat release cuda
 ) else (
-    if not exist "target\release\nexusdb.exe" (
-        echo ERRO: coloque o executavel release em target\release\nexusdb.exe.
-        echo Este repositorio de distribuicao nao contem os fontes Rust do servidor.
-        exit /b 1
-    )
+    if not exist target\release\nexusdb.exe (echo ERRO: disponibilize nexusdb.exe release com suporte CUDA em target\release.& exit /b 1)
+    if not exist target\release\nexusdb_cuda.dll (echo ERRO: disponibilize nexusdb_cuda.dll em target\release.& exit /b 1)
 )
+if errorlevel 1 exit /b 1
 
 set "ISCC_EXE=%ProgramFiles%\Inno Setup 7\ISCC.exe"
 if not exist "%ISCC_EXE%" set "ISCC_EXE=%ProgramFiles(x86)%\Inno Setup 7\ISCC.exe"

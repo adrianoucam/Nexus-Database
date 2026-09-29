@@ -1,5 +1,5 @@
 #define MyAppName "NexusDB"
-#define MyAppVersion "0.1.0"
+#define MyAppVersion "0.1.1"
 #define MyAppPublisher "NexusDB"
 #define MyAppExeName "nexusdb.exe"
 
@@ -43,6 +43,9 @@ Name: "{commonappdata}\NexusDB\logs"; Flags: uninsneveruninstall
 
 [Files]
 Source: "..\target\release\nexusdb.exe"; DestDir: "{app}\bin"; Flags: ignoreversion
+Source: "..\target\release\nexusdb_cuda.dll"; DestDir: "{app}\bin"; Flags: ignoreversion
+Source: "..\Docs\COMPUTE_CPU.md"; DestDir: "{app}\docs"; Flags: ignoreversion
+Source: "..\conf_examples\nexusdb_compute.conf"; DestDir: "{app}\docs"; Flags: ignoreversion
 Source: "..\README.md"; DestDir: "{app}\docs"; Flags: ignoreversion
 Source: "..\SECURITY.md"; DestDir: "{app}\docs"; Flags: ignoreversion
 Source: "..\LICENSE"; DestDir: "{app}"; Flags: ignoreversion

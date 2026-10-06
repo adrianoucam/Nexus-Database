@@ -1,0 +1,5997 @@
+{
+  "mode": "poi_csv",
+  "database": "URBAN_GRAPH_E0391DFA",
+  "source_csv": "niteroi_pois.csv",
+  "radius_m": 1200.0,
+  "counts": {
+    "pois": 519,
+    "categories": 9,
+    "relationships_raw": 11625,
+    "bairro_nodes": 46,
+    "near_relationships": 11625,
+    "located_in_relationships": 281,
+    "pois_without_bairro": 238
+  },
+  "category_counts": {
+    "culture": 171,
+    "education_childhood": 45,
+    "education_municipal": 49,
+    "education_state": 41,
+    "family_health": 43,
+    "health": 106,
+    "hospital": 27,
+    "social_assistance": 27,
+    "women_support": 10
+  },
+  "bairro_summary": {
+    "Badu": {
+      "poi_count": 9,
+      "category_count": 5,
+      "categories": [
+        "education_childhood",
+        "education_municipal",
+        "education_state",
+        "family_health",
+        "health"
+      ]
+    },
+    "Bairro de Fátima": {
+      "poi_count": 3,
+      "category_count": 2,
+      "categories": [
+        "education_municipal",
+        "health"
+      ]
+    },
+    "Baldeador": {
+      "poi_count": 7,
+      "category_count": 4,
+      "categories": [
+        "education_municipal",
+        "education_state",
+        "family_health",
+        "health"
+      ]
+    },
+    "Barreto": {
+      "poi_count": 19,
+      "category_count": 5,
+      "categories": [
+        "education_childhood",
+        "education_municipal",
+        "education_state",
+        "family_health",
+        "health"
+      ]
+    },
+    "Boa Vista": {
+      "poi_count": 1,
+      "category_count": 1,
+      "categories": [
+        "education_childhood"
+      ]
+    },
+    "Cachoeira": {
+      "poi_count": 2,
+      "category_count": 2,
+      "categories": [
+        "education_childhood",
+        "education_state"
+      ]
+    },
+    "Cafubá": {
+      "poi_count": 5,
+      "category_count": 4,
+      "categories": [
+        "education_childhood",
+        "education_municipal",
+        "family_health",
+        "health"
+      ]
+    },
+    "Cantagalo": {
+      "poi_count": 4,
+      "category_count": 3,
+      "categories": [
+        "education_municipal",
+        "family_health",
+        "health"
+      ]
+    },
+    "Caramujo": {
+      "poi_count": 8,
+      "category_count": 5,
+      "categories": [
+        "education_childhood",
+        "education_municipal",
+        "education_state",
+        "family_health",
+        "health"
+      ]
+    },
+    "Centro": {
+      "poi_count": 17,
+      "category_count": 4,
+      "categories": [
+        "education_childhood",
+        "education_municipal",
+        "education_state",
+        "health"
+      ]
+    },
+    "Charitas": {
+      "poi_count": 17,
+      "category_count": 4,
+      "categories": [
+        "education_childhood",
+        "education_state",
+        "family_health",
+        "health"
+      ]
+    },
+    "Cubango": {
+      "poi_count": 3,
+      "category_count": 3,
+      "categories": [
+        "education_state",
+        "family_health",
+        "health"
+      ]
+    },
+    "Engenho do Mato": {
+      "poi_count": 5,
+      "category_count": 4,
+      "categories": [
+        "education_childhood",
+        "education_state",
+        "family_health",
+        "health"
+      ]
+    },
+    "Engenhoca": {
+      "poi_count": 11,
+      "category_count": 5,
+      "categories": [
+        "education_childhood",
+        "education_municipal",
+        "education_state",
+        "family_health",
+        "health"
+      ]
+    },
+    "Fonseca": {
+      "poi_count": 30,
+      "category_count": 5,
+      "categories": [
+        "education_childhood",
+        "education_municipal",
+        "education_state",
+        "family_health",
+        "health"
+      ]
+    },
+    "Icaraí": {
+      "poi_count": 6,
+      "category_count": 2,
+      "categories": [
+        "education_municipal",
+        "education_state"
+      ]
+    },
+    "Ilha da Conceição": {
+      "poi_count": 6,
+      "category_count": 5,
+      "categories": [
+        "education_childhood",
+        "education_municipal",
+        "education_state",
+        "family_health",
+        "health"
+      ]
+    },
+    "Ingá": {
+      "poi_count": 4,
+      "category_count": 3,
+      "categories": [
+        "education_state",
+        "family_health",
+        "health"
+      ]
+    },
+    "Itaipu": {
+      "poi_count": 9,
+      "category_count": 5,
+      "categories": [
+        "education_childhood",
+        "education_municipal",
+        "education_state",
+        "family_health",
+        "health"
+      ]
+    },
+    "Ititioca": {
+      "poi_count": 7,
+      "category_count": 4,
+      "categories": [
+        "education_childhood",
+        "education_municipal",
+        "family_health",
+        "health"
+      ]
+    },
+    "Jacaré": {
+      "poi_count": 4,
+      "category_count": 4,
+      "categories": [
+        "education_childhood",
+        "education_municipal",
+        "family_health",
+        "health"
+      ]
+    },
+    "Jurujuba": {
+      "poi_count": 5,
+      "category_count": 4,
+      "categories": [
+        "education_municipal",
+        "education_state",
+        "family_health",
+        "health"
+      ]
+    },
+    "Largo da Batalha": {
+      "poi_count": 4,
+      "category_count": 1,
+      "categories": [
+        "health"
+      ]
+    },
+    "Maceió": {
+      "poi_count": 4,
+      "category_count": 4,
+      "categories": [
+        "education_childhood",
+        "education_state",
+        "family_health",
+        "health"
+      ]
+    },
+    "Maravista": {
+      "poi_count": 3,
+      "category_count": 2,
+      "categories": [
+        "family_health",
+        "health"
+      ]
+    },
+    "Maria Paula": {
+      "poi_count": 5,
+      "category_count": 4,
+      "categories": [
+        "education_childhood",
+        "education_municipal",
+        "family_health",
+        "health"
+      ]
+    },
+    "Matapaca": {
+      "poi_count": 1,
+      "category_count": 1,
+      "categories": [
+        "education_municipal"
+      ]
+    },
+    "Morro do Estado": {
+      "poi_count": 3,
+      "category_count": 3,
+      "categories": [
+        "education_childhood",
+        "education_municipal",
+        "health"
+      ]
+    },
+    "Piratininga": {
+      "poi_count": 9,
+      "category_count": 5,
+      "categories": [
+        "education_childhood",
+        "education_municipal",
+        "education_state",
+        "family_health",
+        "health"
+      ]
+    },
+    "Ponta D'Areia": {
+      "poi_count": 1,
+      "category_count": 1,
+      "categories": [
+        "health"
+      ]
+    },
+    "Ponta da Areia": {
+      "poi_count": 3,
+      "category_count": 3,
+      "categories": [
+        "education_childhood",
+        "education_municipal",
+        "family_health"
+      ]
+    },
+    "Rio do Ouro": {
+      "poi_count": 4,
+      "category_count": 3,
+      "categories": [
+        "education_municipal",
+        "family_health",
+        "health"
+      ]
+    },
+    "Santa Bárbara": {
+      "poi_count": 6,
+      "category_count": 4,
+      "categories": [
+        "education_childhood",
+        "education_municipal",
+        "education_state",
+        "health"
+      ]
+    },
+    "Santa Rosa": {
+      "poi_count": 15,
+      "category_count": 5,
+      "categories": [
+        "education_childhood",
+        "education_municipal",
+        "education_state",
+        "family_health",
+        "health"
+      ]
+    },
+    "Santana": {
+      "poi_count": 1,
+      "category_count": 1,
+      "categories": [
+        "health"
+      ]
+    },
+    "Sapê": {
+      "poi_count": 4,
+      "category_count": 4,
+      "categories": [
+        "education_childhood",
+        "education_municipal",
+        "family_health",
+        "health"
+      ]
+    },
+    "São Domingos": {
+      "poi_count": 4,
+      "category_count": 4,
+      "categories": [
+        "education_childhood",
+        "education_municipal",
+        "education_state",
+        "health"
+      ]
+    },
+    "São Francisco": {
+      "poi_count": 12,
+      "category_count": 5,
+      "categories": [
+        "education_childhood",
+        "education_municipal",
+        "education_state",
+        "family_health",
+        "health"
+      ]
+    },
+    "São Lourenço": {
+      "poi_count": 5,
+      "category_count": 3,
+      "categories": [
+        "education_state",
+        "family_health",
+        "health"
+      ]
+    },
+    "Tenente Jardim": {
+      "poi_count": 1,
+      "category_count": 1,
+      "categories": [
+        "education_municipal"
+      ]
+    },
+    "Varzea das Moças": {
+      "poi_count": 2,
+      "category_count": 1,
+      "categories": [
+        "education_state"
+      ]
+    },
+    "Vila Ipiranga": {
+      "poi_count": 1,
+      "category_count": 1,
+      "categories": [
+        "education_childhood"
+      ]
+    },
+    "Vila Progresso": {
+      "poi_count": 1,
+      "category_count": 1,
+      "categories": [
+        "education_municipal"
+      ]
+    },
+    "Vital Brazil": {
+      "poi_count": 5,
+      "category_count": 2,
+      "categories": [
+        "family_health",
+        "health"
+      ]
+    },
+    "Viçoso Jardim": {
+      "poi_count": 4,
+      "category_count": 2,
+      "categories": [
+        "family_health",
+        "health"
+      ]
+    },
+    "Várzea das Moças": {
+      "poi_count": 1,
+      "category_count": 1,
+      "categories": [
+        "education_municipal"
+      ]
+    }
+  },
+  "nexusdb_ids": {
+    "NIT-50-1": 1,
+    "NIT-50-2": 2,
+    "NIT-50-3": 3,
+    "NIT-50-4": 4,
+    "NIT-50-5": 5,
+    "NIT-50-6": 6,
+    "NIT-50-7": 7,
+    "NIT-50-8": 8,
+    "NIT-50-9": 9,
+    "NIT-50-16": 10,
+    "NIT-50-17": 11,
+    "NIT-50-18": 12,
+    "NIT-50-19": 13,
+    "NIT-50-20": 14,
+    "NIT-50-21": 15,
+    "NIT-50-22": 16,
+    "NIT-50-23": 17,
+    "NIT-50-10": 18,
+    "NIT-50-11": 19,
+    "NIT-50-12": 20,
+    "NIT-50-13": 21,
+    "NIT-50-14": 22,
+    "NIT-50-15": 23,
+    "NIT-50-24": 24,
+    "NIT-50-63": 25,
+    "NIT-50-26": 26,
+    "NIT-50-27": 27,
+    "NIT-50-28": 28,
+    "NIT-50-29": 29,
+    "NIT-50-30": 30,
+    "NIT-50-31": 31,
+    "NIT-50-32": 32,
+    "NIT-50-33": 33,
+    "NIT-50-40": 34,
+    "NIT-50-34": 35,
+    "NIT-50-35": 36,
+    "NIT-50-36": 37,
+    "NIT-50-37": 38,
+    "NIT-50-38": 39,
+    "NIT-50-39": 40,
+    "NIT-50-41": 41,
+    "NIT-50-42": 42,
+    "NIT-50-43": 43,
+    "NIT-50-44": 44,
+    "NIT-50-45": 45,
+    "NIT-50-48": 46,
+    "NIT-50-49": 47,
+    "NIT-50-46": 48,
+    "NIT-50-47": 49,
+    "NIT-50-59": 50,
+    "NIT-50-50": 51,
+    "NIT-50-51": 52,
+    "NIT-50-52": 53,
+    "NIT-50-53": 54,
+    "NIT-50-54": 55,
+    "NIT-50-55": 56,
+    "NIT-50-56": 57,
+    "NIT-50-57": 58,
+    "NIT-50-58": 59,
+    "NIT-50-60": 60,
+    "NIT-50-61": 61,
+    "NIT-50-62": 62,
+    "NIT-50-64": 63,
+    "NIT-50-65": 64,
+    "NIT-50-66": 65,
+    "NIT-50-67": 66,
+    "NIT-50-68": 67,
+    "NIT-50-69": 68,
+    "NIT-50-70": 69,
+    "NIT-50-71": 70,
+    "NIT-50-25": 71,
+    "NIT-50-72": 72,
+    "NIT-50-73": 73,
+    "NIT-50-74": 74,
+    "NIT-50-78": 75,
+    "NIT-50-79": 76,
+    "NIT-50-80": 77,
+    "NIT-50-75": 78,
+    "NIT-50-76": 79,
+    "NIT-50-77": 80,
+    "NIT-50-82": 81,
+    "NIT-50-81": 82,
+    "NIT-50-83": 83,
+    "NIT-50-84": 84,
+    "NIT-50-85": 85,
+    "NIT-50-86": 86,
+    "NIT-50-87": 87,
+    "NIT-50-88": 88,
+    "NIT-50-89": 89,
+    "NIT-50-90": 90,
+    "NIT-50-91": 91,
+    "NIT-50-92": 92,
+    "NIT-50-93": 93,
+    "NIT-50-94": 94,
+    "NIT-50-95": 95,
+    "NIT-50-96": 96,
+    "NIT-50-104": 97,
+    "NIT-50-105": 98,
+    "NIT-50-106": 99,
+    "NIT-50-97": 100,
+    "NIT-50-98": 101,
+    "NIT-50-99": 102,
+    "NIT-50-100": 103,
+    "NIT-50-101": 104,
+    "NIT-50-102": 105,
+    "NIT-50-103": 106,
+    "NIT-50-107": 107,
+    "NIT-50-108": 108,
+    "NIT-50-109": 109,
+    "NIT-50-110": 110,
+    "NIT-50-112": 111,
+    "NIT-50-113": 112,
+    "NIT-50-111": 113,
+    "NIT-50-114": 114,
+    "NIT-50-115": 115,
+    "NIT-50-116": 116,
+    "NIT-50-117": 117,
+    "NIT-50-118": 118,
+    "NIT-50-119": 119,
+    "NIT-50-120": 120,
+    "NIT-50-121": 121,
+    "NIT-50-122": 122,
+    "NIT-50-123": 123,
+    "NIT-50-128": 124,
+    "NIT-50-124": 125,
+    "NIT-50-125": 126,
+    "NIT-50-126": 127,
+    "NIT-50-127": 128,
+    "NIT-50-129": 129,
+    "NIT-50-130": 130,
+    "NIT-50-131": 131,
+    "NIT-50-132": 132,
+    "NIT-50-133": 133,
+    "NIT-50-135": 134,
+    "NIT-50-136": 135,
+    "NIT-50-134": 136,
+    "NIT-50-137": 137,
+    "NIT-50-138": 138,
+    "NIT-50-139": 139,
+    "NIT-50-140": 140,
+    "NIT-50-141": 141,
+    "NIT-50-142": 142,
+    "NIT-50-143": 143,
+    "NIT-50-144": 144,
+    "NIT-50-145": 145,
+    "NIT-50-146": 146,
+    "NIT-50-147": 147,
+    "NIT-50-148": 148,
+    "NIT-50-149": 149,
+    "NIT-50-158": 150,
+    "NIT-50-150": 151,
+    "NIT-50-153": 152,
+    "NIT-50-151": 153,
+    "NIT-50-152": 154,
+    "NIT-50-154": 155,
+    "NIT-50-155": 156,
+    "NIT-50-156": 157,
+    "NIT-50-157": 158,
+    "NIT-50-159": 159,
+    "NIT-50-160": 160,
+    "NIT-50-162": 161,
+    "NIT-50-161": 162,
+    "NIT-50-163": 163,
+    "NIT-50-166": 164,
+    "NIT-50-167": 165,
+    "NIT-50-168": 166,
+    "NIT-50-164": 167,
+    "NIT-50-165": 168,
+    "NIT-50-169": 169,
+    "NIT-50-170": 170,
+    "NIT-50-171": 171,
+    "NIT-55-2": 172,
+    "NIT-55-3": 173,
+    "NIT-55-1": 174,
+    "NIT-55-4": 175,
+    "NIT-55-5": 176,
+    "NIT-55-6": 177,
+    "NIT-55-7": 178,
+    "NIT-55-8": 179,
+    "NIT-55-9": 180,
+    "NIT-55-10": 181,
+    "NIT-55-11": 182,
+    "NIT-55-12": 183,
+    "NIT-55-13": 184,
+    "NIT-55-14": 185,
+    "NIT-55-15": 186,
+    "NIT-55-16": 187,
+    "NIT-55-17": 188,
+    "NIT-55-18": 189,
+    "NIT-55-19": 190,
+    "NIT-55-21": 191,
+    "NIT-55-22": 192,
+    "NIT-55-20": 193,
+    "NIT-55-23": 194,
+    "NIT-55-24": 195,
+    "NIT-55-25": 196,
+    "NIT-55-26": 197,
+    "NIT-55-27": 198,
+    "NIT-55-29": 199,
+    "NIT-55-30": 200,
+    "NIT-55-31": 201,
+    "NIT-55-32": 202,
+    "NIT-55-33": 203,
+    "NIT-55-34": 204,
+    "NIT-55-35": 205,
+    "NIT-55-28": 206,
+    "NIT-55-36": 207,
+    "NIT-55-37": 208,
+    "NIT-55-38": 209,
+    "NIT-55-39": 210,
+    "NIT-55-40": 211,
+    "NIT-55-41": 212,
+    "NIT-55-42": 213,
+    "NIT-55-43": 214,
+    "NIT-55-44": 215,
+    "NIT-55-45": 216,
+    "NIT-60-1": 217,
+    "NIT-60-2": 218,
+    "NIT-60-4": 219,
+    "NIT-60-5": 220,
+    "NIT-60-3": 221,
+    "NIT-60-6": 222,
+    "NIT-60-7": 223,
+    "NIT-60-8": 224,
+    "NIT-60-9": 225,
+    "NIT-60-10": 226,
+    "NIT-60-11": 227,
+    "NIT-60-12": 228,
+    "NIT-60-13": 229,
+    "NIT-60-14": 230,
+    "NIT-60-15": 231,
+    "NIT-60-16": 232,
+    "NIT-60-17": 233,
+    "NIT-60-18": 234,
+    "NIT-60-19": 235,
+    "NIT-60-20": 236,
+    "NIT-60-22": 237,
+    "NIT-60-21": 238,
+    "NIT-60-23": 239,
+    "NIT-60-24": 240,
+    "NIT-60-25": 241,
+    "NIT-60-26": 242,
+    "NIT-60-27": 243,
+    "NIT-60-28": 244,
+    "NIT-60-29": 245,
+    "NIT-60-30": 246,
+    "NIT-60-31": 247,
+    "NIT-60-32": 248,
+    "NIT-60-33": 249,
+    "NIT-60-34": 250,
+    "NIT-60-37": 251,
+    "NIT-60-36": 252,
+    "NIT-60-35": 253,
+    "NIT-60-38": 254,
+    "NIT-60-39": 255,
+    "NIT-60-40": 256,
+    "NIT-60-41": 257,
+    "NIT-60-42": 258,
+    "NIT-60-43": 259,
+    "NIT-60-44": 260,
+    "NIT-60-45": 261,
+    "NIT-60-46": 262,
+    "NIT-60-47": 263,
+    "NIT-60-48": 264,
+    "NIT-60-49": 265,
+    "NIT-65-1": 266,
+    "NIT-65-4": 267,
+    "NIT-65-2": 268,
+    "NIT-65-3": 269,
+    "NIT-65-5": 270,
+    "NIT-65-401": 271,
+    "NIT-65-6": 272,
+    "NIT-65-8": 273,
+    "NIT-65-10": 274,
+    "NIT-65-9": 275,
+    "NIT-65-12": 276,
+    "NIT-65-11": 277,
+    "NIT-65-14": 278,
+    "NIT-65-13": 279,
+    "NIT-65-15": 280,
+    "NIT-65-16": 281,
+    "NIT-65-17": 282,
+    "NIT-65-18": 283,
+    "NIT-65-19": 284,
+    "NIT-65-20": 285,
+    "NIT-65-21": 286,
+    "NIT-65-22": 287,
+    "NIT-65-24": 288,
+    "NIT-65-23": 289,
+    "NIT-65-25": 290,
+    "NIT-65-26": 291,
+    "NIT-65-27": 292,
+    "NIT-65-28": 293,
+    "NIT-65-29": 294,
+    "NIT-65-31": 295,
+    "NIT-65-33": 296,
+    "NIT-65-32": 297,
+    "NIT-65-30": 298,
+    "NIT-65-34": 299,
+    "NIT-65-35": 300,
+    "NIT-65-36": 301,
+    "NIT-65-37": 302,
+    "NIT-65-38": 303,
+    "NIT-65-40": 304,
+    "NIT-65-39": 305,
+    "NIT-65-41": 306,
+    "NIT-115-2868": 307,
+    "NIT-115-2845": 308,
+    "NIT-115-2858": 309,
+    "NIT-115-2850": 310,
+    "NIT-115-2851": 311,
+    "NIT-115-2881": 312,
+    "NIT-115-2877": 313,
+    "NIT-115-2873": 314,
+    "NIT-115-2871": 315,
+    "NIT-115-2880": 316,
+    "NIT-115-2879": 317,
+    "NIT-115-2870": 318,
+    "NIT-115-2846": 319,
+    "NIT-115-2875": 320,
+    "NIT-115-2855": 321,
+    "NIT-115-2843": 322,
+    "NIT-115-2842": 323,
+    "NIT-115-2869": 324,
+    "NIT-115-2862": 325,
+    "NIT-115-2861": 326,
+    "NIT-115-2863": 327,
+    "NIT-115-2840": 328,
+    "NIT-115-2867": 329,
+    "NIT-115-2849": 330,
+    "NIT-115-2882": 331,
+    "NIT-115-2859": 332,
+    "NIT-115-2878": 333,
+    "NIT-115-2866": 334,
+    "NIT-115-2841": 335,
+    "NIT-115-2860": 336,
+    "NIT-115-2872": 337,
+    "NIT-115-2857": 338,
+    "NIT-115-2874": 339,
+    "NIT-115-2876": 340,
+    "NIT-115-2865": 341,
+    "NIT-115-2854": 342,
+    "NIT-115-2847": 343,
+    "NIT-115-2848": 344,
+    "NIT-115-2844": 345,
+    "NIT-115-2856": 346,
+    "NIT-115-2864": 347,
+    "NIT-115-2853": 348,
+    "NIT-115-2852": 349,
+    "NIT-110-2804": 350,
+    "NIT-110-2805": 351,
+    "NIT-110-2025": 352,
+    "NIT-110-2026": 353,
+    "NIT-110-2024": 354,
+    "NIT-110-2023": 355,
+    "NIT-110-2006": 356,
+    "NIT-110-2007": 357,
+    "NIT-110-2041": 358,
+    "NIT-110-2034": 359,
+    "NIT-110-2019": 360,
+    "NIT-110-2018": 361,
+    "NIT-110-2806": 362,
+    "NIT-110-2014": 363,
+    "NIT-110-2015": 364,
+    "NIT-110-2037": 365,
+    "NIT-110-2040": 366,
+    "NIT-110-2017": 367,
+    "NIT-110-2035": 368,
+    "NIT-110-2031": 369,
+    "NIT-110-2033": 370,
+    "NIT-110-2032": 371,
+    "NIT-110-2063": 372,
+    "NIT-110-2055": 373,
+    "NIT-110-2056": 374,
+    "NIT-110-2083": 375,
+    "NIT-110-2078": 376,
+    "NIT-110-2076": 377,
+    "NIT-110-2075": 378,
+    "NIT-110-2051": 379,
+    "NIT-110-2080": 380,
+    "NIT-110-2060": 381,
+    "NIT-110-2048": 382,
+    "NIT-110-2047": 383,
+    "NIT-110-2074": 384,
+    "NIT-110-2067": 385,
+    "NIT-110-2066": 386,
+    "NIT-110-2068": 387,
+    "NIT-110-2045": 388,
+    "NIT-110-2072": 389,
+    "NIT-110-2054": 390,
+    "NIT-110-2081": 391,
+    "NIT-110-2064": 392,
+    "NIT-110-2084": 393,
+    "NIT-110-2071": 394,
+    "NIT-110-2046": 395,
+    "NIT-110-2065": 396,
+    "NIT-110-2077": 397,
+    "NIT-110-2062": 398,
+    "NIT-110-2079": 399,
+    "NIT-110-2050": 400,
+    "NIT-110-2082": 401,
+    "NIT-110-2070": 402,
+    "NIT-110-2059": 403,
+    "NIT-110-2052": 404,
+    "NIT-110-2053": 405,
+    "NIT-110-2049": 406,
+    "NIT-110-2061": 407,
+    "NIT-110-2058": 408,
+    "NIT-110-2057": 409,
+    "NIT-110-2069": 410,
+    "NIT-110-2087": 411,
+    "NIT-110-2085": 412,
+    "NIT-110-2073": 413,
+    "NIT-110-2086": 414,
+    "NIT-110-2016": 415,
+    "NIT-110-2027": 416,
+    "NIT-110-2029": 417,
+    "NIT-110-2028": 418,
+    "NIT-110-2036": 419,
+    "NIT-110-2039": 420,
+    "NIT-110-2038": 421,
+    "NIT-110-2009": 422,
+    "NIT-110-2043": 423,
+    "NIT-110-2011": 424,
+    "NIT-110-2012": 425,
+    "NIT-110-2013": 426,
+    "NIT-110-2008": 427,
+    "NIT-110-2042": 428,
+    "NIT-110-2010": 429,
+    "NIT-110-2030": 430,
+    "NIT-110-2807": 431,
+    "NIT-110-3201": 432,
+    "NIT-110-3601": 433,
+    "NIT-110-2022": 434,
+    "NIT-110-2020": 435,
+    "NIT-110-4008": 436,
+    "NIT-110-4007": 437,
+    "NIT-110-4009": 438,
+    "NIT-110-4010": 439,
+    "NIT-110-4013": 440,
+    "NIT-110-4002": 441,
+    "NIT-110-4001": 442,
+    "NIT-110-4003": 443,
+    "NIT-110-4004": 444,
+    "NIT-110-4006": 445,
+    "NIT-110-4005": 446,
+    "NIT-110-4011": 447,
+    "NIT-110-2005": 448,
+    "NIT-110-2044": 449,
+    "NIT-110-2002": 450,
+    "NIT-110-2004": 451,
+    "NIT-110-2003": 452,
+    "NIT-110-4012": 453,
+    "NIT-110-2021": 454,
+    "NIT-110-2001": 455,
+    "NIT-105-25": 456,
+    "NIT-105-26": 457,
+    "NIT-105-16": 458,
+    "NIT-105-15": 459,
+    "NIT-105-2": 460,
+    "NIT-105-9": 461,
+    "NIT-105-8": 462,
+    "NIT-105-4": 463,
+    "NIT-105-27": 464,
+    "NIT-105-13": 465,
+    "NIT-105-14": 466,
+    "NIT-105-5": 467,
+    "NIT-105-3": 468,
+    "NIT-105-10": 469,
+    "NIT-105-6": 470,
+    "NIT-105-12": 471,
+    "NIT-105-1": 472,
+    "NIT-105-7": 473,
+    "NIT-105-11": 474,
+    "NIT-105-21": 475,
+    "NIT-105-22": 476,
+    "NIT-105-23": 477,
+    "NIT-105-24": 478,
+    "NIT-105-20": 479,
+    "NIT-105-19": 480,
+    "NIT-105-17": 481,
+    "NIT-105-18": 482,
+    "NIT-5-39": 483,
+    "NIT-5-37": 484,
+    "NIT-5-49": 485,
+    "NIT-5-25": 486,
+    "NIT-5-26": 487,
+    "NIT-5-27": 488,
+    "NIT-5-28": 489,
+    "NIT-5-29": 490,
+    "NIT-5-47": 491,
+    "NIT-5-30": 492,
+    "NIT-5-31": 493,
+    "NIT-5-33": 494,
+    "NIT-5-32": 495,
+    "NIT-5-35": 496,
+    "NIT-5-36": 497,
+    "NIT-5-34": 498,
+    "NIT-5-44": 499,
+    "NIT-5-45": 500,
+    "NIT-5-48": 501,
+    "NIT-5-43": 502,
+    "NIT-5-38": 503,
+    "NIT-5-42": 504,
+    "NIT-5-41": 505,
+    "NIT-5-50": 506,
+    "NIT-5-40": 507,
+    "NIT-5-51": 508,
+    "NIT-5-46": 509,
+    "NIT-10-402": 510,
+    "NIT-10-405": 511,
+    "NIT-10-407": 512,
+    "NIT-10-403": 513,
+    "NIT-10-406": 514,
+    "NIT-10-408": 515,
+    "NIT-10-410": 516,
+    "NIT-10-411": 517,
+    "NIT-10-404": 518,
+    "NIT-10-409": 519,
+    "BAIRRO-badu-b7c8427f": 520,
+    "BAIRRO-bairro-de-fatima-8e65168f": 521,
+    "BAIRRO-baldeador-047d64c4": 522,
+    "BAIRRO-barreto-496f8eb0": 523,
+    "BAIRRO-boa-vista-db6c2e02": 524,
+    "BAIRRO-cachoeira-9853cda5": 525,
+    "BAIRRO-cafuba-cc1b76af": 526,
+    "BAIRRO-cantagalo-59add8fc": 527,
+    "BAIRRO-caramujo-68c8670b": 528,
+    "BAIRRO-centro-69794b47": 529,
+    "BAIRRO-charitas-beaa2bc5": 530,
+    "BAIRRO-cubango-78ff4fe3": 531,
+    "BAIRRO-engenho-do-mato-89ef315f": 532,
+    "BAIRRO-engenhoca-3c49c75c": 533,
+    "BAIRRO-fonseca-3cc5e260": 534,
+    "BAIRRO-icarai-503fb09c": 535,
+    "BAIRRO-ilha-da-conceicao-c62dba64": 536,
+    "BAIRRO-inga-defb1d8c": 537,
+    "BAIRRO-itaipu-12544eee": 538,
+    "BAIRRO-ititioca-6e2cda73": 539,
+    "BAIRRO-jacare-df79b05a": 540,
+    "BAIRRO-jurujuba-c1f16a1d": 541,
+    "BAIRRO-largo-da-batalha-ab7df5f5": 542,
+    "BAIRRO-maceio-2d9af1bc": 543,
+    "BAIRRO-maravista-eb8b0ac6": 544,
+    "BAIRRO-maria-paula-ed0b355b": 545,
+    "BAIRRO-matapaca-2e2c5da0": 546,
+    "BAIRRO-morro-do-estado-6e0094b5": 547,
+    "BAIRRO-piratininga-491d1395": 548,
+    "BAIRRO-ponta-d-areia-e5f1165c": 549,
+    "BAIRRO-ponta-da-areia-cfef6a9f": 550,
+    "BAIRRO-rio-do-ouro-814676c2": 551,
+    "BAIRRO-santa-barbara-b28ae608": 552,
+    "BAIRRO-santa-rosa-7157fd0d": 553,
+    "BAIRRO-santana-84d12a25": 554,
+    "BAIRRO-sape-f0575467": 555,
+    "BAIRRO-sao-domingos-1fdd14f2": 556,
+    "BAIRRO-sao-francisco-68f2adaa": 557,
+    "BAIRRO-sao-lourenco-d037479a": 558,
+    "BAIRRO-tenente-jardim-83342667": 559,
+    "BAIRRO-varzea-das-mocas-92494f42": 560,
+    "BAIRRO-vila-ipiranga-d2482e72": 561,
+    "BAIRRO-vila-progresso-ea4e9175": 562,
+    "BAIRRO-vital-brazil-4675bb63": 563,
+    "BAIRRO-vicoso-jardim-73b2f48c": 564,
+    "BAIRRO-varzea-das-mocas-6b12015a": 565
+  },
+  "algorithms": {
+    "degree": {
+      "elapsed_ms": 99.889,
+      "rows": [
+        {
+          "degree": 131,
+          "node": {
+            "id": 451,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Araujo Pimenta, s/n",
+              "bairro": "Morro do Estado",
+              "category": "health",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-110-2004",
+              "kind": "facility",
+              "latitude": -22.89953157636169,
+              "longitude": -43.11814367725479,
+              "name": "UBS Morro do Estado",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Rede de Saúde",
+              "x_m": 693022.3072009224,
+              "y_m": 7466368.240474967
+            }
+          },
+          "node_id": 451
+        },
+        {
+          "degree": 130,
+          "node": {
+            "id": 151,
+            "label": "POI",
+            "properties": {
+              "address": "R. Quinze de Novembro, 35, Centro",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-150",
+              "kind": "facility",
+              "latitude": -22.895976999435952,
+              "longitude": -43.12328399997334,
+              "name": "Sala Carlos Couto",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692499.9494009216,
+              "y_m": 7466768.60757496
+            }
+          },
+          "node_id": 151
+        },
+        {
+          "degree": 130,
+          "node": {
+            "id": 165,
+            "label": "POI",
+            "properties": {
+              "address": "R. Quinze de Novembro, 35, Centro",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-167",
+              "kind": "facility",
+              "latitude": -22.895976999435952,
+              "longitude": -43.12328399997334,
+              "name": "Teatro Municipal Joao Caetano",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692499.9494009216,
+              "y_m": 7466768.60757496
+            }
+          },
+          "node_id": 165
+        },
+        {
+          "degree": 130,
+          "node": {
+            "id": 178,
+            "label": "POI",
+            "properties": {
+              "address": "R. Araújo Pimenta, s/nº - Morro do Estado",
+              "bairro": "Morro do Estado",
+              "category": "education_childhood",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-55-7",
+              "kind": "facility",
+              "latitude": -22.89924611122165,
+              "longitude": -43.11825782725513,
+              "name": "UMEI Antônio Vieira da Rocha",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Unidade Municipal de Ensino Infantil",
+              "x_m": 693011.0000009235,
+              "y_m": 7466400.002674967
+            }
+          },
+          "node_id": 178
+        },
+        {
+          "degree": 129,
+          "node": {
+            "id": 436,
+            "label": "POI",
+            "properties": {
+              "address": "R. XV de Novembro, 133",
+              "bairro": "Centro",
+              "category": "health",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-110-4008",
+              "kind": "facility",
+              "latitude": -22.896377247556888,
+              "longitude": -43.12079786406201,
+              "name": "Serviço Residencial Terapêutico Centro",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Rede de Saúde",
+              "x_m": 692754.4576009226,
+              "y_m": 7466721.030174961
+            }
+          },
+          "node_id": 436
+        },
+        {
+          "degree": 128,
+          "node": {
+            "id": 23,
+            "label": "POI",
+            "properties": {
+              "address": "R. Padre Anchieta 56 - Centro",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-15",
+              "kind": "facility",
+              "latitude": -22.89821599968602,
+              "longitude": -43.12202700026593,
+              "name": "Biblioteca do SESC",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692625.7526009225,
+              "y_m": 7466519.015974965
+            }
+          },
+          "node_id": 23
+        },
+        {
+          "degree": 128,
+          "node": {
+            "id": 62,
+            "label": "POI",
+            "properties": {
+              "address": "R. Quinze de Novembro, 8, Centro",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-62",
+              "kind": "facility",
+              "latitude": -22.89750299951983,
+              "longitude": -43.123729999947386,
+              "name": "Cinemark Plaza Shopping",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692452.0366009213,
+              "y_m": 7466600.201674963
+            }
+          },
+          "node_id": 62
+        },
+        {
+          "degree": 128,
+          "node": {
+            "id": 82,
+            "label": "POI",
+            "properties": {
+              "address": "R. Almirante Teffe, 632, Sl. 115,",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-81",
+              "kind": "facility",
+              "latitude": -22.89608099902592,
+              "longitude": -43.122684999537256,
+              "name": "Espaco do Artesao",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692561.259100922,
+              "y_m": 7466756.30707496
+            }
+          },
+          "node_id": 82
+        },
+        {
+          "degree": 128,
+          "node": {
+            "id": 92,
+            "label": "POI",
+            "properties": {
+              "address": "R. Padre Anchieta 56 - Centro",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-92",
+              "kind": "facility",
+              "latitude": -22.89821599968602,
+              "longitude": -43.12202700026593,
+              "name": "Galeria do Sesc",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692625.7526009225,
+              "y_m": 7466519.015974965
+            }
+          },
+          "node_id": 92
+        },
+        {
+          "degree": 128,
+          "node": {
+            "id": 150,
+            "label": "POI",
+            "properties": {
+              "address": "R. Padre Anchieta 56 - Centro",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-158",
+              "kind": "facility",
+              "latitude": -22.89821599968602,
+              "longitude": -43.12202700026593,
+              "name": "SESC Niteroi",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692625.7526009225,
+              "y_m": 7466519.015974965
+            }
+          },
+          "node_id": 150
+        },
+        {
+          "degree": 128,
+          "node": {
+            "id": 168,
+            "label": "POI",
+            "properties": {
+              "address": "R. Padre Anchieta 56 - Centro",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-165",
+              "kind": "facility",
+              "latitude": -22.89821599968602,
+              "longitude": -43.12202700026593,
+              "name": "Teatro do SESC",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692625.7526009225,
+              "y_m": 7466519.015974965
+            }
+          },
+          "node_id": 168
+        },
+        {
+          "degree": 128,
+          "node": {
+            "id": 222,
+            "label": "POI",
+            "properties": {
+              "address": "R. Altamiro José Cabral, s/nº - Morro do Estado",
+              "bairro": "Morro do Estado",
+              "category": "education_municipal",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-60-6",
+              "kind": "facility",
+              "latitude": -22.899067846202897,
+              "longitude": -43.11845522474706,
+              "name": "E.M. Ayrton Senna",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Municipais",
+              "x_m": 692991.0001009232,
+              "y_m": 7466420.002674969
+            }
+          },
+          "node_id": 222
+        },
+        {
+          "degree": 127,
+          "node": {
+            "id": 193,
+            "label": "POI",
+            "properties": {
+              "address": "Rua XV de Novembro,179 - Centro",
+              "bairro": "Centro",
+              "category": "education_childhood",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-55-20",
+              "kind": "facility",
+              "latitude": -22.89655493055041,
+              "longitude": -43.11976671860312,
+              "name": "UMEI Mª Vitória Ayres Neves",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Unidade Municipal de Ensino Infantil",
+              "x_m": 692860.0001009218,
+              "y_m": 7466700.002674961
+            }
+          },
+          "node_id": 193
+        },
+        {
+          "degree": 125,
+          "node": {
+            "id": 1,
+            "label": "POI",
+            "properties": {
+              "address": "Av. Visconde do Rio Branco, 481, Centro",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-1",
+              "kind": "facility",
+              "latitude": -22.894941999331987,
+              "longitude": -43.123766999563344,
+              "name": "Agencia Central Correios e Telegrafos",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692451.855100921,
+              "y_m": 7466883.855074956
+            }
+          },
+          "node_id": 1
+        },
+        {
+          "degree": 125,
+          "node": {
+            "id": 80,
+            "label": "POI",
+            "properties": {
+              "address": "Av. Visconde do Rio Branco, 481, Centro",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-77",
+              "kind": "facility",
+              "latitude": -22.894941999331987,
+              "longitude": -43.123766999563344,
+              "name": "Espaco Cultural dos Correios",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692451.855100921,
+              "y_m": 7466883.855074956
+            }
+          },
+          "node_id": 80
+        },
+        {
+          "degree": 124,
+          "node": {
+            "id": 133,
+            "label": "POI",
+            "properties": {
+              "address": "R. da Conceicao, 100",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-133",
+              "kind": "facility",
+              "latitude": -22.894688999121083,
+              "longitude": -43.12123900015066,
+              "name": "Palacio Arariboia",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692711.5837009226,
+              "y_m": 7466908.564574957
+            }
+          },
+          "node_id": 133
+        },
+        {
+          "degree": 124,
+          "node": {
+            "id": 137,
+            "label": "POI",
+            "properties": {
+              "address": "R. Gen. Andrade de Neves, 40 - Centroa",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-137",
+              "kind": "facility",
+              "latitude": -22.8971289994658,
+              "longitude": -43.12224900031859,
+              "name": "Parthenon Centro de Arte e Cultura",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692604.5116009214,
+              "y_m": 7466639.680974962
+            }
+          },
+          "node_id": 137
+        },
+        {
+          "degree": 121,
+          "node": {
+            "id": 32,
+            "label": "POI",
+            "properties": {
+              "address": "R. da Conceicao",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-32",
+              "kind": "facility",
+              "latitude": -22.89428099910144,
+              "longitude": -43.12092699963918,
+              "name": "Carnaval",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692744.1715009229,
+              "y_m": 7466953.337974954
+            }
+          },
+          "node_id": 32
+        },
+        {
+          "degree": 121,
+          "node": {
+            "id": 517,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Visconde de Uruguai, 531 Centro",
+              "category": "women_support",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-10-411",
+              "kind": "facility",
+              "latitude": -22.893977081456782,
+              "longitude": -43.12209730898251,
+              "name": "POLICLINICA DE ESPECIALIDADES DA MULHER “MALU SAMPAIO”",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Rede de atendimento à Mulher",
+              "x_m": 692624.5272009221,
+              "y_m": 7466988.525874956
+            }
+          },
+          "node_id": 517
+        },
+        {
+          "degree": 118,
+          "node": {
+            "id": 64,
+            "label": "POI",
+            "properties": {
+              "address": "Av. Ernani do Amaral Peixoto, 178 - Centro",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-65",
+              "kind": "facility",
+              "latitude": -22.89365499922808,
+              "longitude": -43.121871000173066,
+              "name": "Companhia de Ballet da Cidade de Niteroi",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692648.2015009222,
+              "y_m": 7467023.897074953
+            }
+          },
+          "node_id": 64
+        },
+        {
+          "degree": 118,
+          "node": {
+            "id": 418,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Visconde de Uruguai, 531",
+              "bairro": "Centro",
+              "category": "health",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-110-2028",
+              "kind": "facility",
+              "latitude": -22.89370244435789,
+              "longitude": -43.12213948261244,
+              "name": "Policlinica de Especialidades em Atenção a Saude da Mulher Malu Sampaio",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Rede de Saúde",
+              "x_m": 692620.5881009221,
+              "y_m": 7467018.994374954
+            }
+          },
+          "node_id": 418
+        },
+        {
+          "degree": 117,
+          "node": {
+            "id": 9,
+            "label": "POI",
+            "properties": {
+              "address": "Outeiro de Sao Joao Batista, s/n - Campus do Valonginho - Centro - Niteroi",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-9",
+              "kind": "facility",
+              "latitude": -22.8966559990164,
+              "longitude": -43.125581999941694,
+              "name": "Biblioteca Central do Valonguinho",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692263.2207009211,
+              "y_m": 7466696.41907496
+            }
+          },
+          "node_id": 9
+        },
+        {
+          "degree": 117,
+          "node": {
+            "id": 449,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Visconde de Uruguai, 531",
+              "bairro": "Centro",
+              "category": "health",
+              "cep": "24030-078",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-110-2044",
+              "kind": "facility",
+              "latitude": -22.89368316871693,
+              "longitude": -43.12212329480542,
+              "name": "UBS Centro Dr. Eduardo Imbassay",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Rede de Saúde",
+              "x_m": 692622.2762009215,
+              "y_m": 7467021.107774952
+            }
+          },
+          "node_id": 449
+        },
+        {
+          "degree": 116,
+          "node": {
+            "id": 227,
+            "label": "POI",
+            "properties": {
+              "address": "R. Prof. Ismael Coutinho, 88 - Centro",
+              "bairro": "Centro",
+              "category": "education_municipal",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-60-11",
+              "kind": "facility",
+              "latitude": -22.89571153951747,
+              "longitude": -43.11717597877544,
+              "name": "E.M. Dr. Alberto Francisco Torres",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Municipais",
+              "x_m": 693127.0001009223,
+              "y_m": 7466790.00267496
+            }
+          },
+          "node_id": 227
+        },
+        {
+          "degree": 116,
+          "node": {
+            "id": 417,
+            "label": "POI",
+            "properties": {
+              "address": "Avenida Amaral Peixoto, 169",
+              "bairro": "Centro",
+              "category": "health",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-110-2029",
+              "kind": "facility",
+              "latitude": -22.893304794829923,
+              "longitude": -43.12244601073086,
+              "name": "Policlinica de Especialidades Sylvio Picanço",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Rede de Saúde",
+              "x_m": 692589.6998009213,
+              "y_m": 7467063.431174953
+            }
+          },
+          "node_id": 417
+        },
+        {
+          "degree": 114,
+          "node": {
+            "id": 101,
+            "label": "POI",
+            "properties": {
+              "address": "R. da Conceicao, 216, Centro",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-98",
+              "kind": "facility",
+              "latitude": -22.89471599920093,
+              "longitude": -43.11827300025707,
+              "name": "Igreja de Nossa Senhora da Conceicao",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 693015.8560009229,
+              "y_m": 7466901.688074956
+            }
+          },
+          "node_id": 101
+        },
+        {
+          "degree": 114,
+          "node": {
+            "id": 127,
+            "label": "POI",
+            "properties": {
+              "address": "R. da Conceicao, 216, Centro",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-126",
+              "kind": "facility",
+              "latitude": -22.89471599920093,
+              "longitude": -43.11827300025707,
+              "name": "Museu de Arte Sacra",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 693015.8560009229,
+              "y_m": 7466901.688074956
+            }
+          },
+          "node_id": 127
+        },
+        {
+          "degree": 114,
+          "node": {
+            "id": 516,
+            "label": "POI",
+            "properties": {
+              "address": "Av. Amaral Peixoto 169, 6º andar",
+              "category": "women_support",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-10-410",
+              "kind": "facility",
+              "latitude": -22.89332831931861,
+              "longitude": -43.12241673972327,
+              "name": "PAISM - Programa de Atenção Integral à Saúde da Mulher",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Rede de atendimento à Mulher",
+              "x_m": 692592.6698009216,
+              "y_m": 7467060.787774953
+            }
+          },
+          "node_id": 516
+        },
+        {
+          "degree": 113,
+          "node": {
+            "id": 4,
+            "label": "POI",
+            "properties": {
+              "address": "R. Prof. Ismael Coutinho, Centro",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-4",
+              "kind": "facility",
+              "latitude": -22.895595999501957,
+              "longitude": -43.11691100016311,
+              "name": "Associacao de Pais e Amigos dos Excepcionais (Apae)",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 693154.3503009238,
+              "y_m": 7466802.449874958
+            }
+          },
+          "node_id": 4
+        },
+        {
+          "degree": 113,
+          "node": {
+            "id": 59,
+            "label": "POI",
+            "properties": {
+              "address": "Praca da Republica, 26 - Centro",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-58",
+              "kind": "facility",
+              "latitude": -22.89395199915105,
+              "longitude": -43.1178650001091,
+              "name": "Centro de Memoria Judiciaria de Niteroi",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 693058.7983009232,
+              "y_m": 7466985.7584749535
+            }
+          },
+          "node_id": 59
+        },
+        {
+          "degree": 113,
+          "node": {
+            "id": 76,
+            "label": "POI",
+            "properties": {
+              "address": "Av. Ernani do Amaral Peixoto, 370 / s.lj. - Centro",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-79",
+              "kind": "facility",
+              "latitude": -22.89374899911233,
+              "longitude": -43.11988200023991,
+              "name": "Espaco Cultural Nippon",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692852.1407009214,
+              "y_m": 7467010.882874953
+            }
+          },
+          "node_id": 76
+        },
+        {
+          "degree": 113,
+          "node": {
+            "id": 87,
+            "label": "POI",
+            "properties": {
+              "address": "Praca da Republica, 26 - Centro",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-87",
+              "kind": "facility",
+              "latitude": -22.89395199915105,
+              "longitude": -43.1178650001091,
+              "name": "Forum de Niteroi (Antigo Palacio da Justica)",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 693058.7983009232,
+              "y_m": 7466985.7584749535
+            }
+          },
+          "node_id": 87
+        },
+        {
+          "degree": 113,
+          "node": {
+            "id": 431,
+            "label": "POI",
+            "properties": {
+              "category": "health",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-110-2807",
+              "kind": "facility",
+              "latitude": -22.8928020394371,
+              "longitude": -43.11835970577733,
+              "name": "Rede de Saúde #2807",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Rede de Saúde",
+              "x_m": 693009.6689009233,
+              "y_m": 7467113.753974953
+            }
+          },
+          "node_id": 431
+        },
+        {
+          "degree": 113,
+          "node": {
+            "id": 433,
+            "label": "POI",
+            "properties": {
+              "category": "health",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-110-3601",
+              "kind": "facility",
+              "latitude": -22.8928020394371,
+              "longitude": -43.11835970577733,
+              "name": "Rede de Saúde #3601",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Rede de Saúde",
+              "x_m": 693009.6689009233,
+              "y_m": 7467113.753974953
+            }
+          },
+          "node_id": 433
+        },
+        {
+          "degree": 113,
+          "node": {
+            "id": 512,
+            "label": "POI",
+            "properties": {
+              "address": "Av. Amaral Peixoto, 577, 3º andar, Centro",
+              "category": "women_support",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-10-407",
+              "kind": "facility",
+              "latitude": -22.89310322970476,
+              "longitude": -43.117670381786496,
+              "name": "DEAM Delegacia Especializada de Atendimento à Mulher",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Rede de atendimento à Mulher",
+              "x_m": 693079.9679009225,
+              "y_m": 7467079.496074952
+            }
+          },
+          "node_id": 512
+        },
+        {
+          "degree": 112,
+          "node": {
+            "id": 210,
+            "label": "POI",
+            "properties": {
+              "address": "R.Dr. Celestino, 78 - Centro",
+              "bairro": "Centro",
+              "category": "education_childhood",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-55-39",
+              "kind": "facility",
+              "latitude": -22.895432479583015,
+              "longitude": -43.1164878178153,
+              "name": "UMEI Rosalda Paim",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Unidade Municipal de Ensino Infantil",
+              "x_m": 693198.0001009244,
+              "y_m": 7466820.002674959
+            }
+          },
+          "node_id": 210
+        },
+        {
+          "degree": 112,
+          "node": {
+            "id": 290,
+            "label": "POI",
+            "properties": {
+              "address": "Rua São João, 127",
+              "bairro": "Centro",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-25",
+              "kind": "facility",
+              "latitude": -22.89102165002288,
+              "longitude": -43.12064413767227,
+              "name": "CE Pinto Lima",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 692777.8003009222,
+              "y_m": 7467313.907974947
+            }
+          },
+          "node_id": 290
+        },
+        {
+          "degree": 112,
+          "node": {
+            "id": 294,
+            "label": "POI",
+            "properties": {
+              "address": "Av. Ernani Do Amaral Peixoto, 707",
+              "bairro": "Centro",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-29",
+              "kind": "facility",
+              "latitude": -22.893542696137885,
+              "longitude": -43.11626446723215,
+              "name": "CEJA Niteroi",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 693223.5934009227,
+              "y_m": 7467028.984574955
+            }
+          },
+          "node_id": 294
+        },
+        {
+          "degree": 112,
+          "node": {
+            "id": 303,
+            "label": "POI",
+            "properties": {
+              "address": "Rua São João, 127",
+              "bairro": "Centro",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-38",
+              "kind": "facility",
+              "latitude": -22.891059140504247,
+              "longitude": -43.12063947705323,
+              "name": "EEEE Anne Sullivan",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 692778.225500921,
+              "y_m": 7467309.750174947
+            }
+          },
+          "node_id": 303
+        },
+        {
+          "degree": 112,
+          "node": {
+            "id": 499,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Coronel Gomes Machado, 257",
+              "category": "social_assistance",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-5-44",
+              "kind": "facility",
+              "latitude": -22.89260342305036,
+              "longitude": -43.11764455674693,
+              "name": "Conselho Tutelar I",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Equipamentos da Assistência Social",
+              "x_m": 693083.3252009229,
+              "y_m": 7467134.81087495
+            }
+          },
+          "node_id": 499
+        },
+        {
+          "degree": 112,
+          "node": {
+            "id": 515,
+            "label": "POI",
+            "properties": {
+              "address": "Av. Amaral Peixoto, 577, 9º andar",
+              "category": "women_support",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-10-408",
+              "kind": "facility",
+              "latitude": -22.892997461427893,
+              "longitude": -43.117661464193866,
+              "name": "JUIZADO DA VIOLÊNCIA DOMÉSTICA E FAMILIAR CONTRA A MULHER",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Rede de atendimento à Mulher",
+              "x_m": 693081.032600923,
+              "y_m": 7467091.197174951
+            }
+          },
+          "node_id": 515
+        },
+        {
+          "degree": 111,
+          "node": {
+            "id": 11,
+            "label": "POI",
+            "properties": {
+              "address": "Praca da Republica s/n, Centro",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-17",
+              "kind": "facility",
+              "latitude": -22.89460199917255,
+              "longitude": -43.1170960003728,
+              "name": "Biblioteca Estadual de Niteroi",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 693136.7773009237,
+              "y_m": 7466912.768474956
+            }
+          },
+          "node_id": 11
+        },
+        {
+          "degree": 111,
+          "node": {
+            "id": 50,
+            "label": "POI",
+            "properties": {
+              "address": "R. Coronel Gomes Machado, 259",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-59",
+              "kind": "facility",
+              "latitude": -22.89251699962196,
+              "longitude": -43.1171140000734,
+              "name": "Centro Pop",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 693137.8834009229,
+              "y_m": 7467143.685374951
+            }
+          },
+          "node_id": 50
+        },
+        {
+          "degree": 111,
+          "node": {
+            "id": 122,
+            "label": "POI",
+            "properties": {
+              "address": "Praca da Republica",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-122",
+              "kind": "facility",
+              "latitude": -22.893971999609416,
+              "longitude": -43.11705600017258,
+              "name": "Monumento a Republica",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 693141.7736009232,
+              "y_m": 7466982.482274955
+            }
+          },
+          "node_id": 122
+        },
+        {
+          "degree": 111,
+          "node": {
+            "id": 142,
+            "label": "POI",
+            "properties": {
+              "address": "Praca da Republica",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-142",
+              "kind": "facility",
+              "latitude": -22.893971999609416,
+              "longitude": -43.11705600017258,
+              "name": "Praca da Republica",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 693141.7736009232,
+              "y_m": 7466982.482274955
+            }
+          },
+          "node_id": 142
+        },
+        {
+          "degree": 111,
+          "node": {
+            "id": 160,
+            "label": "POI",
+            "properties": {
+              "address": "Praca da Republica s/n, Centro",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-160",
+              "kind": "facility",
+              "latitude": -22.89460199917255,
+              "longitude": -43.1170960003728,
+              "name": "Sociedade Fluminense de Fotografia",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 693136.7773009237,
+              "y_m": 7466912.768474956
+            }
+          },
+          "node_id": 160
+        },
+        {
+          "degree": 111,
+          "node": {
+            "id": 176,
+            "label": "POI",
+            "properties": {
+              "address": "R. Evaristo da Veiga, 108 - Centro",
+              "bairro": "Centro",
+              "category": "education_childhood",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-55-5",
+              "kind": "facility",
+              "latitude": -22.893078211574103,
+              "longitude": -43.11594528432264,
+              "name": "UMEI Alberto de Oliveira",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Unidade Municipal de Ensino Infantil",
+              "x_m": 693257.000000924,
+              "y_m": 7467080.002674952
+            }
+          },
+          "node_id": 176
+        },
+        {
+          "degree": 110,
+          "node": {
+            "id": 42,
+            "label": "POI",
+            "properties": {
+              "address": "R. Miguel de Frias, 9 - Icarai",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-42",
+              "kind": "facility",
+              "latitude": -22.90322599942444,
+              "longitude": -43.11652900047118,
+              "name": "Cassino Icarahy (Reitoria UFF)",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 693182.7312009246,
+              "y_m": 7465956.999974978
+            }
+          },
+          "node_id": 42
+        },
+        {
+          "degree": 110,
+          "node": {
+            "id": 51,
+            "label": "POI",
+            "properties": {
+              "address": "R. Miguel de Frias, 9 - Icarai",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-50",
+              "kind": "facility",
+              "latitude": -22.90322599942444,
+              "longitude": -43.11652900047118,
+              "name": "Centro de  Artes UFF",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 693182.7312009246,
+              "y_m": 7465956.999974978
+            }
+          },
+          "node_id": 51
+        },
+        {
+          "degree": 110,
+          "node": {
+            "id": 71,
+            "label": "POI",
+            "properties": {
+              "address": "Av. Ernani do Amaral Peixoto, 625 - Centro",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-25",
+              "kind": "facility",
+              "latitude": -22.89331499907335,
+              "longitude": -43.1170250004521,
+              "name": "Câmara Municipal de Niteroi",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 693145.8847009238,
+              "y_m": 7467055.197974954
+            }
+          },
+          "node_id": 71
+        },
+        {
+          "degree": 110,
+          "node": {
+            "id": 72,
+            "label": "POI",
+            "properties": {
+              "address": "Av. Ernani do Amaral Peixoto, 625 - Centro",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-72",
+              "kind": "facility",
+              "latitude": -22.89331499907335,
+              "longitude": -43.1170250004521,
+              "name": "Espaco Aloisio Valle",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 693145.8847009238,
+              "y_m": 7467055.197974954
+            }
+          },
+          "node_id": 72
+        },
+        {
+          "degree": 110,
+          "node": {
+            "id": 131,
+            "label": "POI",
+            "properties": {
+              "address": "R. Miguel de Frias, 9 - Icarai",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-131",
+              "kind": "facility",
+              "latitude": -22.90322599942444,
+              "longitude": -43.11652900047118,
+              "name": "Orquestra Sinfânica da UFF",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 693182.7312009246,
+              "y_m": 7465956.999974978
+            }
+          },
+          "node_id": 131
+        },
+        {
+          "degree": 110,
+          "node": {
+            "id": 167,
+            "label": "POI",
+            "properties": {
+              "address": "R. Miguel de Frias, 9 - Icarai",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-164",
+              "kind": "facility",
+              "latitude": -22.90322599942444,
+              "longitude": -43.11652900047118,
+              "name": "Teatro da UFF",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 693182.7312009246,
+              "y_m": 7465956.999974978
+            }
+          },
+          "node_id": 167
+        },
+        {
+          "degree": 110,
+          "node": {
+            "id": 483,
+            "label": "POI",
+            "properties": {
+              "address": "Av. Ernani do Amaral Peixoto, 901",
+              "category": "social_assistance",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-5-39",
+              "kind": "facility",
+              "latitude": -22.8936842346795,
+              "longitude": -43.11479241357839,
+              "name": "Ações Estratég do Prog de Erradicação do Trabalho Infantil",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Equipamentos da Assistência Social",
+              "x_m": 693374.4264009247,
+              "y_m": 7467011.377374954
+            }
+          },
+          "node_id": 483
+        },
+        {
+          "degree": 110,
+          "node": {
+            "id": 484,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Coronel Gomes Machado, 279",
+              "category": "social_assistance",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-5-37",
+              "kind": "facility",
+              "latitude": -22.89254528726481,
+              "longitude": -43.116792237695705,
+              "name": "CENTRO – POP",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Equipamentos da Assistência Social",
+              "x_m": 693170.8566009222,
+              "y_m": 7467140.130574951
+            }
+          },
+          "node_id": 484
+        },
+        {
+          "degree": 110,
+          "node": {
+            "id": 496,
+            "label": "POI",
+            "properties": {
+              "address": "Av. Ernani do Amaral Peixoto, 901",
+              "category": "social_assistance",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-5-35",
+              "kind": "facility",
+              "latitude": -22.89366631251197,
+              "longitude": -43.11472999400736,
+              "name": "CREAS Centro",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Equipamentos da Assistência Social",
+              "x_m": 693380.8561009248,
+              "y_m": 7467013.280074954
+            }
+          },
+          "node_id": 496
+        },
+        {
+          "degree": 110,
+          "node": {
+            "id": 502,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Coronel Gomes Machado, 281",
+              "category": "social_assistance",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-5-43",
+              "kind": "facility",
+              "latitude": -22.892541262648106,
+              "longitude": -43.11673425992354,
+              "name": "Programa Família Acolhedora - FACO",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Equipamentos da Assistência Social",
+              "x_m": 693176.8109009232,
+              "y_m": 7467140.500174952
+            }
+          },
+          "node_id": 502
+        },
+        {
+          "degree": 110,
+          "node": {
+            "id": 504,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Coronel Gomes Machado, 279",
+              "category": "social_assistance",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-5-42",
+              "kind": "facility",
+              "latitude": -22.892578792651477,
+              "longitude": -43.11733043770767,
+              "name": "Unidade de Acolhimento Arthur Bispo do Rosário",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Equipamentos da Assistência Social",
+              "x_m": 693115.5891009239,
+              "y_m": 7467137.12637495
+            }
+          },
+          "node_id": 504
+        },
+        {
+          "degree": 110,
+          "node": {
+            "id": 509,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Coronel Gomes Machado, 259",
+              "category": "social_assistance",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-5-46",
+              "kind": "facility",
+              "latitude": -22.892575499449457,
+              "longitude": -43.11723387427628,
+              "name": "Vale Social",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Equipamentos da Assistência Social",
+              "x_m": 693125.5013009238,
+              "y_m": 7467137.3643749505
+            }
+          },
+          "node_id": 509
+        },
+        {
+          "degree": 109,
+          "node": {
+            "id": 77,
+            "label": "POI",
+            "properties": {
+              "address": "R. Dr. Arthur Tibau, 31 - Ingaa",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-80",
+              "kind": "facility",
+              "latitude": -22.900608999061163,
+              "longitude": -43.12489000035408,
+              "name": "Espaco Cultural Tribo Urbana",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692328.6420009213,
+              "y_m": 7466257.759974971
+            }
+          },
+          "node_id": 77
+        },
+        {
+          "degree": 109,
+          "node": {
+            "id": 95,
+            "label": "POI",
+            "properties": {
+              "address": "Av. Visconde do Rio Branco, 627",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-95",
+              "kind": "facility",
+              "latitude": -22.89653199933484,
+              "longitude": -43.12613100036421,
+              "name": "Grupo Diversidade Niteroi",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692207.06920092,
+              "y_m": 7466710.867874961
+            }
+          },
+          "node_id": 95
+        },
+        {
+          "degree": 109,
+          "node": {
+            "id": 117,
+            "label": "POI",
+            "properties": {
+              "address": "Av. Visconde do Rio Branco 360 - Centro",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-117",
+              "kind": "facility",
+              "latitude": -22.892104999058525,
+              "longitude": -43.12471599984743,
+              "name": "Kinoplex Bay Market",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692358.4900009206,
+              "y_m": 7467199.2646749485
+            }
+          },
+          "node_id": 117
+        },
+        {
+          "degree": 109,
+          "node": {
+            "id": 161,
+            "label": "POI",
+            "properties": {
+              "address": "R. Maestro Felicio Toledo, 474",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-162",
+              "kind": "facility",
+              "latitude": -22.892337999056583,
+              "longitude": -43.12145799996954,
+              "name": "Solar Notre Reve (Casa Norival de Freitas)",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692692.4363009215,
+              "y_m": 7467169.20107495
+            }
+          },
+          "node_id": 161
+        },
+        {
+          "degree": 109,
+          "node": {
+            "id": 306,
+            "label": "POI",
+            "properties": {
+              "address": "Av. Ernani do Amaral Peixoto, 707",
+              "bairro": "Centro",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-41",
+              "kind": "facility",
+              "latitude": -22.89354777960496,
+              "longitude": -43.11598845725364,
+              "name": "Liceu Nilo Peçanha",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 693251.9050009234,
+              "y_m": 7467028.059274953
+            }
+          },
+          "node_id": 306
+        },
+        {
+          "degree": 109,
+          "node": {
+            "id": 353,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Marques de Olinda, 104",
+              "bairro": "Centro",
+              "category": "health",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-110-2026",
+              "kind": "facility",
+              "latitude": -22.89275891485392,
+              "longitude": -43.11453804037095,
+              "name": "CAPS Herbert de Souza",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Rede de Saúde",
+              "x_m": 693401.8375009245,
+              "y_m": 7467113.513374951
+            }
+          },
+          "node_id": 353
+        },
+        {
+          "degree": 109,
+          "node": {
+            "id": 419,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Professor Hernani Melo, 103",
+              "bairro": "São Domingos",
+              "category": "health",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-110-2036",
+              "kind": "facility",
+              "latitude": -22.89924922914366,
+              "longitude": -43.12611388576191,
+              "name": "Policlínica Almir Madeira",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Rede de Saúde",
+              "x_m": 692204.9946009205,
+              "y_m": 7466409.939874968
+            }
+          },
+          "node_id": 419
+        },
+        {
+          "degree": 109,
+          "node": {
+            "id": 462,
+            "label": "POI",
+            "properties": {
+              "address": "Avenida Marquês de Paraná",
+              "category": "hospital",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-105-8",
+              "kind": "facility",
+              "latitude": -22.89427050957881,
+              "longitude": -43.11276896483295,
+              "name": "Hospital Icarai",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Hospitais",
+              "x_m": 693581.2013009252,
+              "y_m": 7466943.793274957
+            }
+          },
+          "node_id": 462
+        },
+        {
+          "degree": 109,
+          "node": {
+            "id": 489,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Coronel Gomes Machado, 259",
+              "category": "social_assistance",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-5-28",
+              "kind": "facility",
+              "latitude": -22.893568210377712,
+              "longitude": -43.11568771107049,
+              "name": "CRAS Centro",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Equipamentos da Assistência Social",
+              "x_m": 693282.7328009241,
+              "y_m": 7467025.401874954
+            }
+          },
+          "node_id": 489
+        },
+        {
+          "degree": 108,
+          "node": {
+            "id": 55,
+            "label": "POI",
+            "properties": {
+              "address": "R. Sao Joao, 180 -aCentro",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-54",
+              "kind": "facility",
+              "latitude": -22.891062999210284,
+              "longitude": -43.11927000025146,
+              "name": "Centro de Cultura LGBT  - Prof. Jose Carlos Barcellos",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692918.7316009223,
+              "y_m": 7467307.528774946
+            }
+          },
+          "node_id": 55
+        },
+        {
+          "degree": 108,
+          "node": {
+            "id": 66,
+            "label": "POI",
+            "properties": {
+              "address": "R. Sao Pedro, 96 - Centro",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-67",
+              "kind": "facility",
+              "latitude": -22.89209799971837,
+              "longitude": -43.12123600027797,
+              "name": "Conservatorio de Musica de Niteroi",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692715.5529009217,
+              "y_m": 7467195.48797495
+            }
+          },
+          "node_id": 66
+        },
+        {
+          "degree": 108,
+          "node": {
+            "id": 503,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Coronel Gomes Machado, 279",
+              "category": "social_assistance",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-5-38",
+              "kind": "facility",
+              "latitude": -22.89254709942295,
+              "longitude": -43.11684068571398,
+              "name": "Serviço Especializado em Abordagem Social",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Equipamentos da Assistência Social",
+              "x_m": 693165.8832009233,
+              "y_m": 7467139.993474951
+            }
+          },
+          "node_id": 503
+        },
+        {
+          "degree": 107,
+          "node": {
+            "id": 7,
+            "label": "POI",
+            "properties": {
+              "address": "R. Visconde de Uruguai, 414 - Jardim Sao Joao - Centro",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-7",
+              "kind": "facility",
+              "latitude": -22.89166399916396,
+              "longitude": -43.12244299978773,
+              "name": "Bibioteca do Inst. Hist. e Geografico de Niteroi",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692592.3258009214,
+              "y_m": 7467245.128874948
+            }
+          },
+          "node_id": 7
+        },
+        {
+          "degree": 107,
+          "node": {
+            "id": 20,
+            "label": "POI",
+            "properties": {
+              "address": "R. Marechal Deodoro,263 - Centro",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-12",
+              "kind": "facility",
+              "latitude": -22.88929599892744,
+              "longitude": -43.117116000174434,
+              "name": "Biblioteca da Universo",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 693142.2394009236,
+              "y_m": 7467500.382174944
+            }
+          },
+          "node_id": 20
+        },
+        {
+          "degree": 107,
+          "node": {
+            "id": 132,
+            "label": "POI",
+            "properties": {
+              "address": "R. Visconde de Uruguai, 414 - Jardim Sao Joao - Centro",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-132",
+              "kind": "facility",
+              "latitude": -22.89166399916396,
+              "longitude": -43.12244299978773,
+              "name": "Paco Municipal de Niteroi, antiga Casa dos Vereadores",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692592.3258009214,
+              "y_m": 7467245.128874948
+            }
+          },
+          "node_id": 132
+        },
+        {
+          "degree": 107,
+          "node": {
+            "id": 468,
+            "label": "POI",
+            "properties": {
+              "address": "Avenida Marquês de Paraná",
+              "category": "hospital",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-105-3",
+              "kind": "facility",
+              "latitude": -22.895227464101406,
+              "longitude": -43.11238181023914,
+              "name": "Hospital Universitário Antônio Pedro",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Hospitais",
+              "x_m": 693619.5647009251,
+              "y_m": 7466837.310474958
+            }
+          },
+          "node_id": 468
+        },
+        {
+          "degree": 107,
+          "node": {
+            "id": 518,
+            "label": "POI",
+            "properties": {
+              "address": "Av. Marquês de Paraná 303, 8º andar",
+              "category": "women_support",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-10-404",
+              "kind": "facility",
+              "latitude": -22.89525792250435,
+              "longitude": -43.112462522629095,
+              "name": "SOS MULHER - casos de violência sexual",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Rede de atendimento à Mulher",
+              "x_m": 693611.2404009249,
+              "y_m": 7466834.043674959
+            }
+          },
+          "node_id": 518
+        },
+        {
+          "degree": 107,
+          "node": {
+            "id": 519,
+            "label": "POI",
+            "properties": {
+              "address": "Av. Marquês de Paraná 303, 8º andar",
+              "category": "women_support",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-10-409",
+              "kind": "facility",
+              "latitude": -22.89525792250435,
+              "longitude": -43.112462522629095,
+              "name": "SOS MULHER - casos de violência sexual",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Rede de atendimento à Mulher",
+              "x_m": 693611.2404009249,
+              "y_m": 7466834.043674959
+            }
+          },
+          "node_id": 519
+        },
+        {
+          "degree": 106,
+          "node": {
+            "id": 15,
+            "label": "POI",
+            "properties": {
+              "address": "R. Sao Pedro, 108 Centro",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-21",
+              "kind": "facility",
+              "latitude": -22.89202399935556,
+              "longitude": -43.12096700022011,
+              "name": "Biblioteca Popular Municipal Cora Coralina",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692743.257300922,
+              "y_m": 7467203.33057495
+            }
+          },
+          "node_id": 15
+        },
+        {
+          "degree": 106,
+          "node": {
+            "id": 365,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Marques de Paraná, 303",
+              "bairro": "Bairro de Fátima",
+              "category": "health",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-110-2037",
+              "kind": "facility",
+              "latitude": -22.895396032129664,
+              "longitude": -43.11204494037834,
+              "name": "Hospital Universitário Antônio Pedro",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Rede de Saúde",
+              "x_m": 693653.8880009254,
+              "y_m": 7466818.19997496
+            }
+          },
+          "node_id": 365
+        },
+        {
+          "degree": 106,
+          "node": {
+            "id": 472,
+            "label": "POI",
+            "properties": {
+              "address": "Travessa Lassalle",
+              "category": "hospital",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-105-1",
+              "kind": "facility",
+              "latitude": -22.894602199995266,
+              "longitude": -43.1156082087955,
+              "name": "Hospital de Clínicas de Niterói",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Hospitais",
+              "x_m": 693289.4242009234,
+              "y_m": 7466910.793174957
+            }
+          },
+          "node_id": 472
+        },
+        {
+          "degree": 104,
+          "node": {
+            "id": 69,
+            "label": "POI",
+            "properties": {
+              "address": "R. Marques de Parana, 134 - Centro",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-70",
+              "kind": "facility",
+              "latitude": -22.892173999160796,
+              "longitude": -43.11410399985452,
+              "name": "Corpo de Bombeiros",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 693447.2003009245,
+              "y_m": 7467177.71677495
+            }
+          },
+          "node_id": 69
+        },
+        {
+          "degree": 104,
+          "node": {
+            "id": 119,
+            "label": "POI",
+            "properties": {
+              "address": "R. Professor Hernani de Mello, 60 - Sao Domingos",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-119",
+              "kind": "facility",
+              "latitude": -22.89878799952966,
+              "longitude": -43.12696599990315,
+              "name": "Loja Maconica Acacia",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692118.2211009195,
+              "y_m": 7466462.129074966
+            }
+          },
+          "node_id": 119
+        },
+        {
+          "degree": 104,
+          "node": {
+            "id": 148,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Coronel Gomes Machado, nº 385",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-148",
+              "kind": "facility",
+              "latitude": -22.89180499923129,
+              "longitude": -43.11541900027748,
+              "name": "Reservatorio da Correcao",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 693312.8020009241,
+              "y_m": 7467220.30747495
+            }
+          },
+          "node_id": 148
+        },
+        {
+          "degree": 103,
+          "node": {
+            "id": 510,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Consul Francisco Cruz, 49 - Centro",
+              "category": "women_support",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-10-402",
+              "kind": "facility",
+              "latitude": -22.890294195390386,
+              "longitude": -43.11604796141108,
+              "name": "CENTRAL DE ATENDIMENTO À MULHER 180",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Rede de atendimento à Mulher",
+              "x_m": 693250.410000924,
+              "y_m": 7467388.440074945
+            }
+          },
+          "node_id": 510
+        },
+        {
+          "degree": 103,
+          "node": {
+            "id": 511,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Consul Francisco Cruz, 49 - Centro",
+              "category": "women_support",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-10-405",
+              "kind": "facility",
+              "latitude": -22.890294195390386,
+              "longitude": -43.11604796141108,
+              "name": "CENTRAL DE ATENDIMENTO À MULHER 180",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Rede de atendimento à Mulher",
+              "x_m": 693250.410000924,
+              "y_m": 7467388.440074945
+            }
+          },
+          "node_id": 511
+        },
+        {
+          "degree": 102,
+          "node": {
+            "id": 44,
+            "label": "POI",
+            "properties": {
+              "address": "R. Marques do Parana, 100, Centro, Niteroi",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-44",
+              "kind": "facility",
+              "latitude": -22.88984599971663,
+              "longitude": -43.11460899956264,
+              "name": "Centro Cultural Abrigo dos Bondes",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 693398.6875009234,
+              "y_m": 7467436.183674944
+            }
+          },
+          "node_id": 44
+        },
+        {
+          "degree": 101,
+          "node": {
+            "id": 422,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Jansen de Mello, s/n",
+              "bairro": "Centro",
+              "category": "health",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-110-2009",
+              "kind": "facility",
+              "latitude": -22.8872250225341,
+              "longitude": -43.11525307164683,
+              "name": "Policlínica Regional Carlos Antonio da Silva",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Rede de Saúde",
+              "x_m": 693336.3183009233,
+              "y_m": 7467727.277274938
+            }
+          },
+          "node_id": 422
+        },
+        {
+          "degree": 100,
+          "node": {
+            "id": 135,
+            "label": "POI",
+            "properties": {
+              "address": "R. Marechal Deodoro, 30",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-136",
+              "kind": "facility",
+              "latitude": -22.890101999022185,
+              "longitude": -43.12341399959152,
+              "name": "Palacio Sao Domingos",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692494.904000921,
+              "y_m": 7467419.374674944
+            }
+          },
+          "node_id": 135
+        },
+        {
+          "degree": 99,
+          "node": {
+            "id": 114,
+            "label": "POI",
+            "properties": {
+              "address": "R. Miguel de Frias, 123 - Icarai",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-114",
+              "kind": "facility",
+              "latitude": -22.901657999021243,
+              "longitude": -43.1144819999788,
+              "name": "Irmandade de Sao Vicente de Paulo",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 693394.9645009248,
+              "y_m": 7466127.951874973
+            }
+          },
+          "node_id": 114
+        },
+        {
+          "degree": 97,
+          "node": {
+            "id": 90,
+            "label": "POI",
+            "properties": {
+              "address": "R. Professor Hernani de Melo, 18 - Inga",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-90",
+              "kind": "facility",
+              "latitude": -22.897932999682546,
+              "longitude": -43.127688000220246,
+              "name": "Galeria do Campo",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692045.3509009196,
+              "y_m": 7466557.753974964
+            }
+          },
+          "node_id": 90
+        },
+        {
+          "degree": 96,
+          "node": {
+            "id": 40,
+            "label": "POI",
+            "properties": {
+              "address": "R. Professor Hernani de Melo, 2 - Sao Domingos",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-39",
+              "kind": "facility",
+              "latitude": -22.897749999314733,
+              "longitude": -43.12790900045207,
+              "name": "Casa do Estudante Fluminense",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692022.9347009202,
+              "y_m": 7466578.307774965
+            }
+          },
+          "node_id": 40
+        },
+        {
+          "degree": 96,
+          "node": {
+            "id": 305,
+            "label": "POI",
+            "properties": {
+              "address": "Trav. Manuel Continentino, 32",
+              "bairro": "São Domingos",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-39",
+              "kind": "facility",
+              "latitude": -22.8994633190246,
+              "longitude": -43.12728932206468,
+              "name": "IE Professor Ismael Coutinho",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 692084.0980009206,
+              "y_m": 7466387.766374968
+            }
+          },
+          "node_id": 305
+        },
+        {
+          "degree": 95,
+          "node": {
+            "id": 129,
+            "label": "POI",
+            "properties": {
+              "address": "R. Visconde do Uruguai,300 - Centro",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-129",
+              "kind": "facility",
+              "latitude": -22.888742998951237,
+              "longitude": -43.12279500016749,
+              "name": "Nucleo de Producao Digital - NPD",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692560.3337009206,
+              "y_m": 7467569.060674939
+            }
+          },
+          "node_id": 129
+        },
+        {
+          "degree": 93,
+          "node": {
+            "id": 221,
+            "label": "POI",
+            "properties": {
+              "address": "Trav. Manoel Continentino, 31 - São Domingos",
+              "bairro": "São Domingos",
+              "category": "education_municipal",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-60-3",
+              "kind": "facility",
+              "latitude": -22.898904173185155,
+              "longitude": -43.12753188169989,
+              "name": "E.M. Anísio Teixeira",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Municipais",
+              "x_m": 692060.0001009195,
+              "y_m": 7466450.002674967
+            }
+          },
+          "node_id": 221
+        },
+        {
+          "degree": 92,
+          "node": {
+            "id": 153,
+            "label": "POI",
+            "properties": {
+              "address": "R. Professor Heitor Carrilho, 81",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-151",
+              "kind": "facility",
+              "latitude": -22.88522399938798,
+              "longitude": -43.11883899961312,
+              "name": "Sala de Cultura Leila Diniz",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692971.2133009227,
+              "y_m": 7467953.575074933
+            }
+          },
+          "node_id": 153
+        },
+        {
+          "degree": 89,
+          "node": {
+            "id": 123,
+            "label": "POI",
+            "properties": {
+              "address": "R. Tiradentes, 47, Inga",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-123",
+              "kind": "facility",
+              "latitude": -22.90172099953106,
+              "longitude": -43.12610399951748,
+              "name": "Museu Antonio Parreiras",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692202.5240009206,
+              "y_m": 7466136.203374974
+            }
+          },
+          "node_id": 123
+        },
+        {
+          "degree": 89,
+          "node": {
+            "id": 477,
+            "label": "POI",
+            "properties": {
+              "category": "hospital",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-105-23",
+              "kind": "facility",
+              "latitude": -22.894999876069058,
+              "longitude": -43.11008243979912,
+              "name": "SAMU – 192 –Metropolitana II Urgência",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Hospitais",
+              "x_m": 693855.8027009264,
+              "y_m": 7466859.4869749565
+            }
+          },
+          "node_id": 477
+        },
+        {
+          "degree": 88,
+          "node": {
+            "id": 361,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Desembargador Athayde Parreira, 266",
+              "bairro": "Bairro de Fátima",
+              "category": "health",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-110-2018",
+              "kind": "facility",
+              "latitude": -22.8956462869558,
+              "longitude": -43.11023284074622,
+              "name": "Hospital Municipal Carlos Tortelly",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Rede de Saúde",
+              "x_m": 693839.4527009266,
+              "y_m": 7466788.101174958
+            }
+          },
+          "node_id": 361
+        },
+        {
+          "degree": 88,
+          "node": {
+            "id": 463,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Desembargador Athaíde Parreiras",
+              "category": "hospital",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-105-4",
+              "kind": "facility",
+              "latitude": -22.89562906800108,
+              "longitude": -43.11036819717348,
+              "name": "Hospital Municipal Carlos Tortelly",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Hospitais",
+              "x_m": 693825.5897009256,
+              "y_m": 7466790.186274958
+            }
+          },
+          "node_id": 463
+        },
+        {
+          "degree": 87,
+          "node": {
+            "id": 52,
+            "label": "POI",
+            "properties": {
+              "address": "R. Mem de Sa, 31 - Icarai",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-51",
+              "kind": "facility",
+              "latitude": -22.900573999310662,
+              "longitude": -43.11147899976546,
+              "name": "Centro de Analise do Movimento Vivo - CAMV",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 693704.596600926,
+              "y_m": 7466244.0444749715
+            }
+          },
+          "node_id": 52
+        }
+      ]
+    },
+    "pagerank": {
+      "elapsed_ms": 98.795,
+      "rows": [
+        {
+          "node": {
+            "id": 529,
+            "label": "Bairro",
+            "properties": {
+              "country": "Brasil",
+              "external_id": "BAIRRO-centro-69794b47",
+              "municipality": "Niterói",
+              "name": "Centro",
+              "source": "Prefeitura Municipal de Niterói / SIGeo (bairro attribute)",
+              "state": "RJ"
+            }
+          },
+          "node_id": 529,
+          "score": 0.0241352762751855
+        },
+        {
+          "node": {
+            "id": 306,
+            "label": "POI",
+            "properties": {
+              "address": "Av. Ernani do Amaral Peixoto, 707",
+              "bairro": "Centro",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-41",
+              "kind": "facility",
+              "latitude": -22.89354777960496,
+              "longitude": -43.11598845725364,
+              "name": "Liceu Nilo Peçanha",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 693251.9050009234,
+              "y_m": 7467028.059274953
+            }
+          },
+          "node_id": 306,
+          "score": 0.015103915179701602
+        },
+        {
+          "node": {
+            "id": 303,
+            "label": "POI",
+            "properties": {
+              "address": "Rua São João, 127",
+              "bairro": "Centro",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-38",
+              "kind": "facility",
+              "latitude": -22.891059140504247,
+              "longitude": -43.12063947705323,
+              "name": "EEEE Anne Sullivan",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 692778.225500921,
+              "y_m": 7467309.750174947
+            }
+          },
+          "node_id": 303,
+          "score": 0.013617145549432993
+        },
+        {
+          "node": {
+            "id": 267,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Presidente Pedreira, 79",
+              "bairro": "Ingá",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-4",
+              "kind": "facility",
+              "latitude": -22.90330048426504,
+              "longitude": -43.12549781465504,
+              "name": "CE Aurelino Leal",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 692262.4872009214,
+              "y_m": 7465960.499374978
+            }
+          },
+          "node_id": 267,
+          "score": 0.013482824423620457
+        },
+        {
+          "node": {
+            "id": 305,
+            "label": "POI",
+            "properties": {
+              "address": "Trav. Manuel Continentino, 32",
+              "bairro": "São Domingos",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-39",
+              "kind": "facility",
+              "latitude": -22.8994633190246,
+              "longitude": -43.12728932206468,
+              "name": "IE Professor Ismael Coutinho",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 692084.0980009206,
+              "y_m": 7466387.766374968
+            }
+          },
+          "node_id": 305,
+          "score": 0.013176131015011533
+        },
+        {
+          "node": {
+            "id": 534,
+            "label": "Bairro",
+            "properties": {
+              "country": "Brasil",
+              "external_id": "BAIRRO-fonseca-3cc5e260",
+              "municipality": "Niterói",
+              "name": "Fonseca",
+              "source": "Prefeitura Municipal de Niterói / SIGeo (bairro attribute)",
+              "state": "RJ"
+            }
+          },
+          "node_id": 534,
+          "score": 0.012698662554465698
+        },
+        {
+          "node": {
+            "id": 535,
+            "label": "Bairro",
+            "properties": {
+              "country": "Brasil",
+              "external_id": "BAIRRO-icarai-503fb09c",
+              "municipality": "Niterói",
+              "name": "Icaraí",
+              "source": "Prefeitura Municipal de Niterói / SIGeo (bairro attribute)",
+              "state": "RJ"
+            }
+          },
+          "node_id": 535,
+          "score": 0.012615649461038322
+        },
+        {
+          "node": {
+            "id": 537,
+            "label": "Bairro",
+            "properties": {
+              "country": "Brasil",
+              "external_id": "BAIRRO-inga-defb1d8c",
+              "municipality": "Niterói",
+              "name": "Ingá",
+              "source": "Prefeitura Municipal de Niterói / SIGeo (bairro attribute)",
+              "state": "RJ"
+            }
+          },
+          "node_id": 537,
+          "score": 0.012056770786232112
+        },
+        {
+          "node": {
+            "id": 523,
+            "label": "Bairro",
+            "properties": {
+              "country": "Brasil",
+              "external_id": "BAIRRO-barreto-496f8eb0",
+              "municipality": "Niterói",
+              "name": "Barreto",
+              "source": "Prefeitura Municipal de Niterói / SIGeo (bairro attribute)",
+              "state": "RJ"
+            }
+          },
+          "node_id": 523,
+          "score": 0.0118806185122735
+        },
+        {
+          "node": {
+            "id": 553,
+            "label": "Bairro",
+            "properties": {
+              "country": "Brasil",
+              "external_id": "BAIRRO-santa-rosa-7157fd0d",
+              "municipality": "Niterói",
+              "name": "Santa Rosa",
+              "source": "Prefeitura Municipal de Niterói / SIGeo (bairro attribute)",
+              "state": "RJ"
+            }
+          },
+          "node_id": 553,
+          "score": 0.010342012144122042
+        },
+        {
+          "node": {
+            "id": 294,
+            "label": "POI",
+            "properties": {
+              "address": "Av. Ernani Do Amaral Peixoto, 707",
+              "bairro": "Centro",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-29",
+              "kind": "facility",
+              "latitude": -22.893542696137885,
+              "longitude": -43.11626446723215,
+              "name": "CEJA Niteroi",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 693223.5934009227,
+              "y_m": 7467028.984574955
+            }
+          },
+          "node_id": 294,
+          "score": 0.010071886918103306
+        },
+        {
+          "node": {
+            "id": 222,
+            "label": "POI",
+            "properties": {
+              "address": "R. Altamiro José Cabral, s/nº - Morro do Estado",
+              "bairro": "Morro do Estado",
+              "category": "education_municipal",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-60-6",
+              "kind": "facility",
+              "latitude": -22.899067846202897,
+              "longitude": -43.11845522474706,
+              "name": "E.M. Ayrton Senna",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Municipais",
+              "x_m": 692991.0001009232,
+              "y_m": 7466420.002674969
+            }
+          },
+          "node_id": 222,
+          "score": 0.009116815542162758
+        },
+        {
+          "node": {
+            "id": 302,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Dr. Martins Torres, 223",
+              "bairro": "Santa Rosa",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-37",
+              "kind": "facility",
+              "latitude": -22.89880077381996,
+              "longitude": -43.09272670583388,
+              "name": "EE São Domingos Sávio",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 695631.0503009333,
+              "y_m": 7466415.605774967
+            }
+          },
+          "node_id": 302,
+          "score": 0.008791653243955953
+        },
+        {
+          "node": {
+            "id": 520,
+            "label": "Bairro",
+            "properties": {
+              "country": "Brasil",
+              "external_id": "BAIRRO-badu-b7c8427f",
+              "municipality": "Niterói",
+              "name": "Badu",
+              "source": "Prefeitura Municipal de Niterói / SIGeo (bairro attribute)",
+              "state": "RJ"
+            }
+          },
+          "node_id": 520,
+          "score": 0.008556470139226021
+        },
+        {
+          "node": {
+            "id": 285,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Lopes Trovão, 287",
+              "bairro": "Icaraí",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-20",
+              "kind": "facility",
+              "latitude": -22.902273281224183,
+              "longitude": -43.10718346719021,
+              "name": "CE Manuel de Abreu",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 694142.8794009277,
+              "y_m": 7466050.203674975
+            }
+          },
+          "node_id": 285,
+          "score": 0.008440164591831221
+        },
+        {
+          "node": {
+            "id": 290,
+            "label": "POI",
+            "properties": {
+              "address": "Rua São João, 127",
+              "bairro": "Centro",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-25",
+              "kind": "facility",
+              "latitude": -22.89102165002288,
+              "longitude": -43.12064413767227,
+              "name": "CE Pinto Lima",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 692777.8003009222,
+              "y_m": 7467313.907974947
+            }
+          },
+          "node_id": 290,
+          "score": 0.008073379957612226
+        },
+        {
+          "node": {
+            "id": 556,
+            "label": "Bairro",
+            "properties": {
+              "country": "Brasil",
+              "external_id": "BAIRRO-sao-domingos-1fdd14f2",
+              "municipality": "Niterói",
+              "name": "São Domingos",
+              "source": "Prefeitura Municipal de Niterói / SIGeo (bairro attribute)",
+              "state": "RJ"
+            }
+          },
+          "node_id": 556,
+          "score": 0.007690525580883057
+        },
+        {
+          "node": {
+            "id": 530,
+            "label": "Bairro",
+            "properties": {
+              "country": "Brasil",
+              "external_id": "BAIRRO-charitas-beaa2bc5",
+              "municipality": "Niterói",
+              "name": "Charitas",
+              "source": "Prefeitura Municipal de Niterói / SIGeo (bairro attribute)",
+              "state": "RJ"
+            }
+          },
+          "node_id": 530,
+          "score": 0.007663356832144573
+        },
+        {
+          "node": {
+            "id": 268,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Mariz e Barros, 444",
+              "bairro": "Icaraí",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-2",
+              "kind": "facility",
+              "latitude": -22.90315755218053,
+              "longitude": -43.10121145987333,
+              "name": "CE Baltazar Bernardino",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 694754.3115009299,
+              "y_m": 7465944.386274979
+            }
+          },
+          "node_id": 268,
+          "score": 0.007083993424155184
+        },
+        {
+          "node": {
+            "id": 300,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Noronha Torrezão, 625",
+              "bairro": "Cubango",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-35",
+              "kind": "facility",
+              "latitude": -22.88929441166281,
+              "longitude": -43.09374462539388,
+              "name": "EE Doutor Memoria",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 695540.2451009314,
+              "y_m": 7467469.705174943
+            }
+          },
+          "node_id": 300,
+          "score": 0.00687817156933028
+        },
+        {
+          "node": {
+            "id": 557,
+            "label": "Bairro",
+            "properties": {
+              "country": "Brasil",
+              "external_id": "BAIRRO-sao-francisco-68f2adaa",
+              "municipality": "Niterói",
+              "name": "São Francisco",
+              "source": "Prefeitura Municipal de Niterói / SIGeo (bairro attribute)",
+              "state": "RJ"
+            }
+          },
+          "node_id": 557,
+          "score": 0.006711759917915564
+        },
+        {
+          "node": {
+            "id": 272,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Dr. March, 392",
+              "bairro": "Barreto",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-6",
+              "kind": "facility",
+              "latitude": -22.8628200103818,
+              "longitude": -43.0922633687002,
+              "name": "CE Conselheiro Macedo Soares",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 695730.1914009295,
+              "y_m": 7470399.541374875
+            }
+          },
+          "node_id": 272,
+          "score": 0.0065272917409017845
+        },
+        {
+          "node": {
+            "id": 221,
+            "label": "POI",
+            "properties": {
+              "address": "Trav. Manoel Continentino, 31 - São Domingos",
+              "bairro": "São Domingos",
+              "category": "education_municipal",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-60-3",
+              "kind": "facility",
+              "latitude": -22.898904173185155,
+              "longitude": -43.12753188169989,
+              "name": "E.M. Anísio Teixeira",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Municipais",
+              "x_m": 692060.0001009195,
+              "y_m": 7466450.002674967
+            }
+          },
+          "node_id": 221,
+          "score": 0.0061028025709229765
+        },
+        {
+          "node": {
+            "id": 284,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Desembargador Lima Castro, 97",
+              "bairro": "Fonseca",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-19",
+              "kind": "facility",
+              "latitude": -22.883483242061907,
+              "longitude": -43.08581364501442,
+              "name": "CE Machado De Assis",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 696362.3675009338,
+              "y_m": 7468102.686574928
+            }
+          },
+          "node_id": 284,
+          "score": 0.006058581674682752
+        },
+        {
+          "node": {
+            "id": 260,
+            "label": "POI",
+            "properties": {
+              "address": "R. Manoel Corrêa, s/nº - Bairro de Fátima",
+              "bairro": "Bairro de Fátima",
+              "category": "education_municipal",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-60-44",
+              "kind": "facility",
+              "latitude": -22.89534729974444,
+              "longitude": -43.10931546467124,
+              "name": "E.M. Santos Dumont",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Municipais",
+              "x_m": 693934.0001009258,
+              "y_m": 7466820.002674958
+            }
+          },
+          "node_id": 260,
+          "score": 0.005926722649530425
+        },
+        {
+          "node": {
+            "id": 178,
+            "label": "POI",
+            "properties": {
+              "address": "R. Araújo Pimenta, s/nº - Morro do Estado",
+              "bairro": "Morro do Estado",
+              "category": "education_childhood",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-55-7",
+              "kind": "facility",
+              "latitude": -22.89924611122165,
+              "longitude": -43.11825782725513,
+              "name": "UMEI Antônio Vieira da Rocha",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Unidade Municipal de Ensino Infantil",
+              "x_m": 693011.0000009235,
+              "y_m": 7466400.002674967
+            }
+          },
+          "node_id": 178,
+          "score": 0.00578741758006271
+        },
+        {
+          "node": {
+            "id": 304,
+            "label": "POI",
+            "properties": {
+              "address": "Trav. Mululo Da Veiga, 41",
+              "bairro": "Barreto",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-40",
+              "kind": "facility",
+              "latitude": -22.86269087091961,
+              "longitude": -43.09997192030395,
+              "name": "EEEE Prof. Álvaro Caetano De Oliveira",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 694939.2886009275,
+              "y_m": 7470424.059374875
+            }
+          },
+          "node_id": 304,
+          "score": 0.005715146581334899
+        },
+        {
+          "node": {
+            "id": 538,
+            "label": "Bairro",
+            "properties": {
+              "country": "Brasil",
+              "external_id": "BAIRRO-itaipu-12544eee",
+              "municipality": "Niterói",
+              "name": "Itaipu",
+              "source": "Prefeitura Municipal de Niterói / SIGeo (bairro attribute)",
+              "state": "RJ"
+            }
+          },
+          "node_id": 538,
+          "score": 0.005486201776295507
+        },
+        {
+          "node": {
+            "id": 289,
+            "label": "POI",
+            "properties": {
+              "address": "Estrada Caetano Monteiro, 814",
+              "bairro": "Badu",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-23",
+              "kind": "facility",
+              "latitude": -22.90684865582247,
+              "longitude": -43.057113246366896,
+              "name": "CE Paulo Assis Ribeiro",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 699273.1687009467,
+              "y_m": 7465476.571474988
+            }
+          },
+          "node_id": 289,
+          "score": 0.005467681160513776
+        },
+        {
+          "node": {
+            "id": 292,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Dr. Fróes da Cruz, s/n",
+              "bairro": "Centro",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-27",
+              "kind": "facility",
+              "latitude": -22.886302539177706,
+              "longitude": -43.1247447573792,
+              "name": "CE Raul Vidal",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 692363.7223009199,
+              "y_m": 7467841.865574935
+            }
+          },
+          "node_id": 292,
+          "score": 0.005457660589257496
+        },
+        {
+          "node": {
+            "id": 299,
+            "label": "POI",
+            "properties": {
+              "address": "Estrada Caetano Monteiro, s/n",
+              "bairro": "Badu",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-34",
+              "kind": "facility",
+              "latitude": -22.907030009936097,
+              "longitude": -43.05662093989847,
+              "name": "CIEP Brizolão 450 Emiliano Di Cavalcanti",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 699323.4107009461,
+              "y_m": 7465455.820774989
+            }
+          },
+          "node_id": 299,
+          "score": 0.005311877482141448
+        },
+        {
+          "node": {
+            "id": 536,
+            "label": "Bairro",
+            "properties": {
+              "country": "Brasil",
+              "external_id": "BAIRRO-ilha-da-conceicao-c62dba64",
+              "municipality": "Niterói",
+              "name": "Ilha da Conceição",
+              "source": "Prefeitura Municipal de Niterói / SIGeo (bairro attribute)",
+              "state": "RJ"
+            }
+          },
+          "node_id": 536,
+          "score": 0.005198653533367899
+        },
+        {
+          "node": {
+            "id": 227,
+            "label": "POI",
+            "properties": {
+              "address": "R. Prof. Ismael Coutinho, 88 - Centro",
+              "bairro": "Centro",
+              "category": "education_municipal",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-60-11",
+              "kind": "facility",
+              "latitude": -22.89571153951747,
+              "longitude": -43.11717597877544,
+              "name": "E.M. Dr. Alberto Francisco Torres",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Municipais",
+              "x_m": 693127.0001009223,
+              "y_m": 7466790.00267496
+            }
+          },
+          "node_id": 227,
+          "score": 0.005096477659744327
+        },
+        {
+          "node": {
+            "id": 281,
+            "label": "POI",
+            "properties": {
+              "address": "Parque Prefeito Ferraz, s/n",
+              "bairro": "Icaraí",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-16",
+              "kind": "facility",
+              "latitude": -22.90501884882515,
+              "longitude": -43.108423489834415,
+              "name": "CE Joaquim Távora",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 694011.7520009279,
+              "y_m": 7465747.793174984
+            }
+          },
+          "node_id": 281,
+          "score": 0.005053721371362124
+        },
+        {
+          "node": {
+            "id": 548,
+            "label": "Bairro",
+            "properties": {
+              "country": "Brasil",
+              "external_id": "BAIRRO-piratininga-491d1395",
+              "municipality": "Niterói",
+              "name": "Piratininga",
+              "source": "Prefeitura Municipal de Niterói / SIGeo (bairro attribute)",
+              "state": "RJ"
+            }
+          },
+          "node_id": 548,
+          "score": 0.004975545419172945
+        },
+        {
+          "node": {
+            "id": 528,
+            "label": "Bairro",
+            "properties": {
+              "country": "Brasil",
+              "external_id": "BAIRRO-caramujo-68c8670b",
+              "municipality": "Niterói",
+              "name": "Caramujo",
+              "source": "Prefeitura Municipal de Niterói / SIGeo (bairro attribute)",
+              "state": "RJ"
+            }
+          },
+          "node_id": 528,
+          "score": 0.00486219722142088
+        },
+        {
+          "node": {
+            "id": 541,
+            "label": "Bairro",
+            "properties": {
+              "country": "Brasil",
+              "external_id": "BAIRRO-jurujuba-c1f16a1d",
+              "municipality": "Niterói",
+              "name": "Jurujuba",
+              "source": "Prefeitura Municipal de Niterói / SIGeo (bairro attribute)",
+              "state": "RJ"
+            }
+          },
+          "node_id": 541,
+          "score": 0.00466093090619421
+        },
+        {
+          "node": {
+            "id": 280,
+            "label": "POI",
+            "properties": {
+              "address": "Alameda São Boa ventura, 794",
+              "bairro": "Fonseca",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-15",
+              "kind": "facility",
+              "latitude": -22.881397303689543,
+              "longitude": -43.09022989501936,
+              "name": "CE Hilário Ribeiro",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 695912.2138009311,
+              "y_m": 7468339.568474923
+            }
+          },
+          "node_id": 280,
+          "score": 0.004650367640919748
+        },
+        {
+          "node": {
+            "id": 296,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Carlos Ermelindo Martins, s/n",
+              "bairro": "Charitas",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-33",
+              "kind": "facility",
+              "latitude": -22.933131363682836,
+              "longitude": -43.09812667495016,
+              "name": "CIEP 449 Gov. Leonel De Moura Brizola",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 695027.8696009335,
+              "y_m": 7462620.958975054
+            }
+          },
+          "node_id": 296,
+          "score": 0.00463489420790813
+        },
+        {
+          "node": {
+            "id": 270,
+            "label": "POI",
+            "properties": {
+              "address": "Avenida Presidente Roosevelt, 2",
+              "bairro": "São Francisco",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-5",
+              "kind": "facility",
+              "latitude": -22.914789416371395,
+              "longitude": -43.09407156523006,
+              "name": "CE Cizínio Soares Pinto",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 695470.1370009335,
+              "y_m": 7464646.788275009
+            }
+          },
+          "node_id": 270,
+          "score": 0.004596298303479398
+        },
+        {
+          "node": {
+            "id": 558,
+            "label": "Bairro",
+            "properties": {
+              "country": "Brasil",
+              "external_id": "BAIRRO-sao-lourenco-d037479a",
+              "municipality": "Niterói",
+              "name": "São Lourenço",
+              "source": "Prefeitura Municipal de Niterói / SIGeo (bairro attribute)",
+              "state": "RJ"
+            }
+          },
+          "node_id": 558,
+          "score": 0.004584839144660744
+        },
+        {
+          "node": {
+            "id": 197,
+            "label": "POI",
+            "properties": {
+              "address": "R. José Bonifácio, 56 – São Domingos",
+              "bairro": "São Domingos",
+              "category": "education_childhood",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-55-26",
+              "kind": "facility",
+              "latitude": -22.90009696546051,
+              "longitude": -43.12913351262765,
+              "name": "UMEI Prof. Denise Mendes Cardia",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Unidade Municipal de Ensino Infantil",
+              "x_m": 691894.0001009193,
+              "y_m": 7466320.002574969
+            }
+          },
+          "node_id": 197,
+          "score": 0.004562896558800898
+        },
+        {
+          "node": {
+            "id": 176,
+            "label": "POI",
+            "properties": {
+              "address": "R. Evaristo da Veiga, 108 - Centro",
+              "bairro": "Centro",
+              "category": "education_childhood",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-55-5",
+              "kind": "facility",
+              "latitude": -22.893078211574103,
+              "longitude": -43.11594528432264,
+              "name": "UMEI Alberto de Oliveira",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Unidade Municipal de Ensino Infantil",
+              "x_m": 693257.000000924,
+              "y_m": 7467080.002674952
+            }
+          },
+          "node_id": 176,
+          "score": 0.004357283941671545
+        },
+        {
+          "node": {
+            "id": 526,
+            "label": "Bairro",
+            "properties": {
+              "country": "Brasil",
+              "external_id": "BAIRRO-cafuba-cc1b76af",
+              "municipality": "Niterói",
+              "name": "Cafubá",
+              "source": "Prefeitura Municipal de Niterói / SIGeo (bairro attribute)",
+              "state": "RJ"
+            }
+          },
+          "node_id": 526,
+          "score": 0.004331577185367082
+        },
+        {
+          "node": {
+            "id": 258,
+            "label": "POI",
+            "properties": {
+              "address": "R. Gal. Pereira da Silva, 50 - Icaraí",
+              "bairro": "Icaraí",
+              "category": "education_municipal",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-60-42",
+              "kind": "facility",
+              "latitude": -22.904784458925423,
+              "longitude": -43.11317126387755,
+              "name": "E.M. Profº Paulo de Almeida Campos",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Municipais",
+              "x_m": 693525.0001009253,
+              "y_m": 7465780.002774982
+            }
+          },
+          "node_id": 258,
+          "score": 0.0042268899484483235
+        },
+        {
+          "node": {
+            "id": 193,
+            "label": "POI",
+            "properties": {
+              "address": "Rua XV de Novembro,179 - Centro",
+              "bairro": "Centro",
+              "category": "education_childhood",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-55-20",
+              "kind": "facility",
+              "latitude": -22.89655493055041,
+              "longitude": -43.11976671860312,
+              "name": "UMEI Mª Vitória Ayres Neves",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Unidade Municipal de Ensino Infantil",
+              "x_m": 692860.0001009218,
+              "y_m": 7466700.002674961
+            }
+          },
+          "node_id": 193,
+          "score": 0.0042011425044649565
+        },
+        {
+          "node": {
+            "id": 210,
+            "label": "POI",
+            "properties": {
+              "address": "R.Dr. Celestino, 78 - Centro",
+              "bairro": "Centro",
+              "category": "education_childhood",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-55-39",
+              "kind": "facility",
+              "latitude": -22.895432479583015,
+              "longitude": -43.1164878178153,
+              "name": "UMEI Rosalda Paim",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Unidade Municipal de Ensino Infantil",
+              "x_m": 693198.0001009244,
+              "y_m": 7466820.002674959
+            }
+          },
+          "node_id": 210,
+          "score": 0.0040711988070168134
+        },
+        {
+          "node": {
+            "id": 283,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Reverendo Armando Ferreira, s/n",
+              "bairro": "Maceió",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-18",
+              "kind": "facility",
+              "latitude": -22.910164686435916,
+              "longitude": -43.06797244188967,
+              "name": "CE Leopoldo Fróes",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 698154.2706009428,
+              "y_m": 7465124.014674997
+            }
+          },
+          "node_id": 283,
+          "score": 0.00401149973870906
+        },
+        {
+          "node": {
+            "id": 278,
+            "label": "POI",
+            "properties": {
+              "address": "Av. Carlos Ermelindo Marins, 50",
+              "bairro": "Jurujuba",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-14",
+              "kind": "facility",
+              "latitude": -22.9329636673287,
+              "longitude": -43.11431783078859,
+              "name": "CE Fernando Magalhães",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 693367.3613009278,
+              "y_m": 7462660.926775055
+            }
+          },
+          "node_id": 278,
+          "score": 0.0039995287033224945
+        },
+        {
+          "node": {
+            "id": 271,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Teixeira de Freitas, 421",
+              "bairro": "Fonseca",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-401",
+              "kind": "facility",
+              "latitude": -22.87336785432088,
+              "longitude": -43.074941837997926,
+              "name": "CE Conselheiro Josino",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 697492.5586009376,
+              "y_m": 7469208.344874904
+            }
+          },
+          "node_id": 271,
+          "score": 0.00395002283324886
+        },
+        {
+          "node": {
+            "id": 301,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Assis de Vasconcelos, 30",
+              "bairro": "Barreto",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-36",
+              "kind": "facility",
+              "latitude": -22.86934489756487,
+              "longitude": -43.10345255428266,
+              "name": "EE Menezes Vieira",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 694572.6090009275,
+              "y_m": 7469691.788974893
+            }
+          },
+          "node_id": 301,
+          "score": 0.0038863265028758454
+        },
+        {
+          "node": {
+            "id": 288,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Coronel Guimarães, 505",
+              "bairro": "Engenhoca",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-24",
+              "kind": "facility",
+              "latitude": -22.870406184073296,
+              "longitude": -43.09909976650473,
+              "name": "CE Mullulo da Veiga",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 695017.7739009289,
+              "y_m": 7469568.506474895
+            }
+          },
+          "node_id": 288,
+          "score": 0.0038487837664404763
+        },
+        {
+          "node": {
+            "id": 95,
+            "label": "POI",
+            "properties": {
+              "address": "Av. Visconde do Rio Branco, 627",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-95",
+              "kind": "facility",
+              "latitude": -22.89653199933484,
+              "longitude": -43.12613100036421,
+              "name": "Grupo Diversidade Niteroi",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692207.06920092,
+              "y_m": 7466710.867874961
+            }
+          },
+          "node_id": 95,
+          "score": 0.0038471990810337114
+        },
+        {
+          "node": {
+            "id": 532,
+            "label": "Bairro",
+            "properties": {
+              "country": "Brasil",
+              "external_id": "BAIRRO-engenho-do-mato-89ef315f",
+              "municipality": "Niterói",
+              "name": "Engenho do Mato",
+              "source": "Prefeitura Municipal de Niterói / SIGeo (bairro attribute)",
+              "state": "RJ"
+            }
+          },
+          "node_id": 532,
+          "score": 0.0038187381429211124
+        },
+        {
+          "node": {
+            "id": 92,
+            "label": "POI",
+            "properties": {
+              "address": "R. Padre Anchieta 56 - Centro",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-92",
+              "kind": "facility",
+              "latitude": -22.89821599968602,
+              "longitude": -43.12202700026593,
+              "name": "Galeria do Sesc",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692625.7526009225,
+              "y_m": 7466519.015974965
+            }
+          },
+          "node_id": 92,
+          "score": 0.0037926427036699493
+        },
+        {
+          "node": {
+            "id": 101,
+            "label": "POI",
+            "properties": {
+              "address": "R. da Conceicao, 216, Centro",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-98",
+              "kind": "facility",
+              "latitude": -22.89471599920093,
+              "longitude": -43.11827300025707,
+              "name": "Igreja de Nossa Senhora da Conceicao",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 693015.8560009229,
+              "y_m": 7466901.688074956
+            }
+          },
+          "node_id": 101,
+          "score": 0.00362861121270915
+        },
+        {
+          "node": {
+            "id": 277,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Riodades, 253",
+              "bairro": "Fonseca",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-11",
+              "kind": "facility",
+              "latitude": -22.876729113383277,
+              "longitude": -43.082135680291486,
+              "name": "CE Embaixador Raul Fernandes",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 696749.4999009353,
+              "y_m": 7468845.74027491
+            }
+          },
+          "node_id": 277,
+          "score": 0.0035799505227297017
+        },
+        {
+          "node": {
+            "id": 531,
+            "label": "Bairro",
+            "properties": {
+              "country": "Brasil",
+              "external_id": "BAIRRO-cubango-78ff4fe3",
+              "municipality": "Niterói",
+              "name": "Cubango",
+              "source": "Prefeitura Municipal de Niterói / SIGeo (bairro attribute)",
+              "state": "RJ"
+            }
+          },
+          "node_id": 531,
+          "score": 0.00357897734892488
+        },
+        {
+          "node": {
+            "id": 293,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Salo Brand, s/n",
+              "bairro": "Ilha da Conceição",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-28",
+              "kind": "facility",
+              "latitude": -22.872932874074856,
+              "longitude": -43.11476699710583,
+              "name": "CE Zuleika Raposo Valladares",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 693406.4473009227,
+              "y_m": 7469309.353474902
+            }
+          },
+          "node_id": 293,
+          "score": 0.0035636937654396485
+        },
+        {
+          "node": {
+            "id": 90,
+            "label": "POI",
+            "properties": {
+              "address": "R. Professor Hernani de Melo, 18 - Inga",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-90",
+              "kind": "facility",
+              "latitude": -22.897932999682546,
+              "longitude": -43.127688000220246,
+              "name": "Galeria do Campo",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692045.3509009196,
+              "y_m": 7466557.753974964
+            }
+          },
+          "node_id": 90,
+          "score": 0.0035014872069608354
+        },
+        {
+          "node": {
+            "id": 539,
+            "label": "Bairro",
+            "properties": {
+              "country": "Brasil",
+              "external_id": "BAIRRO-ititioca-6e2cda73",
+              "municipality": "Niterói",
+              "name": "Ititioca",
+              "source": "Prefeitura Municipal de Niterói / SIGeo (bairro attribute)",
+              "state": "RJ"
+            }
+          },
+          "node_id": 539,
+          "score": 0.0034689773160777823
+        },
+        {
+          "node": {
+            "id": 9,
+            "label": "POI",
+            "properties": {
+              "address": "Outeiro de Sao Joao Batista, s/n - Campus do Valonginho - Centro - Niteroi",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-9",
+              "kind": "facility",
+              "latitude": -22.8966559990164,
+              "longitude": -43.125581999941694,
+              "name": "Biblioteca Central do Valonguinho",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692263.2207009211,
+              "y_m": 7466696.41907496
+            }
+          },
+          "node_id": 9,
+          "score": 0.003444336794927331
+        },
+        {
+          "node": {
+            "id": 30,
+            "label": "POI",
+            "properties": {
+              "address": "Praia de Itaipu",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-30",
+              "kind": "facility",
+              "latitude": -22.973409999606076,
+              "longitude": -43.04563500027746,
+              "name": "Canto Sul da Praia de Itaipu",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 700352.7203009559,
+              "y_m": 7458089.705275157
+            }
+          },
+          "node_id": 30,
+          "score": 0.003336659862686584
+        },
+        {
+          "node": {
+            "id": 269,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Professora Emylce, s/n",
+              "bairro": "São Lourenço",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-3",
+              "kind": "facility",
+              "latitude": -22.883228304294448,
+              "longitude": -43.11086968309119,
+              "name": "CE Brigadeiro Castrioto",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 693791.7554009254,
+              "y_m": 7468164.112574927
+            }
+          },
+          "node_id": 269,
+          "score": 0.0033333492634529155
+        },
+        {
+          "node": {
+            "id": 287,
+            "label": "POI",
+            "properties": {
+              "address": "Avenida Professor Silvio Picanço, s/n",
+              "bairro": "Charitas",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-22",
+              "kind": "facility",
+              "latitude": -22.934033520135763,
+              "longitude": -43.09966208778241,
+              "name": "CE Matemático Joaquim Gomes de Souza- Brasil/China",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 694869.0883009324,
+              "y_m": 7462523.089775056
+            }
+          },
+          "node_id": 287,
+          "score": 0.0032525574273849275
+        },
+        {
+          "node": {
+            "id": 552,
+            "label": "Bairro",
+            "properties": {
+              "country": "Brasil",
+              "external_id": "BAIRRO-santa-barbara-b28ae608",
+              "municipality": "Niterói",
+              "name": "Santa Bárbara",
+              "source": "Prefeitura Municipal de Niterói / SIGeo (bairro attribute)",
+              "state": "RJ"
+            }
+          },
+          "node_id": 552,
+          "score": 0.003229566913407471
+        },
+        {
+          "node": {
+            "id": 82,
+            "label": "POI",
+            "properties": {
+              "address": "R. Almirante Teffe, 632, Sl. 115,",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-81",
+              "kind": "facility",
+              "latitude": -22.89608099902592,
+              "longitude": -43.122684999537256,
+              "name": "Espaco do Artesao",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692561.259100922,
+              "y_m": 7466756.30707496
+            }
+          },
+          "node_id": 82,
+          "score": 0.0032272764884395434
+        },
+        {
+          "node": {
+            "id": 223,
+            "label": "POI",
+            "properties": {
+              "address": "Trav. Magnólia Brasil, s/nº - Fonseca",
+              "bairro": "Fonseca",
+              "category": "education_municipal",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-60-7",
+              "kind": "facility",
+              "latitude": -22.88438917812867,
+              "longitude": -43.09908801524272,
+              "name": "E.M. Demenciano Antônio de Moura",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Municipais",
+              "x_m": 694999.0000009305,
+              "y_m": 7468020.00277493
+            }
+          },
+          "node_id": 223,
+          "score": 0.003219893493875337
+        },
+        {
+          "node": {
+            "id": 545,
+            "label": "Bairro",
+            "properties": {
+              "country": "Brasil",
+              "external_id": "BAIRRO-maria-paula-ed0b355b",
+              "municipality": "Niterói",
+              "name": "Maria Paula",
+              "source": "Prefeitura Municipal de Niterói / SIGeo (bairro attribute)",
+              "state": "RJ"
+            }
+          },
+          "node_id": 545,
+          "score": 0.0031794384147669306
+        },
+        {
+          "node": {
+            "id": 242,
+            "label": "POI",
+            "properties": {
+              "address": "R. 65, L. 10 e 11, Q. 87 - Cafubá",
+              "bairro": "Cafubá",
+              "category": "education_municipal",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-60-26",
+              "kind": "facility",
+              "latitude": -22.936351388239917,
+              "longitude": -43.07241005814963,
+              "name": "E.M. Maralegre",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Municipais",
+              "x_m": 697661.0000009426,
+              "y_m": 7462230.002975063
+            }
+          },
+          "node_id": 242,
+          "score": 0.0030559407867596874
+        },
+        {
+          "node": {
+            "id": 540,
+            "label": "Bairro",
+            "properties": {
+              "country": "Brasil",
+              "external_id": "BAIRRO-jacare-df79b05a",
+              "municipality": "Niterói",
+              "name": "Jacaré",
+              "source": "Prefeitura Municipal de Niterói / SIGeo (bairro attribute)",
+              "state": "RJ"
+            }
+          },
+          "node_id": 540,
+          "score": 0.003054473289728265
+        },
+        {
+          "node": {
+            "id": 276,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Albino Pereira, 300",
+              "bairro": "Cachoeira",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-12",
+              "kind": "facility",
+              "latitude": -22.90978326925164,
+              "longitude": -43.07770780017368,
+              "name": "CE Duque De Caxias",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 697156.0727009396,
+              "y_m": 7465179.336074995
+            }
+          },
+          "node_id": 276,
+          "score": 0.003041594856533865
+        },
+        {
+          "node": {
+            "id": 77,
+            "label": "POI",
+            "properties": {
+              "address": "R. Dr. Arthur Tibau, 31 - Ingaa",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-80",
+              "kind": "facility",
+              "latitude": -22.900608999061163,
+              "longitude": -43.12489000035408,
+              "name": "Espaco Cultural Tribo Urbana",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692328.6420009213,
+              "y_m": 7466257.759974971
+            }
+          },
+          "node_id": 77,
+          "score": 0.003014818370573197
+        },
+        {
+          "node": {
+            "id": 279,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Dr. Mario Viana, 625",
+              "bairro": "Santa Rosa",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-13",
+              "kind": "facility",
+              "latitude": -22.90522594299481,
+              "longitude": -43.08976537015226,
+              "name": "CE Guilherme Briggs",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 695925.6414009344,
+              "y_m": 7465700.132774984
+            }
+          },
+          "node_id": 279,
+          "score": 0.0030037333349526687
+        },
+        {
+          "node": {
+            "id": 254,
+            "label": "POI",
+            "properties": {
+              "address": "R. Dr. Luiz Palmier, 100 - Barreto",
+              "bairro": "Barreto",
+              "category": "education_municipal",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-60-38",
+              "kind": "facility",
+              "latitude": -22.864699505171007,
+              "longitude": -43.09874823339881,
+              "name": "E.M. Profº André Trouche",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Municipais",
+              "x_m": 695062.0000009282,
+              "y_m": 7470200.00277488
+            }
+          },
+          "node_id": 254,
+          "score": 0.0029733171741089756
+        },
+        {
+          "node": {
+            "id": 560,
+            "label": "Bairro",
+            "properties": {
+              "country": "Brasil",
+              "external_id": "BAIRRO-varzea-das-mocas-92494f42",
+              "municipality": "Niterói",
+              "name": "Varzea das Moças",
+              "source": "Prefeitura Municipal de Niterói / SIGeo (bairro attribute)",
+              "state": "RJ"
+            }
+          },
+          "node_id": 560,
+          "score": 0.0029158793958728247
+        },
+        {
+          "node": {
+            "id": 239,
+            "label": "POI",
+            "properties": {
+              "address": "R. Lopes Trovão,s/nº - Icaraí",
+              "bairro": "Icaraí",
+              "category": "education_municipal",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-60-23",
+              "kind": "facility",
+              "latitude": -22.904187572095104,
+              "longitude": -43.10853982602801,
+              "name": "E.M. Julia Cortines",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Municipais",
+              "x_m": 694001.0000009265,
+              "y_m": 7465840.002774981
+            }
+          },
+          "node_id": 239,
+          "score": 0.0028688764354290607
+        },
+        {
+          "node": {
+            "id": 249,
+            "label": "POI",
+            "properties": {
+              "address": "Trav. Emílio Andrada, 2 - Icaraí",
+              "bairro": "Icaraí",
+              "category": "education_municipal",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-60-33",
+              "kind": "facility",
+              "latitude": -22.910991896586246,
+              "longitude": -43.10363002613203,
+              "name": "E.M. Profª Elvira Lúcia Esteves de Vasconcelo",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Municipais",
+              "x_m": 694495.0000009292,
+              "y_m": 7465080.002674999
+            }
+          },
+          "node_id": 249,
+          "score": 0.002857429521376361
+        },
+        {
+          "node": {
+            "id": 87,
+            "label": "POI",
+            "properties": {
+              "address": "Praca da Republica, 26 - Centro",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-87",
+              "kind": "facility",
+              "latitude": -22.89395199915105,
+              "longitude": -43.1178650001091,
+              "name": "Forum de Niteroi (Antigo Palacio da Justica)",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 693058.7983009232,
+              "y_m": 7466985.7584749535
+            }
+          },
+          "node_id": 87,
+          "score": 0.002841407560525359
+        },
+        {
+          "node": {
+            "id": 265,
+            "label": "POI",
+            "properties": {
+              "address": "R. Ititioca, s/nº - Ititioca",
+              "bairro": "Ititioca",
+              "category": "education_municipal",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-60-49",
+              "kind": "facility",
+              "latitude": -22.89641373757162,
+              "longitude": -43.07778003917869,
+              "name": "E.M. Vila Costa Monteiro",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Municipais",
+              "x_m": 697168.0000009371,
+              "y_m": 7466660.002874963
+            }
+          },
+          "node_id": 265,
+          "score": 0.0028258665504515695
+        },
+        {
+          "node": {
+            "id": 543,
+            "label": "Bairro",
+            "properties": {
+              "country": "Brasil",
+              "external_id": "BAIRRO-maceio-2d9af1bc",
+              "municipality": "Niterói",
+              "name": "Maceió",
+              "source": "Prefeitura Municipal de Niterói / SIGeo (bairro attribute)",
+              "state": "RJ"
+            }
+          },
+          "node_id": 543,
+          "score": 0.0027881209208436347
+        },
+        {
+          "node": {
+            "id": 80,
+            "label": "POI",
+            "properties": {
+              "address": "Av. Visconde do Rio Branco, 481, Centro",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-77",
+              "kind": "facility",
+              "latitude": -22.894941999331987,
+              "longitude": -43.123766999563344,
+              "name": "Espaco Cultural dos Correios",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692451.855100921,
+              "y_m": 7466883.855074956
+            }
+          },
+          "node_id": 80,
+          "score": 0.002754770204460377
+        },
+        {
+          "node": {
+            "id": 291,
+            "label": "POI",
+            "properties": {
+              "address": "Estrada Francisco da Cruz Nunes, s/n",
+              "bairro": "Itaipu",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-26",
+              "kind": "facility",
+              "latitude": -22.9527833351846,
+              "longitude": -43.02833764765481,
+              "name": "CE Profª Alcina Rodrigues Lima",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 702157.135200959,
+              "y_m": 7460350.279375106
+            }
+          },
+          "node_id": 291,
+          "score": 0.0027283478006816147
+        },
+        {
+          "node": {
+            "id": 225,
+            "label": "POI",
+            "properties": {
+              "address": "R. Cinco de Março, 75- Fonseca",
+              "bairro": "Fonseca",
+              "category": "education_municipal",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-60-9",
+              "kind": "facility",
+              "latitude": -22.872210484009365,
+              "longitude": -43.07754598199953,
+              "name": "E.M. Djalma Coutinho de Oliveira",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Municipais",
+              "x_m": 697227.0000009367,
+              "y_m": 7469340.0029748995
+            }
+          },
+          "node_id": 225,
+          "score": 0.002702035192719133
+        },
+        {
+          "node": {
+            "id": 246,
+            "label": "POI",
+            "properties": {
+              "address": "R. Santos Moreira, 58 - Santa Rosa",
+              "bairro": "Santa Rosa",
+              "category": "education_municipal",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-60-30",
+              "kind": "facility",
+              "latitude": -22.90389118972143,
+              "longitude": -43.09131088092481,
+              "name": "E.M. Padre Leonel Franca",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Municipais",
+              "x_m": 695769.0001009338,
+              "y_m": 7465850.002774982
+            }
+          },
+          "node_id": 246,
+          "score": 0.0026900579535681824
+        },
+        {
+          "node": {
+            "id": 282,
+            "label": "POI",
+            "properties": {
+              "address": "Rua Doutor Carlos Maximiano, s/n",
+              "bairro": "São Lourenço",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-17",
+              "kind": "facility",
+              "latitude": -22.88295412200613,
+              "longitude": -43.10585310627886,
+              "name": "CE José Bonifácio",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 694306.8905009275,
+              "y_m": 7468187.864874926
+            }
+          },
+          "node_id": 282,
+          "score": 0.0026780714601975855
+        },
+        {
+          "node": {
+            "id": 231,
+            "label": "POI",
+            "properties": {
+              "address": "R. Quatorze, 14 - Piratininga",
+              "bairro": "Piratininga",
+              "category": "education_municipal",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-60-15",
+              "kind": "facility",
+              "latitude": -22.94230290617037,
+              "longitude": -43.05693080456247,
+              "name": "E.M. Francisco Portugal Neves",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Municipais",
+              "x_m": 699240.0001009495,
+              "y_m": 7461550.003075079
+            }
+          },
+          "node_id": 231,
+          "score": 0.0026716337676767725
+        },
+        {
+          "node": {
+            "id": 275,
+            "label": "POI",
+            "properties": {
+              "address": "Av.Pastor José Gomes de Souza, s/n",
+              "bairro": "Caramujo",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-9",
+              "kind": "facility",
+              "latitude": -22.883982943700342,
+              "longitude": -43.0626916124634,
+              "name": "CE Dr. Luciano Pestre",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 698734.1909009429,
+              "y_m": 7468016.327774931
+            }
+          },
+          "node_id": 275,
+          "score": 0.002602673709275108
+        },
+        {
+          "node": {
+            "id": 252,
+            "label": "POI",
+            "properties": {
+              "address": "R. Leite Ribeiro, 120 - Fonseca",
+              "bairro": "Fonseca",
+              "category": "education_municipal",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-60-36",
+              "kind": "facility",
+              "latitude": -22.883968178730843,
+              "longitude": -43.09409430218958,
+              "name": "E.M. Profª Mª de Lourdes Barbosa Santos",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Municipais",
+              "x_m": 695512.0000009313,
+              "y_m": 7468060.00277493
+            }
+          },
+          "node_id": 252,
+          "score": 0.002573001161523146
+        },
+        {
+          "node": {
+            "id": 241,
+            "label": "POI",
+            "properties": {
+              "address": "R. Salo Brand, s/nº - Ilha da Conceição",
+              "bairro": "Ilha da Conceição",
+              "category": "education_municipal",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-60-25",
+              "kind": "facility",
+              "latitude": -22.87302832207888,
+              "longitude": -43.115695817593455,
+              "name": "E.M. Maestro Heitor Villa Lobos",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Municipais",
+              "x_m": 693311.0001009237,
+              "y_m": 7469300.0026749
+            }
+          },
+          "node_id": 241,
+          "score": 0.002550015415162501
+        },
+        {
+          "node": {
+            "id": 286,
+            "label": "POI",
+            "properties": {
+              "address": "Trav. Doutor João Leitão, s/n",
+              "bairro": "Charitas",
+              "category": "education_state",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-65-21",
+              "kind": "facility",
+              "latitude": -22.93358560983452,
+              "longitude": -43.098829278720814,
+              "name": "CE Maria Pereira Das Neves",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Estaduais",
+              "x_m": 694955.1518009332,
+              "y_m": 7462571.587375054
+            }
+          },
+          "node_id": 286,
+          "score": 0.0025344603103144544
+        },
+        {
+          "node": {
+            "id": 76,
+            "label": "POI",
+            "properties": {
+              "address": "Av. Ernani do Amaral Peixoto, 370 / s.lj. - Centro",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-79",
+              "kind": "facility",
+              "latitude": -22.89374899911233,
+              "longitude": -43.11988200023991,
+              "name": "Espaco Cultural Nippon",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692852.1407009214,
+              "y_m": 7467010.882874953
+            }
+          },
+          "node_id": 76,
+          "score": 0.002456924132508686
+        },
+        {
+          "node": {
+            "id": 247,
+            "label": "POI",
+            "properties": {
+              "address": "R. Soares de Miranda, 77 - Fonseca",
+              "bairro": "Fonseca",
+              "category": "education_municipal",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-60-31",
+              "kind": "facility",
+              "latitude": -22.88292658150481,
+              "longitude": -43.082569990211496,
+              "name": "E.M. Paulo Freire",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Municipais",
+              "x_m": 696696.0000009356,
+              "y_m": 7468160.002874928
+            }
+          },
+          "node_id": 247,
+          "score": 0.002427340948004708
+        },
+        {
+          "node": {
+            "id": 229,
+            "label": "POI",
+            "properties": {
+              "address": "Estrada Frei Orlando, s/nº - Piratininga",
+              "bairro": "Jacaré",
+              "category": "education_municipal",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-60-13",
+              "kind": "facility",
+              "latitude": -22.937131219189016,
+              "longitude": -43.05491826702636,
+              "name": "E.M. Eulália da Silveira Bragança",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Municipais",
+              "x_m": 699454.0000009498,
+              "y_m": 7462120.003075066
+            }
+          },
+          "node_id": 229,
+          "score": 0.002385445984526024
+        },
+        {
+          "node": {
+            "id": 253,
+            "label": "POI",
+            "properties": {
+              "address": "R. Tupiniquis, 392 - São Francisco",
+              "bairro": "São Francisco",
+              "category": "education_municipal",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-60-35",
+              "kind": "facility",
+              "latitude": -22.91662338334009,
+              "longitude": -43.09129828725276,
+              "name": "E.M. Profª Mª Ângela Moreira Pinto",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Municipais",
+              "x_m": 695752.0000009335,
+              "y_m": 7464440.002875012
+            }
+          },
+          "node_id": 253,
+          "score": 0.002375729778687701
+        },
+        {
+          "node": {
+            "id": 243,
+            "label": "POI",
+            "properties": {
+              "address": "R. Dr. Luiz Palmier, 100 - Barreto",
+              "bairro": "Barreto",
+              "category": "education_municipal",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-60-27",
+              "kind": "facility",
+              "latitude": -22.86460758872847,
+              "longitude": -43.09861309129544,
+              "name": "E.M. Mestra Fininha",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Escolas Municipais",
+              "x_m": 695076.000000928,
+              "y_m": 7470210.002774879
+            }
+          },
+          "node_id": 243,
+          "score": 0.0023570743840140153
+        },
+        {
+          "node": {
+            "id": 191,
+            "label": "POI",
+            "properties": {
+              "address": "Av Presidente  Roosevelt, 49 - São Francisco",
+              "bairro": "São Francisco",
+              "category": "education_childhood",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-55-21",
+              "kind": "facility",
+              "latitude": -22.91430278337561,
+              "longitude": -43.09356306709774,
+              "name": "UMEI Maria Luiza Da Cunha Sampaio",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Unidade Municipal de Ensino Infantil",
+              "x_m": 695523.0000009343,
+              "y_m": 7464700.002775007
+            }
+          },
+          "node_id": 191,
+          "score": 0.0023525600921008734
+        },
+        {
+          "node": {
+            "id": 62,
+            "label": "POI",
+            "properties": {
+              "address": "R. Quinze de Novembro, 8, Centro",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-62",
+              "kind": "facility",
+              "latitude": -22.89750299951983,
+              "longitude": -43.123729999947386,
+              "name": "Cinemark Plaza Shopping",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 692452.0366009213,
+              "y_m": 7466600.201674963
+            }
+          },
+          "node_id": 62,
+          "score": 0.002346503847309721
+        },
+        {
+          "node": {
+            "id": 74,
+            "label": "POI",
+            "properties": {
+              "address": "Av. Jansen de Mello, 3 - Centro",
+              "category": "culture",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-50-74",
+              "kind": "facility",
+              "latitude": -22.88380399963133,
+              "longitude": -43.11554499989211,
+              "name": "Espaco Cultural Conselheiro Paschoal Cittadino",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Patrimônios e Equipamentos Culturais",
+              "x_m": 693311.2123009234,
+              "y_m": 7468106.505274929
+            }
+          },
+          "node_id": 74,
+          "score": 0.002337310528211783
+        },
+        {
+          "node": {
+            "id": 208,
+            "label": "POI",
+            "properties": {
+              "address": "R. Silveira da Mota, s/nº - São Lourenço",
+              "bairro": "Boa Vista",
+              "category": "education_childhood",
+              "crs": "EPSG:31983",
+              "external_id": "NIT-55-37",
+              "kind": "facility",
+              "latitude": -22.88710828568549,
+              "longitude": -43.10749993228404,
+              "name": "UMEI Profº Nilo Neves",
+              "source": "Prefeitura Municipal de Niterói / SIGeo",
+              "source_layer": "Unidade Municipal de Ensino Infantil",
+              "x_m": 694132.000000927,
+              "y_m": 7467730.002674937
+            }
+          },
+          "node_id": 208,
+          "score": 0.0023326109434845792
+        }
+      ]
+    },
+    "connected_components": {
+      "elapsed_ms": 85.552,
+      "rows": [
+        {
+          "component": 0,
+          "nodes": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            82,
+            84,
+            86,
+            87,
+            88,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            141,
+            142,
+            143,
+            144,
+            148,
+            150,
+            151,
+            152,
+            153,
+            154,
+            156,
+            160,
+            161,
+            162,
+            163,
+            164,
+            165,
+            166,
+            167,
+            168,
+            169,
+            170,
+            171,
+            172,
+            173,
+            175,
+            176,
+            177,
+            178,
+            179,
+            181,
+            182,
+            183,
+            185,
+            186,
+            187,
+            188,
+            189,
+            191,
+            192,
+            193,
+            194,
+            196,
+            197,
+            198,
+            199,
+            200,
+            201,
+            202,
+            205,
+            207,
+            208,
+            209,
+            210,
+            211,
+            212,
+            214,
+            215,
+            216,
+            217,
+            218,
+            219,
+            220,
+            221,
+            222,
+            223,
+            225,
+            226,
+            227,
+            228,
+            232,
+            233,
+            236,
+            237,
+            238,
+            239,
+            240,
+            241,
+            243,
+            244,
+            245,
+            246,
+            247,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            256,
+            258,
+            259,
+            260,
+            261,
+            263,
+            264,
+            265,
+            267,
+            268,
+            269,
+            270,
+            271,
+            272,
+            273,
+            275,
+            276,
+            277,
+            278,
+            279,
+            280,
+            281,
+            282,
+            283,
+            284,
+            285,
+            286,
+            287,
+            288,
+            289,
+            290,
+            292,
+            293,
+            294,
+            296,
+            298,
+            299,
+            300,
+            301,
+            302,
+            303,
+            304,
+            305,
+            306,
+            307,
+            310,
+            311,
+            312,
+            313,
+            314,
+            315,
+            316,
+            317,
+            318,
+            319,
+            321,
+            322,
+            323,
+            324,
+            328,
+            329,
+            330,
+            331,
+            334,
+            335,
+            337,
+            338,
+            339,
+            340,
+            341,
+            342,
+            343,
+            344,
+            345,
+            346,
+            347,
+            348,
+            349,
+            350,
+            352,
+            353,
+            354,
+            355,
+            356,
+            357,
+            358,
+            359,
+            360,
+            361,
+            363,
+            364,
+            365,
+            366,
+            368,
+            369,
+            370,
+            371,
+            373,
+            374,
+            375,
+            376,
+            377,
+            378,
+            379,
+            381,
+            382,
+            383,
+            384,
+            388,
+            389,
+            390,
+            391,
+            394,
+            395,
+            397,
+            398,
+            399,
+            401,
+            402,
+            403,
+            404,
+            405,
+            406,
+            407,
+            408,
+            409,
+            410,
+            411,
+            412,
+            413,
+            414,
+            415,
+            416,
+            417,
+            418,
+            419,
+            420,
+            421,
+            422,
+            424,
+            425,
+            426,
+            428,
+            429,
+            430,
+            431,
+            432,
+            433,
+            434,
+            435,
+            436,
+            437,
+            438,
+            439,
+            440,
+            441,
+            442,
+            443,
+            444,
+            445,
+            446,
+            447,
+            448,
+            449,
+            450,
+            451,
+            452,
+            453,
+            454,
+            456,
+            458,
+            459,
+            460,
+            461,
+            462,
+            463,
+            465,
+            466,
+            467,
+            468,
+            469,
+            470,
+            471,
+            472,
+            473,
+            474,
+            475,
+            476,
+            477,
+            478,
+            479,
+            480,
+            481,
+            483,
+            484,
+            485,
+            486,
+            487,
+            489,
+            490,
+            491,
+            492,
+            493,
+            494,
+            495,
+            496,
+            497,
+            498,
+            499,
+            500,
+            501,
+            502,
+            503,
+            504,
+            505,
+            507,
+            508,
+            509,
+            510,
+            511,
+            512,
+            513,
+            514,
+            515,
+            516,
+            517,
+            518,
+            519,
+            520,
+            521,
+            522,
+            523,
+            524,
+            525,
+            527,
+            528,
+            529,
+            530,
+            531,
+            533,
+            534,
+            535,
+            536,
+            537,
+            539,
+            541,
+            542,
+            543,
+            547,
+            549,
+            550,
+            552,
+            553,
+            554,
+            555,
+            556,
+            557,
+            558,
+            559,
+            561,
+            563,
+            564
+          ],
+          "size": 477
+        },
+        {
+          "component": 1,
+          "nodes": [
+            30,
+            89,
+            99,
+            125,
+            140,
+            145,
+            147,
+            149,
+            159,
+            180,
+            195,
+            204,
+            206,
+            213,
+            255,
+            257,
+            291,
+            297,
+            309,
+            332,
+            336,
+            351,
+            372,
+            392,
+            396,
+            427,
+            457,
+            506,
+            532,
+            538,
+            544
+          ],
+          "size": 31
+        },
+        {
+          "component": 2,
+          "nodes": [
+            56,
+            73,
+            81,
+            83,
+            98,
+            155,
+            174,
+            190,
+            203,
+            229,
+            231,
+            242,
+            266,
+            325,
+            326,
+            327,
+            333,
+            362,
+            367,
+            385,
+            386,
+            387,
+            393,
+            423,
+            464,
+            482,
+            488,
+            526,
+            540,
+            548
+          ],
+          "size": 30
+        },
+        {
+          "component": 3,
+          "nodes": [
+            45,
+            234,
+            248,
+            274,
+            295,
+            320,
+            380,
+            455,
+            551,
+            560,
+            565
+          ],
+          "size": 11
+        },
+        {
+          "component": 4,
+          "nodes": [
+            13,
+            37,
+            184,
+            224,
+            235,
+            262,
+            308,
+            400,
+            545,
+            546
+          ],
+          "size": 10
+        },
+        {
+          "component": 5,
+          "nodes": [
+            230,
+            562
+          ],
+          "size": 2
+        },
+        {
+          "component": 6,
+          "nodes": [
+            85
+          ],
+          "size": 1
+        },
+        {
+          "component": 7,
+          "nodes": [
+            146
+          ],
+          "size": 1
+        },
+        {
+          "component": 8,
+          "nodes": [
+            157
+          ],
+          "size": 1
+        },
+        {
+          "component": 9,
+          "nodes": [
+            158
+          ],
+          "size": 1
+        }
+      ]
+    }
+  },
+  "notes": [
+    "POIs were loaded from latitude/longitude already present in the CSV.",
+    "Coordinates are reprojected to EPSG:31983 before distance calculations.",
+    "NEAR is straight-line Euclidean proximity, not pedestrian travel time.",
+    "LOCATED_IN is created only when the municipal source provides a bairro attribute; the demo does not infer bairro boundaries.",
+    "For accessibility studies use street/GTFS network distance or City2Graph metapaths."
+  ]
+}

@@ -1,0 +1,520 @@
+﻿poi_id,name,category,bairro,degree,pagerank
+NIT-110-2004,UBS Morro do Estado,health,Morro do Estado,130,0.002946866910261814
+NIT-50-150,Sala Carlos Couto,culture,,130,0.002867968241729416
+NIT-50-167,Teatro Municipal Joao Caetano,culture,,130,0.002867968241729416
+NIT-55-7,UMEI Antônio Vieira da Rocha,education_childhood,Morro do Estado,129,0.0029169765367268803
+NIT-50-62,Cinemark Plaza Shopping,culture,,128,0.0028354628146803353
+NIT-50-15,Biblioteca do SESC,culture,,128,0.0028316239297625475
+NIT-50-92,Galeria do Sesc,culture,,128,0.0028316239297625475
+NIT-50-158,SESC Niteroi,culture,,128,0.0028316239297625475
+NIT-50-165,Teatro do SESC,culture,,128,0.0028316239297625475
+NIT-50-81,Espaco do Artesao,culture,,128,0.002822511034483265
+NIT-110-4008,Serviço Residencial Terapêutico Centro,health,Centro,128,0.0028196241358446742
+NIT-60-6,E.M. Ayrton Senna,education_municipal,Morro do Estado,127,0.002859525123285808
+NIT-55-20,UMEI Mª Vitória Ayres Neves,education_childhood,Centro,126,0.002787357388549864
+NIT-50-1,Agencia Central Correios e Telegrafos,culture,,125,0.0027595680366158367
+NIT-50-77,Espaco Cultural dos Correios,culture,,125,0.0027595680366158367
+NIT-50-137,Parthenon Centro de Arte e Cultura,culture,,124,0.0027369765450906904
+NIT-50-133,Palacio Arariboia,culture,,124,0.0027303768493113873
+NIT-10-411,POLICLINICA DE ESPECIALIDADES DA MULHER “MALU SAMPAIO”,women_support,,121,0.0026725463601402766
+NIT-50-32,Carnaval,culture,,121,0.0026673018102340088
+NIT-50-65,Companhia de Ballet da Cidade de Niteroi,culture,,118,0.0026130270007659437
+NIT-50-9,Biblioteca Central do Valonguinho,culture,,117,0.0026112553198057377
+NIT-110-2028,Policlinica de Especialidades em Atenção a Saude da Mulher Malu Sampaio,health,Centro,117,0.0025961328646202206
+NIT-110-2044,UBS Centro Dr. Eduardo Imbassay,health,Centro,116,0.002574446360958823
+NIT-60-11,E.M. Dr. Alberto Francisco Torres,education_municipal,Centro,115,0.0025761472844003726
+NIT-110-2029,Policlinica de Especialidades Sylvio Picanço,health,Centro,115,0.0025626092605389953
+NIT-50-98,Igreja de Nossa Senhora da Conceicao,culture,,114,0.002536622831244243
+NIT-50-126,Museu de Arte Sacra,culture,,114,0.002536622831244243
+NIT-10-410,PAISM - Programa de Atenção Integral à Saúde da Mulher,women_support,,114,0.002533044890056504
+NIT-50-4,Associacao de Pais e Amigos dos Excepcionais (Apae),culture,,113,0.002534927883933518
+NIT-10-407,DEAM Delegacia Especializada de Atendimento à Mulher,women_support,,113,0.002532980771150973
+NIT-110-2807,Rede de Saúde #2807,health,,113,0.0025295413138417505
+NIT-110-3601,Rede de Saúde #3601,health,,113,0.0025295413138417505
+NIT-50-87,Forum de Niteroi (Antigo Palacio da Justica),culture,,113,0.002524498283290299
+NIT-50-58,Centro de Memoria Judiciaria de Niteroi,culture,,113,0.0025244982832902984
+NIT-50-79,Espaco Cultural Nippon,culture,,113,0.0025067641929280805
+NIT-5-44,Conselho Tutelar I,social_assistance,,112,0.0025132588109918275
+NIT-10-408,JUIZADO DA VIOLÊNCIA DOMÉSTICA E FAMILIAR CONTRA A MULHER,women_support,,112,0.0025132588109918275
+NIT-65-25,CE Pinto Lima,education_state,Centro,111,0.0025228464236972522
+NIT-65-38,EEEE Anne Sullivan,education_state,Centro,111,0.0025228464236972522
+NIT-65-29,CEJA Niteroi,education_state,Centro,111,0.0025087224731032156
+NIT-50-59,Centro Pop,culture,,111,0.0025086849825709974
+NIT-55-39,UMEI Rosalda Paim,education_childhood,Centro,111,0.0024945040109664468
+NIT-50-122,Monumento a Republica,culture,,111,0.002489759438904705
+NIT-50-142,Praca da Republica,culture,,111,0.002489759438904705
+NIT-50-17,Biblioteca Estadual de Niteroi,culture,,111,0.0024840075748446665
+NIT-50-160,Sociedade Fluminense de Fotografia,culture,,111,0.0024840075748446665
+NIT-50-131,Orquestra Sinfânica da UFF,culture,,110,0.002614587183374513
+NIT-50-164,Teatro da UFF,culture,,110,0.002614587183374513
+NIT-50-42,Cassino Icarahy (Reitoria UFF),culture,,110,0.0026145871833745124
+NIT-50-50,Centro de  Artes UFF,culture,,110,0.0026145871833745124
+NIT-5-39,Ações Estratég do Prog de Erradicação do Trabalho Infantil,social_assistance,,110,0.002513673554316034
+NIT-5-35,CREAS Centro,social_assistance,,110,0.002513673554316034
+NIT-5-37,CENTRO – POP,social_assistance,,110,0.002508668229553226
+NIT-5-43,Programa Família Acolhedora - FACO,social_assistance,,110,0.002508668229553226
+NIT-55-5,UMEI Alberto de Oliveira,education_childhood,Centro,110,0.0025054615277998824
+NIT-50-25,Câmara Municipal de Niteroi,culture,,110,0.002481082437252809
+NIT-50-72,Espaco Aloisio Valle,culture,,110,0.002481082437252809
+NIT-5-42,Unidade de Acolhimento Arthur Bispo do Rosário,social_assistance,,110,0.0024804493810104272
+NIT-5-46,Vale Social,social_assistance,,110,0.0024804493810104272
+NIT-105-8,Hospital Icarai,hospital,,109,0.002532494601039258
+NIT-5-28,CRAS Centro,social_assistance,,109,0.002477207948499502
+NIT-50-80,Espaco Cultural Tribo Urbana,culture,,109,0.002475361035697584
+NIT-50-117,Kinoplex Bay Market,culture,,109,0.0024534865056189212
+NIT-50-162,Solar Notre Reve (Casa Norival de Freitas),culture,,109,0.002452422973244523
+NIT-50-95,Grupo Diversidade Niteroi,culture,,109,0.0024523904649648583
+NIT-110-2026,CAPS Herbert de Souza,health,Centro,108,0.002476030166142939
+NIT-50-54,Centro de Cultura LGBT  - Prof. Jose Carlos Barcellos,culture,,108,0.002456125288082438
+NIT-5-38,Serviço Especializado em Abordagem Social,social_assistance,,108,0.002449727418252693
+NIT-65-41,Liceu Nilo Peçanha,education_state,Centro,108,0.002448972163123114
+NIT-110-2036,Policlínica Almir Madeira,health,São Domingos,108,0.0024448878846086313
+NIT-50-67,Conservatorio de Musica de Niteroi,culture,,108,0.002433024920684657
+NIT-105-3,Hospital Universitário Antônio Pedro,hospital,,107,0.002516080423846243
+NIT-10-404,SOS MULHER - casos de violência sexual,women_support,,107,0.002516080423846243
+NIT-10-409,SOS MULHER - casos de violência sexual,women_support,,107,0.002516080423846243
+NIT-50-12,Biblioteca da Universo,culture,,107,0.002472086355605927
+NIT-50-7,Bibioteca do Inst. Hist. e Geografico de Niteroi,culture,,107,0.002420379694684517
+NIT-50-132,"Paco Municipal de Niteroi, antiga Casa dos Vereadores",culture,,107,0.002420379694684517
+NIT-105-1,Hospital de Clínicas de Niterói,hospital,,106,0.002400388585690217
+NIT-50-21,Biblioteca Popular Municipal Cora Coralina,culture,,106,0.0023918088728605157
+NIT-110-2037,Hospital Universitário Antônio Pedro,health,Bairro de Fátima,105,0.002489531713751861
+NIT-50-70,Corpo de Bombeiros,culture,,104,0.002395171394235554
+NIT-50-148,Reservatorio da Correcao,culture,,104,0.002386251309989395
+NIT-50-119,Loja Maconica Acacia,culture,,104,0.0023685898035864057
+NIT-10-402,CENTRAL DE ATENDIMENTO À MULHER 180,women_support,,103,0.0023771480458916663
+NIT-10-405,CENTRAL DE ATENDIMENTO À MULHER 180,women_support,,103,0.0023771480458916663
+NIT-50-44,Centro Cultural Abrigo dos Bondes,culture,,102,0.002376776498409878
+NIT-110-2009,Policlínica Regional Carlos Antonio da Silva,health,Centro,100,0.002494288048039554
+NIT-50-136,Palacio Sao Domingos,culture,,100,0.002278938535777828
+NIT-50-114,Irmandade de Sao Vicente de Paulo,culture,,99,0.002385729461957778
+NIT-50-90,Galeria do Campo,culture,,97,0.0022269897187830244
+NIT-50-39,Casa do Estudante Fluminense,culture,,96,0.00220482132041208
+NIT-50-129,Nucleo de Producao Digital - NPD,culture,,95,0.002210131764249726
+NIT-65-39,IE Professor Ismael Coutinho,education_state,São Domingos,95,0.0021956307418444184
+NIT-50-151,Sala de Cultura Leila Diniz,culture,,92,0.0023088527636515224
+NIT-60-3,E.M. Anísio Teixeira,education_municipal,São Domingos,92,0.0021338322586089676
+NIT-105-23,SAMU – 192 –Metropolitana II Urgência,hospital,,89,0.0022006645728047318
+NIT-50-123,Museu Antonio Parreiras,culture,,89,0.002106215849924026
+NIT-105-4,Hospital Municipal Carlos Tortelly,hospital,,88,0.0021625131292539066
+NIT-50-51,Centro de Analise do Movimento Vivo - CAMV,culture,,87,0.002214877341143576
+NIT-110-2018,Hospital Municipal Carlos Tortelly,health,Bairro de Fátima,87,0.0021433483862542094
+NIT-60-44,E.M. Santos Dumont,education_municipal,Bairro de Fátima,86,0.002179584664280425
+NIT-50-38,Casa do Artesao,culture,,86,0.00205395628548275
+NIT-110-2023,CAPSI Monteiro Lobato,health,Ingá,81,0.001948607114584146
+NIT-50-2,Arquivo Publico do ERJ,culture,,80,0.00222470999435081
+NIT-50-74,Espaco Cultural Conselheiro Paschoal Cittadino,culture,,80,0.00222470999435081
+NIT-50-163,Teatro Abel - La Salle,culture,,80,0.0021745971496463616
+NIT-50-169,Terminal Rodoviario Roberto Silveira,culture,,80,0.001971717376645984
+NIT-10-403,DEFENSORIA PÚBLICA Vara de Família,women_support,,80,0.001971717376645984
+NIT-10-406,DEFENSORIA PÚBLICA Vara de Família,women_support,,80,0.001971717376645984
+NIT-50-153,Sala Jose Cândido de Carvalho,culture,,80,0.001939713757042982
+NIT-65-4,CE Aurelino Leal,education_state,Ingá,80,0.001939713757042982
+NIT-50-64,Colecao Banco do Estado do Rio de Janeiro S. A.- BERJ,culture,,79,0.0019206292184059512
+NIT-50-127,Museu do Inga,culture,,79,0.0019206292184059512
+NIT-50-134,Palacio do Inga,culture,,79,0.0019206292184059512
+NIT-110-2039,Policlínica Militar do Exército,health,Centro,78,0.0021918833244654263
+NIT-50-111,Instituto de Artes e Comunicacao Social - IACS,culture,,78,0.0018915284808631446
+NIT-50-34,Casa da Crianca de Niteroi,culture,,78,0.0018855164360113371
+NIT-50-61,Cinema Icarai,culture,,77,0.0019925196701041916
+NIT-55-26,UMEI Prof. Denise Mendes Cardia,education_childhood,São Domingos,77,0.0018663251060936279
+NIT-50-102,Igreja de Sao Lourenco dos indios,culture,,76,0.002081013152688008
+NIT-115-2876,MMF do Morro da Boa Vista Italo Gomes,family_health,São Lourenço,76,0.002081013152688008
+NIT-110-2082,"MMF DO MORRO DA BOA VISTA ""ITALO GOMES""",health,São Lourenço,76,0.002081013152688008
+NIT-50-168,Teatro Popular Oscar Niemeyer (Caminho de Niemeyer – o Teatro Popular e todos os espacos vazios entre os predios e o mar),culture,,75,0.001798370239366335
+NIT-65-27,CE Raul Vidal,education_state,Centro,74,0.001843884395602818
+NIT-105-2,Hospital Geral do Ingá,hospital,,73,0.0017966455595735168
+NIT-50-26,Camarim Escola de Danca,culture,,72,0.0020402293304020653
+NIT-5-40,Unidade de Acolhimento Lélia Gonzáles,social_assistance,,71,0.002186290766132114
+NIT-50-53,Centro de Cinema - Caminho Niemeyer,culture,,71,0.0017261280195994227
+NIT-115-2854,MMF do Palacio Jesus Montanez,family_health,Ingá,70,0.0017431973507072939
+NIT-110-2059,"MMF DO PALÁCIO ""JESUS MONTAÑEZ""",health,Ingá,70,0.0017431973507072939
+NIT-50-161,Solar do Jambeiro,culture,,70,0.0017400122569341584
+NIT-50-139,Pedra do indio,culture,,69,0.0018154817176323109
+NIT-5-41,Unidade de Acolhimento Florestan Fernandes,social_assistance,,68,0.002053508384106686
+NIT-50-128,Museu Janete Costa de Arte Popular,culture,,68,0.001702396024794144
+NIT-50-76,Espaco Cultural da Cantareira,culture,,67,0.001655515014033766
+NIT-50-141,Portal da Cantareira,culture,,67,0.001655515014033766
+NIT-50-24,Busto de D. Pedro,culture,,67,0.0016555150140337659
+NIT-50-100,Igreja de Sao Domingos Gusmao,culture,,66,0.0016443334395240584
+NIT-50-138,Pedra de Itapuca,culture,,65,0.0016955743960570969
+NIT-50-103,Igreja dos Cardos,culture,,65,0.001647330665595986
+NIT-50-166,Teatro Eduarrdo Kraichete (Associacao Medica Fluminense),culture,,64,0.001885799483879098
+NIT-50-29,Campus Avancado Condominio Cultural,culture,,64,0.0016066584215052406
+NIT-50-56,Centro de Estimulacao Precoce,culture,,61,0.0015570411428533276
+NIT-50-121,Mercado Sao Pedro,culture,,59,0.0015569006181415047
+NIT-55-37,UMEI Profº Nilo Neves,education_childhood,Boa Vista,58,0.0017500895594394867
+NIT-5-48,Hotel Emergencial,social_assistance,,58,0.0015000252098913897
+NIT-50-68,Conservatorio de Musica do Estado do Rio de Janeiro,culture,,56,0.0017507810844537796
+NIT-50-43,Castelinho do Gragoata,culture,,56,0.001453471952825214
+NIT-50-109,"Imoveis - R. Alexandre Moura 1,3,5 e 7",culture,,56,0.0014534719528252137
+NIT-50-49,Centro Cultural Paschoal Carlos Magno,culture,,55,0.0018453678494489948
+NIT-50-125,Museu de Arte Contemporânea (MAC),culture,,55,0.0014570259246801168
+NIT-65-16,CE Joaquim Távora,education_state,Icaraí,53,0.0018060576795862042
+NIT-50-20,Biblioteca Popular Municipal Anisio Teixeira,culture,,53,0.0017561354140438739
+NIT-60-23,E.M. Julia Cortines,education_municipal,Icaraí,53,0.0017561354140438739
+NIT-60-42,E.M. Profº Paulo de Almeida Campos,education_municipal,Icaraí,53,0.0015477838000452493
+NIT-50-60,Chale e Casarao da antiga Western Telegraph (Escola de Arquitetura e Urbanismo - UFF),culture,,52,0.00139027061720708
+NIT-50-16,Biblioteca Ecologica - Ponto ORG,culture,,51,0.0018116277907493177
+NIT-65-20,CE Manuel de Abreu,education_state,Icaraí,51,0.0017144375885900127
+NIT-50-116,Jogo da Bola Pesada,culture,,51,0.0014800720259209809
+NIT-50-27,Campo de Sao Bento (Parque Prefeito Ferraz),culture,,50,0.0017447355481448761
+NIT-50-69,Coreto - Campo de Sao Bento,culture,,50,0.0017447355481448761
+NIT-50-84,Feira de Artesanato,culture,,50,0.0017447355481448761
+NIT-50-96,Igreja Anglicana (All Saints Church),culture,,49,0.0017259437131120468
+NIT-50-8,Biblioteca Central do Gragoata - UFF,culture,,49,0.0013022172390420408
+NIT-50-57,Centro de Memoria Fluminense (UFF),culture,,49,0.0013022172390420408
+NIT-50-28,Campus Avancado - Me ve na TV,culture,,48,0.0013023239422961194
+NIT-110-2002,UBS Engenhoca,health,Engenhoca,47,0.0024805109893228957
+NIT-65-24,CE Mullulo da Veiga,education_state,Engenhoca,47,0.0024751556094335
+NIT-105-7,Hospital de Olhos Niteroi,hospital,,47,0.002052527800043657
+NIT-65-2,CE Baltazar Bernardino,education_state,Icaraí,47,0.002037697480075006
+NIT-115-2882,MMF do Coronel Leoncio Dr Claudio do Amaral Junior,family_health,Engenhoca,46,0.002447521941000483
+NIT-110-2013,Policlínica Regional da Engenhoca Dr. Renato Silva,health,Engenhoca,46,0.002447521941000483
+NIT-110-2020,Servico de Pronto Atendimento 02,health,Engenhoca,46,0.0024475219410004826
+NIT-105-20,Serviço de Pronto Atendimento da Engenhoca,hospital,,46,0.0024475219410004826
+NIT-55-29,UMEI Profª Hilka de Araújo Peçanha,education_childhood,Santa Rosa,46,0.0018201179607751198
+NIT-50-5,Baleeira Alpha,culture,,46,0.0012645408806629564
+NIT-50-35,Casa da Quina,culture,,46,0.0012645408806629564
+NIT-50-14,Biblioteca do Instituto Vital Brazil,culture,,45,0.0021708238334164406
+NIT-110-4011,Serviço Residencial Terapêutico São Lourenço,health,São Lourenço,45,0.001497518093032803
+NIT-60-1,E.M. Adelino Magalhães,education_municipal,Engenhoca,44,0.002355704969491244
+NIT-110-2031,Laboratorio de Saude Publica Miguelote Viana,health,Vital Brazil,44,0.0021088019972063565
+NIT-50-48,Centro Cultural Muiraquita,culture,,44,0.001985445200605608
+NIT-105-6,Hospital de Clinicas Alameda,hospital,,43,0.0020566546062987514
+NIT-5-45,Conselho Tutelar III,social_assistance,,43,0.0020566546062987514
+NIT-5-34,Centro de Convivência Inter Geracional Helena Tibau,social_assistance,,43,0.001932237143478334
+NIT-50-6,Basilica de Nossa Senhora Auxiliadora,culture,,43,0.001932038474781618
+NIT-105-13,Hospital Niterói D'Or,hospital,,43,0.0019320384747816177
+NIT-50-78,Espaco Cultural Maria Jacinta,culture,,43,0.0018866201252497532
+NIT-50-86,Forte do Gragoata,culture,,43,0.0012071598908572102
+NIT-50-46,Centro Cultural da Engenhoca,culture,,42,0.002254015875851558
+NIT-110-2012,Policlínica Regional Sérgio Arouca,health,Vital Brazil,42,0.0019962039235884204
+NIT-50-155,Seminario Sao Jose (Palacete da Soledade),culture,,42,0.0014389107309142682
+NIT-110-2081,"MMF DO CORONEL LEONCIO ""DR CLAUDIO DO AMARAL""",health,Engenhoca,41,0.0021873518808357495
+NIT-50-91,Galeria do ICG (Instituto Cultural Germânico),culture,,41,0.0017267160205302805
+NIT-115-2857,MMF do Martins Torres Dr Joao Vasconcellos,family_health,Santa Rosa,40,0.002252805689426129
+NIT-110-2062,"MMF DO MARTINS TORRES ""DR JOAO VASCONCELLOS""",health,Santa Rosa,40,0.002252805689426129
+NIT-60-27,E.M. Mestra Fininha,education_municipal,Barreto,40,0.0021609035485838503
+NIT-60-38,E.M. Profº André Trouche,education_municipal,Barreto,40,0.0021609035485838503
+NIT-110-2035,Instituto Estadual de Doenças do Torax Dr. Ary Parreiras,health,Barreto,40,0.0021609035485838503
+NIT-110-2032,Laboratorio de Saude Publica da Região Norte,health,Barreto,40,0.0021609035485838503
+NIT-105-16,Hospital Estadual Ary Parreiras,hospital,,40,0.0021609035485838503
+NIT-50-18,Biblioteca Municipal Monteiro Lobato,culture,,39,0.0021153548419565846
+NIT-105-21,Instituto Estadual de Doenças do Tórax Ary Parreiras Hospital Especializado,hospital,,39,0.0021153548419565846
+NIT-5-26,CRAS Barreto,social_assistance,,39,0.0021153548419565846
+NIT-60-2,E.M. Altivo César,education_municipal,Barreto,39,0.002115354841956584
+NIT-115-2880,MMF da Ponta da Areia,family_health,Ponta da Areia,39,0.001173230147605257
+NIT-55-3,NAEI Vila Ipiranga,education_childhood,Fonseca,38,0.002162722548086186
+NIT-110-2040,Hospital da Polícia Militar,health,Santa Rosa,38,0.0021117155074579378
+NIT-105-10,Hospital da Polícia Militar,hospital,,38,0.0021117155074579378
+NIT-55-40,UMEI Rosalina de Araújo,education_childhood,Barreto,38,0.00206963906829504
+NIT-65-3,CE Brigadeiro Castrioto,education_state,São Lourenço,38,0.0013384499853671668
+NIT-65-19,CE Machado De Assis,education_state,Fonseca,37,0.0023268361506732253
+NIT-50-13,Biblioteca do Instituto Baia da Guanabara,culture,,37,0.00212215594594654
+NIT-50-135,Palacio Euclides da Cunha,culture,,37,0.00212215594594654
+NIT-60-20,E.M. Jacinta Medela,education_municipal,Fonseca,37,0.0021119936137384433
+NIT-115-2870,MMF da Vila Ipiranga Vilma Espin,family_health,Fonseca,37,0.002104739085337681
+NIT-110-2075,"MMF DA VILA IPIRANGA ""VILMA ESPIN""",health,Fonseca,37,0.002104739085337681
+NIT-60-10,E.M. Dom José Pereira Alves,education_municipal,Fonseca,37,0.0021047390853376805
+NIT-5-32,CRAS Vila Ipiranga,social_assistance,,37,0.0021047390853376805
+NIT-115-2856,MMF do Souza Soares Jose Antonio Echeverria Bianchi,family_health,Santa Rosa,37,0.002094070224544094
+NIT-110-2061,"MMF DO SOUZA SOARES ""JOSE ANTONIO ECHEVERRIA BIANCHI""",health,Santa Rosa,37,0.002094070224544094
+NIT-65-37,EE São Domingos Sávio,education_state,Santa Rosa,37,0.0020520111387647985
+NIT-115-2852,MMF do Vital Brazil Carlos Juan Finlay,family_health,Vital Brazil,37,0.002017124110560062
+NIT-110-2057,"MMF DO VITAL BRAZIL ""CARLOS JUAN FINLAY""",health,Vital Brazil,37,0.002017124110560062
+NIT-110-3201,Rede de Saúde #3201,health,,37,0.0019532466528477525
+NIT-110-4012,Unidade de Acolhimento Infantojuvenil,health,Vital Brazil,37,0.0019532466528477525
+NIT-60-7,E.M. Demenciano Antônio de Moura,education_municipal,Fonseca,37,0.0018279694939257508
+NIT-55-31,UMEI Profª Maria José Mansur Barbosa,education_childhood,Fonseca,37,0.0017921884739427398
+NIT-50-113,Instituto Penal Viera Ferreira Netto,culture,,36,0.0020716770523826703
+NIT-50-115,Jardim Botânico de Niteroi,culture,,36,0.0020716770523826703
+NIT-65-15,CE Hilário Ribeiro,education_state,Fonseca,36,0.0020716770523826703
+NIT-55-36,UMEI Profº Iguatemi Coquinot de Alcântara Nunes,education_childhood,Barreto,36,0.0019869113607827497
+NIT-115-2872,MMF do Maritimos Carlos Rafael Rodriguez,family_health,Barreto,36,0.0019869113607827497
+NIT-110-2014,Hospital Orêncio de Freitas,health,Barreto,36,0.0019869113607827497
+NIT-110-2077,"MMF DO MARITIMOS ""CARLOS RAFAEL RODRIGUEZ""",health,Barreto,36,0.0019869113607827497
+NIT-105-11,Hospital de Olhos Santa Beatriz,hospital,,36,0.001950620224963823
+NIT-115-2849,MMF do Cavalao Frank Pais Garcia,family_health,São Francisco,36,0.0018966086646636613
+NIT-110-2054,"MMF DO CAVALAO ""FRANK PAIS GARCIA""",health,São Francisco,36,0.0018966086646636613
+NIT-60-33,E.M. Profª Elvira Lúcia Esteves de Vasconcelo,education_municipal,Icaraí,36,0.0016172683765770337
+NIT-50-88,Galeria 52 - Alianca Francesa,culture,,36,0.0012615631042446971
+NIT-110-2086,MMF da Ponta da Areia,health,Ponta D'Areia,36,0.0011005420427219537
+NIT-105-14,Hospital Orencio de Freitas,hospital,,35,0.001936979355787107
+NIT-65-36,EE Menezes Vieira,education_state,Barreto,35,0.001913247798279007
+NIT-50-63,CLAC - Clube Livre de Arte e Cultura,culture,,35,0.0019119509097091203
+NIT-50-170,Toca da Gamba,culture,,35,0.0016435023341081208
+NIT-50-11,Biblioteca da Casa Oliveira Vianna,culture,,35,0.0014989101570269617
+NIT-50-37,Casa de Oliveira Vianna,culture,,35,0.0014989101570269617
+NIT-50-110,Imovel R. Oswaldo Cruz,culture,,35,0.001291968637622991
+NIT-55-25,UMEI Portugal Pequeno,education_childhood,Ponta da Areia,35,0.0011201481307416595
+NIT-60-28,E.M. Noronha Santos,education_municipal,Fonseca,34,0.002243970996506653
+NIT-110-4013,Serviço Residencial Terapêutico Fonseca (nova unidade),health,Fonseca,34,0.002135716416429201
+NIT-110-2011,Policlínica Regional Guilherme Taylor March,health,Fonseca,34,0.002135342281914366
+NIT-5-29,CRAS Cubango,social_assistance,,34,0.002135342281914366
+NIT-115-2871,MMF da Nova Brasilia Antonio Nico Lopez,family_health,Engenhoca,34,0.0018963296210474838
+NIT-110-2076,"MMF DA NOVA BRASILIA ""ANTONIO ÑICO LOPEZ""",health,Engenhoca,34,0.0018963296210474838
+NIT-65-40,EEEE Prof. Álvaro Caetano De Oliveira,education_state,Barreto,34,0.0018877687115723964
+NIT-55-17,UMEI Julieta Botelho,education_childhood,Fonseca,34,0.001456047447375631
+NIT-50-171,Umbanda - Ano Novo e Dia de Iemanja,culture,,34,0.0011876694793507816
+NIT-50-107,Ilha da Boa Viagem: conjunto arquitetonico e paisagistico,culture,,34,0.0010309993032238598
+NIT-60-31,E.M. Paulo Freire,education_municipal,Fonseca,33,0.00218249621135361
+NIT-55-12,UMEI Geraldo Montedônio Bezerra de Menezes,education_childhood,Santa Rosa,33,0.002078777587132236
+NIT-60-37,E.M. Profª Mª Felisberta Baptista da Trindade,education_municipal,Engenhoca,33,0.0018479838834852846
+NIT-110-2042,Policlínica Regional do Barreto Dr. João da Silva Vizella,health,Barreto,33,0.0018319431721562232
+NIT-55-41,UMEI Senador Vasconcelos Torres,education_childhood,Santa Rosa,33,0.0018206953621183947
+NIT-60-30,E.M. Padre Leonel Franca,education_municipal,Santa Rosa,33,0.0018206953621183947
+NIT-50-101,Igreja de Sao Lourenco da Varzea,culture,,33,0.0013805471244011096
+NIT-65-11,CE Embaixador Raul Fernandes,education_state,Fonseca,32,0.002245302485679539
+NIT-60-36,E.M. Profª Mª de Lourdes Barbosa Santos,education_municipal,Fonseca,32,0.001880308267604727
+NIT-65-13,CE Guilherme Briggs,education_state,Santa Rosa,32,0.0018027369447126298
+NIT-55-23,UMEI Neuza Brizola,education_childhood,Engenhoca,32,0.001802344634783303
+NIT-115-2873,MMF da Leopoldina Julio Dias Gonzales,family_health,Barreto,32,0.0017472106038227534
+NIT-110-2078,MMF DA LEOPOLDINA JULIO DIAS GONZALES,health,Barreto,32,0.0017472106038227534
+NIT-115-2853,MMF do Viradouro Camilo Cienfuegos,family_health,Santa Rosa,31,0.002058280073793436
+NIT-110-2058,"MMF DO VIRADOURO ""CAMILO CIENFUEGOS""",health,Santa Rosa,31,0.002058280073793436
+NIT-115-2869,MMF do Bernardino Raul Carlos Pareto Jr,family_health,Fonseca,31,0.002047735186725901
+NIT-110-2074,"MMF DO BERNARDINO RAUL ""CARLOS PARETO JR""",health,Fonseca,31,0.002047735186725901
+NIT-110-2021,Unidade de Pronto Atendimento,health,Fonseca,31,0.002047735186725901
+NIT-105-17,UPA 24h Niteói,hospital,,31,0.002047735186725901
+NIT-115-2855,MMF do Alarico Dr Omar Marinho Vieira,family_health,Santa Rosa,31,0.0020023273940621123
+NIT-110-2060,"MMF DO ALARICO ""DR OMAR MARINHO VIEIRA""",health,Santa Rosa,31,0.0020023273940621123
+NIT-65-6,CE Conselheiro Macedo Soares,education_state,Barreto,31,0.0017500152858375261
+NIT-110-2025,CAPS AD Alameda,health,Santana,31,0.001341814800385467
+NIT-50-97,Igreja de Boa Viagem,culture,,31,0.0009672842859081061
+NIT-55-32,UMEI Profª Marilza da Conceição Rocha Medina,education_childhood,Vila Ipiranga,30,0.0016988778680275042
+NIT-50-112,Instituto Franco Basaglia (Centro de Atencao Psicossocial -lcool e Drogas (CAPS AD),culture,,30,0.0012965085706872722
+NIT-60-29,E.M. Nossa Senhora da Penha,education_municipal,Ponta da Areia,30,0.0010471947584701825
+NIT-115-2864,MMF do Vicoso Jardim Tayssa Erminda Alves,family_health,Viçoso Jardim,29,0.0019988453572050034
+NIT-110-2069,"MMF DO VIÇOSO JARDIM ""TAYSSA ERMINDA ALVES",health,Viçoso Jardim,29,0.0019988453572050034
+NIT-115-2874,MMF do Marui Jorge Luiz Camacho Rodrigues,family_health,Barreto,29,0.0016331715777822785
+NIT-110-2079,"MMF DO MARUI ""JORGE LUIZ CAMACHO RODRIGUES""",health,Barreto,29,0.0016331715777822785
+NIT-55-21,UMEI Maria Luiza Da Cunha Sampaio,education_childhood,São Francisco,28,0.0018260253913636882
+NIT-105-12,Hospital de Clínicas São Sebastião,hospital,,28,0.0016030187478766477
+NIT-50-31,Capela de Sao Pedro e Cemiterio do Marui,culture,,28,0.0016023407614690576
+NIT-55-15,UMEI Jacy Pacheco,education_childhood,Barreto,28,0.0015879597897040351
+NIT-65-17,CE José Bonifácio,education_state,São Lourenço,28,0.00118038493354253
+NIT-60-45,E.M. Sebastiana G. Pinho,education_municipal,Caramujo,27,0.0018983076887510093
+NIT-105-24,SAMU – BASE Urgência - Base descentralizada Niterói,hospital,,27,0.0011599074709984336
+NIT-5-51,Unidade de Acolhimento Paulo Freire,social_assistance,,27,0.0011599074709984336
+NIT-50-71,Cortico Vide Verso,culture,,27,0.0011396003301612763
+NIT-110-4007,Serviço Residencial Terapêutico Charitas,health,Charitas,26,0.0023535784221693757
+NIT-55-2,NAEI Sebastião Luiz Tatagiba,education_childhood,Ititioca,26,0.0018127497591490997
+NIT-55-16,UMEI Jorge Najjar,education_childhood,Ititioca,26,0.001770665775800037
+NIT-65-35,EE Doutor Memoria,education_state,Cubango,26,0.0015958583949476101
+NIT-50-93,Gremio Recreativo Escola de Samba Academicos do Cubango,culture,,26,0.0015466448658829352
+NIT-50-3,"Associacao de Formacao Social, Cultural e Ambiental do Barreto",culture,,26,0.0015118452325645463
+NIT-50-108,Ilha dos Cardos,culture,,26,0.0008496486627324374
+NIT-65-5,CE Cizínio Soares Pinto,education_state,São Francisco,25,0.00165041270043693
+NIT-115-2866,MMF do Jonathas Botelho Jose Suares Blanco,family_health,Cubango,25,0.0015646244886420991
+NIT-110-2071,"MMF DO JONATHAS BOTELHO ""JOSE SUARES BLANCO""",health,Cubango,25,0.0015646244886420991
+NIT-50-94,Gremio Recreativo Escola de Samba Unidos do Viradouro,culture,,25,0.00146448420155652
+NIT-65-28,CE Zuleika Raposo Valladares,education_state,Ilha da Conceição,25,0.0012937339245433308
+NIT-60-25,E.M. Maestro Heitor Villa Lobos,education_municipal,Ilha da Conceição,25,0.0012683311536811463
+NIT-50-40,Casa Verde,culture,,25,0.0010928958924234396
+NIT-110-2038,Policlínica Naval de Niterói,health,Centro,25,0.0008714860160293073
+NIT-55-4,UMEI Alberto Brandão,education_childhood,Fonseca,24,0.0023469842876228577
+NIT-50-41,Casarao em Charitas,culture,,24,0.0022447372778765474
+NIT-50-47,Centro Cultural da Igreja de Sao Judas Tadeu,culture,,24,0.0010343246210338358
+NIT-65-23,CE Paulo Assis Ribeiro,education_state,Badu,23,0.0027073565314510487
+NIT-110-2034,Hospital Estadual Azevedo Lima,health,Fonseca,23,0.0018100544177457449
+NIT-110-2019,Hospital Getúlio Vargas,health,Fonseca,23,0.0018100544177457449
+NIT-105-15,Hospital Estadual Azevedo Lima,hospital,,23,0.0018100544177457449
+NIT-105-9,Hospital Getulio Vargas Filho,hospital,,23,0.0018100544177457449
+NIT-110-2006,Celia Sanchez - CCF Ilha da Conceição,health,Ilha da Conceição,23,0.0012247215757167052
+NIT-50-99,Igreja de Nossa Senhora de Fatima,culture,,23,0.0010415224381105162
+NIT-115-2850,MMF da Grota I Jose Marti I,family_health,São Francisco,22,0.0020984617326121812
+NIT-110-2055,"MMF DA GROTA I ""JOSE MARTI I""",health,São Francisco,22,0.0020984617326121812
+NIT-65-12,CE Duque De Caxias,education_state,Cachoeira,22,0.002060242139155852
+NIT-115-2843,MMF do Atalaia Salvador Allende,family_health,Ititioca,22,0.0018328904462981395
+NIT-110-2048,"MMF DO ATALAIA ""SALVADOR ALLENDE""",health,Ititioca,22,0.0018328904462981395
+NIT-50-23,Biblioteca Popular Municipal Silvestre Mânaco,culture,,22,0.0011941839523984116
+NIT-50-152,Sala de Leitura do Centro Social Urbano (da Ilha da Conceicao),culture,,22,0.0011941839523984116
+NIT-55-27,UMEI Prof. Írio Molinari,education_childhood,Ilha da Conceição,22,0.0011095194061259321
+NIT-65-34,CIEP Brizolão 450 Emiliano Di Cavalcanti,education_state,Badu,21,0.002484164565753831
+NIT-5-25,CRAS Badu,social_assistance,,21,0.002484164565753831
+NIT-5-31,CRAS Preventório,social_assistance,,21,0.00201033373606901
+NIT-110-2085,"MMF Teixeira de Freitas ""Dr Antonio Peçanha""",health,Fonseca,21,0.0019427727061938557
+NIT-60-12,E.M. Ernani Moreira Franco,education_municipal,Fonseca,21,0.0018460552488459606
+NIT-60-34,E.M. Profª Lúcia Mª da Silveira Rocha,education_municipal,Jurujuba,20,0.0020247061875979496
+NIT-55-8,UMEI Darcy Ribeiro,education_childhood,Charitas,20,0.0019283319879728
+NIT-65-21,CE Maria Pereira Das Neves,education_state,Charitas,20,0.0019283319879728
+NIT-65-22,CE Matemático Joaquim Gomes de Souza- Brasil/China,education_state,Charitas,20,0.0019283319879728
+NIT-65-33,CIEP 449 Gov. Leonel De Moura Brizola,education_state,Charitas,20,0.0019283319879728
+NIT-115-2847,MMF do Preventorio I Abel Santamaria,family_health,Charitas,20,0.0019283319879728
+NIT-115-2848,MMF do Preventorio II Calixto Garcia,family_health,Charitas,20,0.0019283319879728
+NIT-110-2015,Hospital Psiquiátrico Jurujuba,health,Charitas,20,0.0019283319879728
+NIT-110-2052,"MMF DO PREVENTORIO I ""ABEL SANTAMARIA""",health,Charitas,20,0.0019283319879728
+NIT-110-2053,"MMF DO PREVENTORIO II ""CALIXTO GARCÍA""",health,Charitas,20,0.0019283319879728
+NIT-110-4009,Serviço Residencial Terapêutico Charitas II,health,Charitas,20,0.0019283319879728
+NIT-110-4010,Serviço Residencial Terapêutico Charitas III,health,Charitas,20,0.0019283319879728
+NIT-110-4002,Serviço Residencial Terapêutico II,health,Charitas,20,0.0019283319879728
+NIT-110-4001,Serviço Residencial Terapêutico PAC I,health,Charitas,20,0.0019283319879728
+NIT-110-4003,Serviço Residencial Terapêutico PAC III,health,Charitas,20,0.0019283319879728
+NIT-110-4004,Serviço Residencial Terapêutico PAC Preventório IV Charitas,health,Charitas,20,0.0019283319879728
+NIT-105-5,Hospital Psiquiátrico de Jurujuba,hospital,,20,0.0019283319879728
+NIT-65-401,CE Conselheiro Josino,education_state,Fonseca,20,0.0018850404581785174
+NIT-115-2879,MMF da Teixeira de Freitas Dr Antonio Pecanha,family_health,Fonseca,20,0.0018850404581785174
+NIT-110-2007,Dr. Antonio Peçanha - CCF Teixeira de Freitas,health,Fonseca,20,0.0018850404581785174
+NIT-55-35,UMEI Profª Regina Leite Garcia,education_childhood,Fonseca,20,0.0018850404581785172
+NIT-60-9,E.M. Djalma Coutinho de Oliveira,education_municipal,Fonseca,20,0.0018664465116620382
+NIT-55-38,UMEI Renata Gonçalves Magaldi,education_childhood,Fonseca,20,0.001646703352834512
+NIT-50-66,Conjunto Arquitetonico do antigo Educandario Paula Cândido.,culture,,20,0.001465076062488689
+NIT-115-2881,MMF da Ilha da Conceicao Dr Ruy Carlos Decnop Celia Sanchez,family_health,Ilha da Conceição,20,0.0011310381543416842
+NIT-110-2087,"MMF Ilha da Conceição Dr. Ruy Carlos Decnop ""Célia Sanchez""",health,Ilha da Conceição,20,0.0011310381543416842
+NIT-5-49,CONSELHO TUTELAR II,social_assistance,,19,0.0021959643018404566
+NIT-110-2016,Maternidade Municipal Alzira Reis,health,Charitas,19,0.0018505304116951207
+NIT-55-6,UMEI Almir Garcia da Silva,education_childhood,Maceió,18,0.0018380720682995883
+NIT-5-36,CREAS Largo da Batalha,social_assistance,,18,0.0018380720682995883
+NIT-55-30,UMEI Profª Margareth Flores,education_childhood,Cachoeira,18,0.0016927636817369095
+NIT-60-35,E.M. Profª Mª Ângela Moreira Pinto,education_municipal,São Francisco,18,0.0014159113039155504
+NIT-50-105,Igreja Nossa Senhora do Bonsucesso,culture,,17,0.0026552792984015096
+NIT-50-73,Espaco Arte nas Pedras,culture,,17,0.002603214299920042
+NIT-50-82,Espaco Plural,culture,,17,0.002603214299920042
+NIT-110-2024,CAPS Largo da Batalha,health,Largo da Batalha,17,0.001864023614279029
+NIT-110-2033,Laboratorio de Saude Publica da Região Leste-oceânica,health,Largo da Batalha,17,0.0018344036711234856
+NIT-110-2010,Policlínica Regional do Largo da Batalha Dr. Francisco da Cruz Nunes,health,Largo da Batalha,17,0.0018344036711234854
+NIT-110-2022,Servico de Pronto Atendimento 01,health,Largo da Batalha,17,0.0018344036711234854
+NIT-105-19,Serviço de Pronto Atendimento do Largo da Batalha,hospital,,17,0.0018344036711234854
+NIT-65-18,CE Leopoldo Fróes,education_state,Maceió,17,0.0017995288281294393
+NIT-50-130,Oficina do Parque - PADOP,culture,,17,0.00175597316282621
+NIT-115-2851,MMF da Grota II Jose Marti II,family_health,São Francisco,17,0.0015262249798183262
+NIT-110-2056,"MMF DA GROTA II ""JOSE MARTI II""",health,São Francisco,17,0.001526224979818326
+NIT-60-22,E.M. José de Anchieta,education_municipal,Caramujo,16,0.0021530304309670765
+NIT-55-18,UMEI Lisaura Machado Ruas,education_childhood,Badu,16,0.0020832908666073837
+NIT-55-11,UMEI Gabriela Mistral,education_childhood,Badu,16,0.002017136406544191
+NIT-115-2841,MMF do Maceio,family_health,Maceió,16,0.001699108750028416
+NIT-110-2046,"MMF DO MACEIÓ ""JOÃO SAMPAIO""",health,Maceió,16,0.001699108750028416
+NIT-50-10,Biblioteca da AABB,culture,,16,0.0015257351279967725
+NIT-60-49,E.M. Vila Costa Monteiro,education_municipal,Ititioca,16,0.0015181908354159434
+NIT-115-2877,MMF da Ititioca Dr Wilson de Oliveira,family_health,Ititioca,16,0.0015181908354159434
+NIT-110-2083,"MMF DA ITITIOCA ""DR WILSON DE OLIVEIRA""",health,Ititioca,16,0.0015181908354159434
+NIT-110-4006,Serviço Residencial Terapêutico Pendotiba,health,São Francisco,16,0.001373536895987023
+NIT-110-4005,Serviço Residencial Terapêutico São Francisco,health,São Francisco,16,0.001373536895987023
+NIT-60-40,E.M. Profº Horácio Pacheco,education_municipal,Cantagalo,15,0.0019023038602773248
+NIT-60-48,E.M. Vera Lúcia Machado,education_municipal,Badu,15,0.0019023038602773248
+NIT-115-2842,MMF do Badu Dr Barros Terra Prof Barros Terra,family_health,Badu,15,0.0019023038602773248
+NIT-110-2047,"MMF DO BADU DR BARROS TERRA ""PROF BARROS TERRA""",health,Badu,15,0.0019023038602773246
+NIT-110-2030,Prof Barros Terra - CCF Badu,health,Badu,15,0.0019023038602773246
+NIT-60-17,E.M. Helena Antipoff,education_municipal,São Francisco,15,0.001492806935230564
+NIT-55-1,NAEI Ângela Fernandes,education_childhood,Cafubá,14,0.002164948040374986
+NIT-115-2862,MMF do Cafuba I Ernesto Che Guevara I,family_health,Piratininga,14,0.002164948040374986
+NIT-110-2067,"MMF DO CAFUBA I ""ERNESTO CHE GUEVARA I""",health,Piratininga,14,0.002164948040374986
+NIT-55-10,UMEI Elenir Ramos Meirelles,education_childhood,Badu,14,0.0018877658192504912
+NIT-55-44,UMEI Vinícius de Moraes,education_childhood,Sapê,14,0.0018794820071950495
+NIT-55-43,UMEI Vice-Prefeito Luiz Eduardo Travassos do Carmo,education_childhood,Caramujo,14,0.0014275681465312899
+NIT-50-33,Casa,culture,,14,0.001244211345333325
+NIT-50-118,Lido Center (Estrutura de Madeira),culture,,14,0.001244211345333325
+NIT-110-2806,Hospital Municipal Oceânico Dr. Gilson Cantarino,health,Piratininga,13,0.0021153233848372798
+NIT-105-27,Hospital Municipal Oceânico Dr. Gilson Cantarino,hospital,,13,0.0021153233848372798
+NIT-65-30,CIEP Brizolão 251 Dona Maria Portugal,education_state,Baldeador,12,0.002449988694536394
+NIT-50-154,Sao Ze Casa de Musica,culture,,12,0.0018861668852591805
+NIT-110-2017,Hospital de Urgência Mário Monteiro,health,Cafubá,12,0.0018861668852591805
+NIT-105-18,Unidade de Emergência Mario Monteiro,hospital,,12,0.0018861668852591805
+NIT-5-27,CRAS CAFUBÁ,social_assistance,,12,0.0018861668852591805
+NIT-115-2840,MMF do Cantagalo Haidee Santamaria,family_health,Cantagalo,12,0.001574783898464567
+NIT-110-2804,Base Descentralizada do SAMU Cantagalo - a ser construída,health,Cantagalo,12,0.001574783898464567
+NIT-110-2045,"MMF DO CANTAGALO ""HAIDÉE SANTAMARIA""",health,Cantagalo,12,0.0015747838984645668
+NIT-105-25,Base Descentralizada do SAMU Cantagalo - a ser construída,hospital,,12,0.0015747838984645668
+NIT-115-2865,MMF do Morro do Ceu Faustino Perez,family_health,Viçoso Jardim,12,0.0014565803496563205
+NIT-110-2070,"MMF DO MORRO DO CEU ""FAUSTINO PEREZ""",health,Viçoso Jardim,12,0.0014565803496563205
+NIT-50-104,Igreja Matriz de Sao Francisco Xavier,culture,,12,0.001149069580856092
+NIT-50-75,Espaco Cultural da Caixa - Agencia Sao Francisco,culture,,12,0.0011487903316900138
+NIT-60-47,E.M. Tiradentes,education_municipal,Tenente Jardim,12,0.0009005128040972133
+NIT-115-2861,MMF do Cafuba II Ernesto Che Guevara II,family_health,Cafubá,11,0.0017516512021903575
+NIT-110-2066,"MMF DO CAFUBA II ""ERNESTO CHE GUEVARA II""",health,Cafubá,11,0.0017516512021903575
+NIT-60-26,E.M. Maralegre,education_municipal,Cafubá,11,0.0017516512021903572
+NIT-55-45,UMEI Zilda Arns Neumman,education_childhood,Caramujo,11,0.0016678185744982382
+NIT-50-120,Malikhelu (Canto da Cultura),culture,,11,0.0015759703106232338
+NIT-5-30,CRAS Morro do Céu,social_assistance,,11,0.0014394482323671594
+NIT-60-16,E.M. Governador Roberto Silveira,education_municipal,Baldeador,11,0.0012564635128625454
+NIT-60-21,E.M. João Brazil,education_municipal,Baldeador,11,0.0012564635128625454
+NIT-115-2868,MMF Deputado Jose Sally,family_health,Baldeador,11,0.0012564635128625452
+NIT-110-2041,Equipe Zilda Arns,health,Baldeador,11,0.0012564635128625452
+NIT-110-2073,"MMF ZILDA ARNS BALDEADOR ""DEPUTADO JOSE SALLY""",health,Baldeador,11,0.0012564635128625452
+NIT-110-2005,UBS Baldeador/Morro do Castro Deputado José Sally,health,Baldeador,11,0.0012564635128625452
+NIT-50-55,Centro de Danca Maria Mandarino,culture,,10,0.0017136449958395127
+NIT-55-19,UMEI Lizete Fernandes Maciel,education_childhood,Jacaré,10,0.0017136449958395127
+NIT-60-13,E.M. Eulália da Silveira Bragança,education_municipal,Jacaré,10,0.0017136449958395127
+NIT-50-22,Biblioteca Popular Municipal Lidice Froes Rodrigues,culture,,9,0.001952982052974302
+NIT-50-52,Centro de Artes e Esportes Unificados - CEU Ismael Silva,culture,,9,0.001952982052974302
+NIT-50-144,Praia de Eva,culture,,9,0.001952982052974302
+NIT-65-14,CE Fernando Magalhães,education_state,Jurujuba,9,0.001952982052974302
+NIT-115-2846,MMF de Jurujuba Mario Munhoz Monroe,family_health,Jurujuba,9,0.001952982052974302
+NIT-110-2051,"MMF DE JURUJUBA ""MARIO MUNHOZ MONROE""",health,Jurujuba,9,0.001952982052974302
+NIT-110-2027,Policlinica Comunitaria de Jurujuba,health,Jurujuba,9,0.001952982052974302
+NIT-50-106,Igreja Sao Sebastiao de Itaipu,culture,,8,0.002306648479589371
+NIT-50-143,Praia de Adao,culture,,8,0.001771741981111763
+NIT-105-22,Maternidade Municipal Alzira Reis Vieira Ferreira,hospital,,8,0.001771741981111763
+NIT-5-47,CRAS Jurujuba,social_assistance,,8,0.0016695106000809915
+NIT-60-15,E.M. Francisco Portugal Neves,education_municipal,Piratininga,8,0.0014454087983851276
+NIT-115-2863,MMF do Cafuba III Alberto Ricardo Hatin,family_health,Piratininga,8,0.0014454087983851276
+NIT-110-2068,"MMF DO CAFUBA III ""ALBERTO RICARDO HATIN""",health,Piratininga,8,0.0014454087983851273
+NIT-65-9,CE Dr. Luciano Pestre,education_state,Caramujo,8,0.0013368317563538894
+NIT-115-2867,MMF do Caramujo Dr Aloisio Brazil,family_health,Caramujo,8,0.0013368317563538894
+NIT-110-2072,"MMF DO CARAMUJO ""DR ALOISIO BRAZIL""",health,Caramujo,8,0.0013368317563538894
+NIT-60-4,E.M. Antinéia Silveira Miranda,education_municipal,Caramujo,8,0.0013009550116464532
+NIT-60-24,E.M. Levi Carneiro,education_municipal,Sapê,8,0.001247707433498564
+NIT-55-34,UMEI Profª Odete Rosa da Mota,education_childhood,Itaipu,7,0.0024691564974769088
+NIT-65-26,CE Profª Alcina Rodrigues Lima,education_state,Itaipu,7,0.0024691564974769088
+NIT-50-30,Canto Sul da Praia de Itaipu,culture,,7,0.0019773006791531885
+NIT-50-124,Museu de Arqueologia de Itaipu (Recolhimento de Santa Teresa),culture,,7,0.0019773006791531885
+NIT-50-140,Pescadores Artesanais,culture,,7,0.0019773006791531885
+NIT-50-145,Praia de Itaipu,culture,,7,0.0019773006791531885
+NIT-50-159,Sitio Duna Grande,culture,,7,0.0019773006791531885
+NIT-115-2858,MMF da Colonia,family_health,Itaipu,7,0.0019773006791531885
+NIT-110-2063,MMF DA COLÔNIA,health,Itaipu,7,0.0019773006791531885
+NIT-50-19,Biblioteca Popular Municipal Albertina Fortuna Barros,culture,,7,0.0019459038723487058
+NIT-50-36,Casa das Artes Fernanda Barcellos,culture,,7,0.0019459038723487058
+NIT-55-13,UMEI Gov. Eduardo Campos,education_childhood,Maria Paula,7,0.0019459038723487058
+NIT-60-8,E.M. Diógenes R. de Mendonça,education_municipal,Maria Paula,7,0.0019459038723487058
+NIT-60-19,E.M. Honorina de Carvalho,education_municipal,Maria Paula,7,0.0019459038723487058
+NIT-60-46,E.M. Sítio do Ipê,education_municipal,Matapaca,7,0.0019459038723487058
+NIT-115-2845,MMF Maria Paula e Matapaca Dr Abelardo Ramirez,family_health,Maria Paula,7,0.0019459038723487058
+NIT-110-2050,"MMF DO MATAPACA ""DR ABELARDO RAMIREZ""",health,Maria Paula,7,0.0019459038723487058
+NIT-55-14,UMEI Hermógenes Reis,education_childhood,Santa Bárbara,7,0.00172071761888787
+NIT-55-22,UMEI Marly Sarney,education_childhood,Santa Bárbara,7,0.00172071761888787
+NIT-60-5,E.M. Antônio Coutinho de Azevedo,education_municipal,Santa Bárbara,7,0.00172071761888787
+NIT-60-43,E.M. Rachide da G. Salim Saker,education_municipal,Santa Bárbara,7,0.00172071761888787
+NIT-65-8,CE David Capistrano,education_state,Santa Bárbara,7,0.00172071761888787
+NIT-110-2003,UBS Santa Bárbara,health,Santa Bárbara,7,0.00172071761888787
+NIT-5-33,CRAS Santa Bárbara,social_assistance,,7,0.00172071761888787
+NIT-50-45,Centro Cultural Artistico da Regiao Oceânica,culture,,6,0.0022406377320409554
+NIT-65-10,CE Dr Souza Soares,education_state,Varzea das Moças,6,0.0022406377320409554
+NIT-65-31,CIEP 307 Djanira,education_state,Varzea das Moças,6,0.0022406377320409554
+NIT-60-39,E.M. Profº Dario de Souza Castello,education_municipal,Itaipu,6,0.0022135545610276453
+NIT-110-2008,Policlínica Regional de Itaipu,health,Maravista,6,0.0021384815682659814
+NIT-115-2844,MMF do Sape,family_health,Sapê,6,0.0010237926958879123
+NIT-110-2049,MMF DO SAPÊ,health,Sapê,6,0.0010237926958879123
+NIT-50-147,Quilombo do Grotao,culture,,5,0.002231013126012273
+NIT-65-32,CIEP B.448 Ruy Frazão Soares,education_state,Engenho do Mato,5,0.002231013126012273
+NIT-115-2875,MMF de Varzea das Mocas Dr Tobias Tostes Machado,family_health,Rio do Ouro,5,0.0018850857700917216
+NIT-110-2080,"MMF DE VARZEA DAS MOCAS ""DR TOBIAS TOSTES MACHADO""",health,Rio do Ouro,5,0.0018850857700917216
+NIT-110-2001,Varzea das Mocas - CCF Várzea das Moças,health,Rio do Ouro,5,0.0018850857700917216
+NIT-55-9,UMEI Dr. Paulo César Pimentel,education_childhood,Itaipu,5,0.0018563660136674159
+NIT-105-26,Base Descentralizada do SAMU Itaipu - a ser construída,hospital,,5,0.0018169712889048078
+NIT-110-2805,Base Descentralizada do SAMU Itaipu - a ser construída,health,Itaipu,5,0.0018169712889048075
+NIT-115-2860,MMF do Maravista Cte Manoel Pineiro Lozada,family_health,Maravista,4,0.0019069184390577039
+NIT-110-2065,"MMF DO MARAVISTA ""CTE MANOEL PINEIRO LOZADA""",health,Maravista,4,0.0019069184390577039
+NIT-55-28,UMEI Profª Áurea Trindade Pimentel de Menezes,education_childhood,Itaipu,4,0.0019017900835401626
+NIT-5-50,Unidade de Acolhimento Lisaura Ruas,social_assistance,,4,0.0019017900835401626
+NIT-55-42,UMEI Vale Feliz,education_childhood,Engenho do Mato,4,0.0018589102044903627
+NIT-55-24,UMEI Olga Benário Prestes,education_childhood,Engenho do Mato,4,0.0018269834581566237
+NIT-115-2859,MMF do Engenho do Mato Willian Soller,family_health,Engenho do Mato,4,0.0018269834581566237
+NIT-110-2064,"MMF DO ENGENHO DO MATO ""WILLIAN SOLLER""",health,Engenho do Mato,4,0.0018269834581566237
+NIT-60-41,E.M. Profº Marcos Waldemar de Freitas Reis,education_municipal,Itaipu,4,0.001541441555274341
+NIT-50-83,Fabricartoon - Espaco Criativo e Escola de Desenho,culture,,3,0.0019459038723487058
+NIT-55-33,UMEI Profª Nina Rita Torres,education_childhood,Piratininga,3,0.0019459038723487058
+NIT-65-1,CE Almirante Tamandaré,education_state,Piratininga,3,0.0019459038723487058
+NIT-110-2043,Policlínica Regional De Piratininga – Dom Luiz Orione,health,Piratininga,3,0.0019459038723487058
+NIT-50-89,Galeria Borghese - Itaipu,culture,,3,0.0014160980501123337
+NIT-60-18,E.M. Heloneida Studart,education_municipal,Várzea das Moças,3,0.001244156600042911
+NIT-50-149,Ruinas da Antiga Capela de Nossa Senhora da Conceicao,culture,,3,0.0011800539948104154
+NIT-115-2878,MMF do Jacare Enoc Joaquim de Oliveira,family_health,Jacaré,1,0.001945903872348706
+NIT-110-2084,"MMF DO JACARÉ ""ENOC JOAQUIM DE OLIVEIRA""",health,Jacaré,1,0.001945903872348706
+NIT-50-85,Fortaleza de Santa Cruz,culture,,0,0.0002918855808523059
+NIT-50-146,Praia do Sossego,culture,,0,0.0002918855808523059
+NIT-50-156,Serra da Tiririca,culture,,0,0.0002918855808523059
+NIT-50-157,Serra de Calaboca,culture,,0,0.0002918855808523059
+NIT-60-14,E.M. Felisberto de Carvalho,education_municipal,Vila Progresso,0,0.0002918855808523059
+NIT-60-32,E.M. Profª Bolívia de Lima Gaétho,education_municipal,Rio do Ouro,0,0.0002918855808523059

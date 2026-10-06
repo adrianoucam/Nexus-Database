@@ -112,7 +112,17 @@ python demo.py
 ## Run with the deterministic fixture
 
 ```bash
-python demo.py
+python3 download_niteroi_pois.py --tls-mode system
+
+
+
+
+python3 demo.py --poi-csv "niteroi_pois.csv" --radius-m 1200 --password senha1234567890
+
+
+python3 visualize_urban_graph.py --database URBAN_GRAPH_E0391DFA --password senha1234567890
+
+
 ```
 
 The fixture uses synthetic urban-service points in a metric CRS only to make the graph construction reproducible. It does **not** represent real public facilities or real demand.

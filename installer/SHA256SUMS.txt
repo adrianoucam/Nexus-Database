@@ -1,0 +1,2 @@
+e09b8948b5d7b5db77d23e8fcd1efd2c0c0e5015d7693d41b0d72aa25c5d2b6d  NexusDB-0.1.1-windows-x64-setup.exe
+c3e2d19a9dc0187d207ee069e1c2e0e377837cbeba4219560c82b466ae4bafc1  NexusDB-0.1.1-windows-x64-bin.zip

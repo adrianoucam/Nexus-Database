@@ -1,0 +1,16 @@
+{
+  "version": "0.1.1",
+  "tag": "bin-v0.1.1-20261006-161109",
+  "assets": [
+    "NexusDB-0.1.1-windows-x64-setup.exe",
+    "NexusDB-0.1.1-windows-x64-bin.zip",
+    "SHA256SUMS.txt"
+  ],
+  "sha256": {
+    "NexusDB-0.1.1-windows-x64-setup.exe": "e09b8948b5d7b5db77d23e8fcd1efd2c0c0e5015d7693d41b0d72aa25c5d2b6d",
+    "NexusDB-0.1.1-windows-x64-bin.zip": "c3e2d19a9dc0187d207ee069e1c2e0e377837cbeba4219560c82b466ae4bafc1",
+    "SHA256SUMS.txt": "f0b039ad6e0fb7c6ba31957e9d691150f303f644377c344ff693ed0c2779a0ac"
+  },
+  "tag_pushed": true,
+  "release_id": 404920107
+}

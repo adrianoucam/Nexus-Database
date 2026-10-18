@@ -1,0 +1,8 @@
+{
+  "databases": {
+    "EXAMPLE_MCP_HOSPITAL": {
+      "users": ["mcp_reader"],
+      "tools": ["nexus_schema", "nexus_graph_stats", "nexus_bfs", "nexus_neighbors", "nexus_shortest_path", "nexus_pagerank"]
+    }
+  }
+}

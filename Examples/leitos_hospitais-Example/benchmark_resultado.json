@@ -1,0 +1,1033 @@
+{
+  "synthetic_only": true,
+  "at": "2026-10-15 12:00:00",
+  "seed": 20261008,
+  "dataset_sha256": "ae6c06b8e84525f35973eb8f404e3a378ee270388902589c9a85013612a262cd",
+  "environment": {
+    "os": "Windows-10-10.0.19045-SP0",
+    "cpu": "Intel64 Family 6 Model 79 Stepping 1, GenuineIntel",
+    "python": "3.12.9",
+    "build": "Python interpreter"
+  },
+  "selected_backend": "SERIAL_CPU",
+  "reason": "Implementação experimental Python stdlib",
+  "gpu": null,
+  "snapshot_ms": 694.4059230008861,
+  "cache_state": "snapshot carregado uma vez; solves sem cache",
+  "volumes": {
+    "higienizacoes": 2333,
+    "profissionais": 1470,
+    "escalas": 23233,
+    "leitos": 310,
+    "quartos": 236,
+    "solicitacoes_pendentes": 110,
+    "procedimentos": 1765,
+    "arestas_grafo": 56667,
+    "hotelaria_eventos": 7252,
+    "internacoes": 2586,
+    "ocupacao_diaria": 31,
+    "solicitacoes_transferencia": 214,
+    "cirurgias": 636,
+    "unidades": 17,
+    "atendimentos": 20000,
+    "pacientes": 16000
+  },
+  "available_beds": 52,
+  "eligible_requests": 42,
+  "forecast_daily": {
+    "UTI_ADULTO_II": 9.714285714285714,
+    "UTI_ADULTO_III": 4.857142857142857,
+    "UTI_NEONATAL": 2.142857142857143,
+    "UTI_PEDIATRICA": 2.0,
+    "CIRURGICA": 23.571428571428573,
+    "CLINICA": 17.0,
+    "PEDIATRIA": 8.142857142857142,
+    "OBSTETRICIA": 4.714285714285714,
+    "ISOLAMENTO": 0.5714285714285714
+  },
+  "blocked": [],
+  "results": [
+    {
+      "method": "convencional",
+      "iterations": 3,
+      "p50_ms": 0.3750469913939014,
+      "p95_ms": 0.46919399756006896,
+      "peak_python_bytes": 2928,
+      "allocated": 32,
+      "pending": 10,
+      "benefit": 659797,
+      "urgent_allocated": 9,
+      "hard_violations": 0,
+      "assignments": [
+        {
+          "solicitacao_id": "SP00059",
+          "paciente_id": "P004298",
+          "leito_id": "L0099",
+          "quarto_id": "Q0099"
+        },
+        {
+          "solicitacao_id": "SP00105",
+          "paciente_id": "P015131",
+          "leito_id": "L0196",
+          "quarto_id": "Q0159"
+        },
+        {
+          "solicitacao_id": "SP00076",
+          "paciente_id": "P012346",
+          "leito_id": "L0295",
+          "quarto_id": "Q0221"
+        },
+        {
+          "solicitacao_id": "SP00067",
+          "paciente_id": "P013233",
+          "leito_id": "L0006",
+          "quarto_id": "Q0006"
+        },
+        {
+          "solicitacao_id": "SP00110",
+          "paciente_id": "P014672",
+          "leito_id": "L0282",
+          "quarto_id": "Q0211"
+        },
+        {
+          "solicitacao_id": "SP00055",
+          "paciente_id": "P002173",
+          "leito_id": "L0285",
+          "quarto_id": "Q0213"
+        },
+        {
+          "solicitacao_id": "SP00006",
+          "paciente_id": "P009218",
+          "leito_id": "L0109",
+          "quarto_id": "Q0106"
+        },
+        {
+          "solicitacao_id": "SP00007",
+          "paciente_id": "P004509",
+          "leito_id": "L0197",
+          "quarto_id": "Q0160"
+        },
+        {
+          "solicitacao_id": "SP00033",
+          "paciente_id": "P010068",
+          "leito_id": "L0085",
+          "quarto_id": "Q0085"
+        },
+        {
+          "solicitacao_id": "SP00051",
+          "paciente_id": "P012390",
+          "leito_id": "L0111",
+          "quarto_id": "Q0108"
+        },
+        {
+          "solicitacao_id": "SP00078",
+          "paciente_id": "P008607",
+          "leito_id": "L0009",
+          "quarto_id": "Q0009"
+        },
+        {
+          "solicitacao_id": "SP00071",
+          "paciente_id": "P005419",
+          "leito_id": "L0297",
+          "quarto_id": "Q0223"
+        },
+        {
+          "solicitacao_id": "SP00107",
+          "paciente_id": "P010038",
+          "leito_id": "L0059",
+          "quarto_id": "Q0059"
+        },
+        {
+          "solicitacao_id": "SP00039",
+          "paciente_id": "P012199",
+          "leito_id": "L0112",
+          "quarto_id": "Q0108"
+        },
+        {
+          "solicitacao_id": "SP00085",
+          "paciente_id": "P007119",
+          "leito_id": "L0300",
+          "quarto_id": "Q0226"
+        },
+        {
+          "solicitacao_id": "SP00058",
+          "paciente_id": "P006812",
+          "leito_id": "L0302",
+          "quarto_id": "Q0228"
+        },
+        {
+          "solicitacao_id": "SP00034",
+          "paciente_id": "P004209",
+          "leito_id": "L0113",
+          "quarto_id": "Q0109"
+        },
+        {
+          "solicitacao_id": "SP00042",
+          "paciente_id": "P014240",
+          "leito_id": "L0018",
+          "quarto_id": "Q0018"
+        },
+        {
+          "solicitacao_id": "SP00012",
+          "paciente_id": "P006438",
+          "leito_id": "L0115",
+          "quarto_id": "Q0110"
+        },
+        {
+          "solicitacao_id": "SP00088",
+          "paciente_id": "P014792",
+          "leito_id": "L0061",
+          "quarto_id": "Q0061"
+        },
+        {
+          "solicitacao_id": "SP00108",
+          "paciente_id": "P003536",
+          "leito_id": "L0198",
+          "quarto_id": "Q0160"
+        },
+        {
+          "solicitacao_id": "SP00014",
+          "paciente_id": "P005115",
+          "leito_id": "L0286",
+          "quarto_id": "Q0213"
+        },
+        {
+          "solicitacao_id": "SP00100",
+          "paciente_id": "P012282",
+          "leito_id": "L0303",
+          "quarto_id": "Q0229"
+        },
+        {
+          "solicitacao_id": "SP00109",
+          "paciente_id": "P010296",
+          "leito_id": "L0290",
+          "quarto_id": "Q0217"
+        },
+        {
+          "solicitacao_id": "SP00083",
+          "paciente_id": "P003911",
+          "leito_id": "L0020",
+          "quarto_id": "Q0020"
+        },
+        {
+          "solicitacao_id": "SP00095",
+          "paciente_id": "P010010",
+          "leito_id": "L0024",
+          "quarto_id": "Q0024"
+        },
+        {
+          "solicitacao_id": "SP00041",
+          "paciente_id": "P006902",
+          "leito_id": "L0028",
+          "quarto_id": "Q0028"
+        },
+        {
+          "solicitacao_id": "SP00102",
+          "paciente_id": "P009114",
+          "leito_id": "L0304",
+          "quarto_id": "Q0230"
+        },
+        {
+          "solicitacao_id": "SP00079",
+          "paciente_id": "P013427",
+          "leito_id": "L0227",
+          "quarto_id": "Q0178"
+        },
+        {
+          "solicitacao_id": "SP00072",
+          "paciente_id": "P005489",
+          "leito_id": "L0306",
+          "quarto_id": "Q0232"
+        },
+        {
+          "solicitacao_id": "SP00046",
+          "paciente_id": "P007641",
+          "leito_id": "L0029",
+          "quarto_id": "Q0029"
+        },
+        {
+          "solicitacao_id": "SP00084",
+          "paciente_id": "P015538",
+          "leito_id": "L0117",
+          "quarto_id": "Q0111"
+        }
+      ]
+    },
+    {
+      "method": "matching",
+      "iterations": 3,
+      "p50_ms": 0.9573840070515871,
+      "p95_ms": 0.9634599991841242,
+      "peak_python_bytes": 3376,
+      "allocated": 32,
+      "pending": 10,
+      "benefit": 659797,
+      "urgent_allocated": 9,
+      "hard_violations": 0,
+      "assignments": [
+        {
+          "solicitacao_id": "SP00059",
+          "paciente_id": "P004298",
+          "leito_id": "L0099",
+          "quarto_id": "Q0099"
+        },
+        {
+          "solicitacao_id": "SP00105",
+          "paciente_id": "P015131",
+          "leito_id": "L0227",
+          "quarto_id": "Q0178"
+        },
+        {
+          "solicitacao_id": "SP00076",
+          "paciente_id": "P012346",
+          "leito_id": "L0306",
+          "quarto_id": "Q0232"
+        },
+        {
+          "solicitacao_id": "SP00067",
+          "paciente_id": "P013233",
+          "leito_id": "L0029",
+          "quarto_id": "Q0029"
+        },
+        {
+          "solicitacao_id": "SP00110",
+          "paciente_id": "P014672",
+          "leito_id": "L0290",
+          "quarto_id": "Q0217"
+        },
+        {
+          "solicitacao_id": "SP00055",
+          "paciente_id": "P002173",
+          "leito_id": "L0286",
+          "quarto_id": "Q0213"
+        },
+        {
+          "solicitacao_id": "SP00006",
+          "paciente_id": "P009218",
+          "leito_id": "L0117",
+          "quarto_id": "Q0111"
+        },
+        {
+          "solicitacao_id": "SP00007",
+          "paciente_id": "P004509",
+          "leito_id": "L0198",
+          "quarto_id": "Q0160"
+        },
+        {
+          "solicitacao_id": "SP00033",
+          "paciente_id": "P010068",
+          "leito_id": "L0085",
+          "quarto_id": "Q0085"
+        },
+        {
+          "solicitacao_id": "SP00051",
+          "paciente_id": "P012390",
+          "leito_id": "L0115",
+          "quarto_id": "Q0110"
+        },
+        {
+          "solicitacao_id": "SP00078",
+          "paciente_id": "P008607",
+          "leito_id": "L0028",
+          "quarto_id": "Q0028"
+        },
+        {
+          "solicitacao_id": "SP00071",
+          "paciente_id": "P005419",
+          "leito_id": "L0304",
+          "quarto_id": "Q0230"
+        },
+        {
+          "solicitacao_id": "SP00107",
+          "paciente_id": "P010038",
+          "leito_id": "L0061",
+          "quarto_id": "Q0061"
+        },
+        {
+          "solicitacao_id": "SP00039",
+          "paciente_id": "P012199",
+          "leito_id": "L0113",
+          "quarto_id": "Q0109"
+        },
+        {
+          "solicitacao_id": "SP00085",
+          "paciente_id": "P007119",
+          "leito_id": "L0303",
+          "quarto_id": "Q0229"
+        },
+        {
+          "solicitacao_id": "SP00058",
+          "paciente_id": "P006812",
+          "leito_id": "L0302",
+          "quarto_id": "Q0228"
+        },
+        {
+          "solicitacao_id": "SP00034",
+          "paciente_id": "P004209",
+          "leito_id": "L0112",
+          "quarto_id": "Q0108"
+        },
+        {
+          "solicitacao_id": "SP00042",
+          "paciente_id": "P014240",
+          "leito_id": "L0024",
+          "quarto_id": "Q0024"
+        },
+        {
+          "solicitacao_id": "SP00012",
+          "paciente_id": "P006438",
+          "leito_id": "L0111",
+          "quarto_id": "Q0108"
+        },
+        {
+          "solicitacao_id": "SP00088",
+          "paciente_id": "P014792",
+          "leito_id": "L0059",
+          "quarto_id": "Q0059"
+        },
+        {
+          "solicitacao_id": "SP00108",
+          "paciente_id": "P003536",
+          "leito_id": "L0197",
+          "quarto_id": "Q0160"
+        },
+        {
+          "solicitacao_id": "SP00014",
+          "paciente_id": "P005115",
+          "leito_id": "L0285",
+          "quarto_id": "Q0213"
+        },
+        {
+          "solicitacao_id": "SP00100",
+          "paciente_id": "P012282",
+          "leito_id": "L0300",
+          "quarto_id": "Q0226"
+        },
+        {
+          "solicitacao_id": "SP00109",
+          "paciente_id": "P010296",
+          "leito_id": "L0282",
+          "quarto_id": "Q0211"
+        },
+        {
+          "solicitacao_id": "SP00083",
+          "paciente_id": "P003911",
+          "leito_id": "L0020",
+          "quarto_id": "Q0020"
+        },
+        {
+          "solicitacao_id": "SP00095",
+          "paciente_id": "P010010",
+          "leito_id": "L0018",
+          "quarto_id": "Q0018"
+        },
+        {
+          "solicitacao_id": "SP00041",
+          "paciente_id": "P006902",
+          "leito_id": "L0009",
+          "quarto_id": "Q0009"
+        },
+        {
+          "solicitacao_id": "SP00102",
+          "paciente_id": "P009114",
+          "leito_id": "L0297",
+          "quarto_id": "Q0223"
+        },
+        {
+          "solicitacao_id": "SP00079",
+          "paciente_id": "P013427",
+          "leito_id": "L0196",
+          "quarto_id": "Q0159"
+        },
+        {
+          "solicitacao_id": "SP00072",
+          "paciente_id": "P005489",
+          "leito_id": "L0295",
+          "quarto_id": "Q0221"
+        },
+        {
+          "solicitacao_id": "SP00046",
+          "paciente_id": "P007641",
+          "leito_id": "L0006",
+          "quarto_id": "Q0006"
+        },
+        {
+          "solicitacao_id": "SP00084",
+          "paciente_id": "P015538",
+          "leito_id": "L0109",
+          "quarto_id": "Q0106"
+        }
+      ]
+    },
+    {
+      "method": "fluxo_custo_minimo",
+      "iterations": 3,
+      "p50_ms": 125.76675300078932,
+      "p95_ms": 129.71830200694967,
+      "peak_python_bytes": 87248,
+      "allocated": 32,
+      "pending": 10,
+      "benefit": 695553,
+      "urgent_allocated": 10,
+      "hard_violations": 0,
+      "assignments": [
+        {
+          "solicitacao_id": "SP00059",
+          "paciente_id": "P004298",
+          "leito_id": "L0099",
+          "quarto_id": "Q0099"
+        },
+        {
+          "solicitacao_id": "SP00105",
+          "paciente_id": "P015131",
+          "leito_id": "L0197",
+          "quarto_id": "Q0160"
+        },
+        {
+          "solicitacao_id": "SP00076",
+          "paciente_id": "P012346",
+          "leito_id": "L0304",
+          "quarto_id": "Q0230"
+        },
+        {
+          "solicitacao_id": "SP00067",
+          "paciente_id": "P013233",
+          "leito_id": "L0006",
+          "quarto_id": "Q0006"
+        },
+        {
+          "solicitacao_id": "SP00110",
+          "paciente_id": "P014672",
+          "leito_id": "L0290",
+          "quarto_id": "Q0217"
+        },
+        {
+          "solicitacao_id": "SP00055",
+          "paciente_id": "P002173",
+          "leito_id": "L0282",
+          "quarto_id": "Q0211"
+        },
+        {
+          "solicitacao_id": "SP00006",
+          "paciente_id": "P009218",
+          "leito_id": "L0113",
+          "quarto_id": "Q0109"
+        },
+        {
+          "solicitacao_id": "SP00007",
+          "paciente_id": "P004509",
+          "leito_id": "L0196",
+          "quarto_id": "Q0159"
+        },
+        {
+          "solicitacao_id": "SP00051",
+          "paciente_id": "P012390",
+          "leito_id": "L0111",
+          "quarto_id": "Q0108"
+        },
+        {
+          "solicitacao_id": "SP00078",
+          "paciente_id": "P008607",
+          "leito_id": "L0028",
+          "quarto_id": "Q0028"
+        },
+        {
+          "solicitacao_id": "SP00071",
+          "paciente_id": "P005419",
+          "leito_id": "L0306",
+          "quarto_id": "Q0232"
+        },
+        {
+          "solicitacao_id": "SP00107",
+          "paciente_id": "P010038",
+          "leito_id": "L0061",
+          "quarto_id": "Q0061"
+        },
+        {
+          "solicitacao_id": "SP00039",
+          "paciente_id": "P012199",
+          "leito_id": "L0112",
+          "quarto_id": "Q0108"
+        },
+        {
+          "solicitacao_id": "SP00085",
+          "paciente_id": "P007119",
+          "leito_id": "L0295",
+          "quarto_id": "Q0221"
+        },
+        {
+          "solicitacao_id": "SP00058",
+          "paciente_id": "P006812",
+          "leito_id": "L0297",
+          "quarto_id": "Q0223"
+        },
+        {
+          "solicitacao_id": "SP00034",
+          "paciente_id": "P004209",
+          "leito_id": "L0115",
+          "quarto_id": "Q0110"
+        },
+        {
+          "solicitacao_id": "SP00042",
+          "paciente_id": "P014240",
+          "leito_id": "L0009",
+          "quarto_id": "Q0009"
+        },
+        {
+          "solicitacao_id": "SP00012",
+          "paciente_id": "P006438",
+          "leito_id": "L0109",
+          "quarto_id": "Q0106"
+        },
+        {
+          "solicitacao_id": "SP00017",
+          "paciente_id": "P010529",
+          "leito_id": "L0085",
+          "quarto_id": "Q0085"
+        },
+        {
+          "solicitacao_id": "SP00108",
+          "paciente_id": "P003536",
+          "leito_id": "L0198",
+          "quarto_id": "Q0160"
+        },
+        {
+          "solicitacao_id": "SP00014",
+          "paciente_id": "P005115",
+          "leito_id": "L0285",
+          "quarto_id": "Q0213"
+        },
+        {
+          "solicitacao_id": "SP00100",
+          "paciente_id": "P012282",
+          "leito_id": "L0302",
+          "quarto_id": "Q0228"
+        },
+        {
+          "solicitacao_id": "SP00083",
+          "paciente_id": "P003911",
+          "leito_id": "L0018",
+          "quarto_id": "Q0018"
+        },
+        {
+          "solicitacao_id": "SP00095",
+          "paciente_id": "P010010",
+          "leito_id": "L0020",
+          "quarto_id": "Q0020"
+        },
+        {
+          "solicitacao_id": "SP00041",
+          "paciente_id": "P006902",
+          "leito_id": "L0024",
+          "quarto_id": "Q0024"
+        },
+        {
+          "solicitacao_id": "SP00079",
+          "paciente_id": "P013427",
+          "leito_id": "L0227",
+          "quarto_id": "Q0178"
+        },
+        {
+          "solicitacao_id": "SP00072",
+          "paciente_id": "P005489",
+          "leito_id": "L0300",
+          "quarto_id": "Q0226"
+        },
+        {
+          "solicitacao_id": "SP00046",
+          "paciente_id": "P007641",
+          "leito_id": "L0029",
+          "quarto_id": "Q0029"
+        },
+        {
+          "solicitacao_id": "SP00049",
+          "paciente_id": "P008362",
+          "leito_id": "L0286",
+          "quarto_id": "Q0213"
+        },
+        {
+          "solicitacao_id": "SP00050",
+          "paciente_id": "P013836",
+          "leito_id": "L0059",
+          "quarto_id": "Q0059"
+        },
+        {
+          "solicitacao_id": "SP00019",
+          "paciente_id": "P012591",
+          "leito_id": "L0303",
+          "quarto_id": "Q0229"
+        },
+        {
+          "solicitacao_id": "SP00084",
+          "paciente_id": "P015538",
+          "leito_id": "L0117",
+          "quarto_id": "Q0111"
+        }
+      ]
+    },
+    {
+      "method": "genetico",
+      "iterations": 3,
+      "p50_ms": 267.20937999198213,
+      "p95_ms": 267.5527190003777,
+      "peak_python_bytes": 22446,
+      "allocated": 32,
+      "pending": 10,
+      "benefit": 695553,
+      "urgent_allocated": 10,
+      "hard_violations": 0,
+      "assignments": [
+        {
+          "solicitacao_id": "SP00059",
+          "paciente_id": "P004298",
+          "leito_id": "L0099",
+          "quarto_id": "Q0099"
+        },
+        {
+          "solicitacao_id": "SP00105",
+          "paciente_id": "P015131",
+          "leito_id": "L0197",
+          "quarto_id": "Q0160"
+        },
+        {
+          "solicitacao_id": "SP00076",
+          "paciente_id": "P012346",
+          "leito_id": "L0304",
+          "quarto_id": "Q0230"
+        },
+        {
+          "solicitacao_id": "SP00067",
+          "paciente_id": "P013233",
+          "leito_id": "L0006",
+          "quarto_id": "Q0006"
+        },
+        {
+          "solicitacao_id": "SP00110",
+          "paciente_id": "P014672",
+          "leito_id": "L0290",
+          "quarto_id": "Q0217"
+        },
+        {
+          "solicitacao_id": "SP00055",
+          "paciente_id": "P002173",
+          "leito_id": "L0282",
+          "quarto_id": "Q0211"
+        },
+        {
+          "solicitacao_id": "SP00006",
+          "paciente_id": "P009218",
+          "leito_id": "L0113",
+          "quarto_id": "Q0109"
+        },
+        {
+          "solicitacao_id": "SP00007",
+          "paciente_id": "P004509",
+          "leito_id": "L0196",
+          "quarto_id": "Q0159"
+        },
+        {
+          "solicitacao_id": "SP00051",
+          "paciente_id": "P012390",
+          "leito_id": "L0111",
+          "quarto_id": "Q0108"
+        },
+        {
+          "solicitacao_id": "SP00078",
+          "paciente_id": "P008607",
+          "leito_id": "L0028",
+          "quarto_id": "Q0028"
+        },
+        {
+          "solicitacao_id": "SP00071",
+          "paciente_id": "P005419",
+          "leito_id": "L0306",
+          "quarto_id": "Q0232"
+        },
+        {
+          "solicitacao_id": "SP00107",
+          "paciente_id": "P010038",
+          "leito_id": "L0061",
+          "quarto_id": "Q0061"
+        },
+        {
+          "solicitacao_id": "SP00039",
+          "paciente_id": "P012199",
+          "leito_id": "L0112",
+          "quarto_id": "Q0108"
+        },
+        {
+          "solicitacao_id": "SP00085",
+          "paciente_id": "P007119",
+          "leito_id": "L0295",
+          "quarto_id": "Q0221"
+        },
+        {
+          "solicitacao_id": "SP00058",
+          "paciente_id": "P006812",
+          "leito_id": "L0297",
+          "quarto_id": "Q0223"
+        },
+        {
+          "solicitacao_id": "SP00034",
+          "paciente_id": "P004209",
+          "leito_id": "L0115",
+          "quarto_id": "Q0110"
+        },
+        {
+          "solicitacao_id": "SP00042",
+          "paciente_id": "P014240",
+          "leito_id": "L0009",
+          "quarto_id": "Q0009"
+        },
+        {
+          "solicitacao_id": "SP00012",
+          "paciente_id": "P006438",
+          "leito_id": "L0109",
+          "quarto_id": "Q0106"
+        },
+        {
+          "solicitacao_id": "SP00017",
+          "paciente_id": "P010529",
+          "leito_id": "L0085",
+          "quarto_id": "Q0085"
+        },
+        {
+          "solicitacao_id": "SP00108",
+          "paciente_id": "P003536",
+          "leito_id": "L0198",
+          "quarto_id": "Q0160"
+        },
+        {
+          "solicitacao_id": "SP00014",
+          "paciente_id": "P005115",
+          "leito_id": "L0285",
+          "quarto_id": "Q0213"
+        },
+        {
+          "solicitacao_id": "SP00100",
+          "paciente_id": "P012282",
+          "leito_id": "L0302",
+          "quarto_id": "Q0228"
+        },
+        {
+          "solicitacao_id": "SP00083",
+          "paciente_id": "P003911",
+          "leito_id": "L0018",
+          "quarto_id": "Q0018"
+        },
+        {
+          "solicitacao_id": "SP00095",
+          "paciente_id": "P010010",
+          "leito_id": "L0020",
+          "quarto_id": "Q0020"
+        },
+        {
+          "solicitacao_id": "SP00041",
+          "paciente_id": "P006902",
+          "leito_id": "L0024",
+          "quarto_id": "Q0024"
+        },
+        {
+          "solicitacao_id": "SP00079",
+          "paciente_id": "P013427",
+          "leito_id": "L0227",
+          "quarto_id": "Q0178"
+        },
+        {
+          "solicitacao_id": "SP00072",
+          "paciente_id": "P005489",
+          "leito_id": "L0300",
+          "quarto_id": "Q0226"
+        },
+        {
+          "solicitacao_id": "SP00046",
+          "paciente_id": "P007641",
+          "leito_id": "L0029",
+          "quarto_id": "Q0029"
+        },
+        {
+          "solicitacao_id": "SP00049",
+          "paciente_id": "P008362",
+          "leito_id": "L0286",
+          "quarto_id": "Q0213"
+        },
+        {
+          "solicitacao_id": "SP00050",
+          "paciente_id": "P013836",
+          "leito_id": "L0059",
+          "quarto_id": "Q0059"
+        },
+        {
+          "solicitacao_id": "SP00019",
+          "paciente_id": "P012591",
+          "leito_id": "L0303",
+          "quarto_id": "Q0229"
+        },
+        {
+          "solicitacao_id": "SP00084",
+          "paciente_id": "P015538",
+          "leito_id": "L0117",
+          "quarto_id": "Q0111"
+        }
+      ]
+    },
+    {
+      "method": "robusto",
+      "iterations": 3,
+      "p50_ms": 0.8613520039943978,
+      "p95_ms": 0.9214159945258871,
+      "peak_python_bytes": 3192,
+      "allocated": 24,
+      "pending": 18,
+      "benefit": 559406,
+      "urgent_allocated": 10,
+      "hard_violations": 0,
+      "assignments": [
+        {
+          "solicitacao_id": "SP00105",
+          "paciente_id": "P015131",
+          "leito_id": "L0197",
+          "quarto_id": "Q0160"
+        },
+        {
+          "solicitacao_id": "SP00067",
+          "paciente_id": "P013233",
+          "leito_id": "L0006",
+          "quarto_id": "Q0006"
+        },
+        {
+          "solicitacao_id": "SP00055",
+          "paciente_id": "P002173",
+          "leito_id": "L0282",
+          "quarto_id": "Q0211"
+        },
+        {
+          "solicitacao_id": "SP00006",
+          "paciente_id": "P009218",
+          "leito_id": "L0113",
+          "quarto_id": "Q0109"
+        },
+        {
+          "solicitacao_id": "SP00007",
+          "paciente_id": "P004509",
+          "leito_id": "L0196",
+          "quarto_id": "Q0159"
+        },
+        {
+          "solicitacao_id": "SP00051",
+          "paciente_id": "P012390",
+          "leito_id": "L0111",
+          "quarto_id": "Q0108"
+        },
+        {
+          "solicitacao_id": "SP00078",
+          "paciente_id": "P008607",
+          "leito_id": "L0028",
+          "quarto_id": "Q0028"
+        },
+        {
+          "solicitacao_id": "SP00039",
+          "paciente_id": "P012199",
+          "leito_id": "L0112",
+          "quarto_id": "Q0108"
+        },
+        {
+          "solicitacao_id": "SP00085",
+          "paciente_id": "P007119",
+          "leito_id": "L0295",
+          "quarto_id": "Q0221"
+        },
+        {
+          "solicitacao_id": "SP00058",
+          "paciente_id": "P006812",
+          "leito_id": "L0297",
+          "quarto_id": "Q0223"
+        },
+        {
+          "solicitacao_id": "SP00034",
+          "paciente_id": "P004209",
+          "leito_id": "L0115",
+          "quarto_id": "Q0110"
+        },
+        {
+          "solicitacao_id": "SP00042",
+          "paciente_id": "P014240",
+          "leito_id": "L0009",
+          "quarto_id": "Q0009"
+        },
+        {
+          "solicitacao_id": "SP00012",
+          "paciente_id": "P006438",
+          "leito_id": "L0109",
+          "quarto_id": "Q0106"
+        },
+        {
+          "solicitacao_id": "SP00017",
+          "paciente_id": "P010529",
+          "leito_id": "L0085",
+          "quarto_id": "Q0085"
+        },
+        {
+          "solicitacao_id": "SP00108",
+          "paciente_id": "P003536",
+          "leito_id": "L0198",
+          "quarto_id": "Q0160"
+        },
+        {
+          "solicitacao_id": "SP00100",
+          "paciente_id": "P012282",
+          "leito_id": "L0302",
+          "quarto_id": "Q0228"
+        },
+        {
+          "solicitacao_id": "SP00083",
+          "paciente_id": "P003911",
+          "leito_id": "L0018",
+          "quarto_id": "Q0018"
+        },
+        {
+          "solicitacao_id": "SP00095",
+          "paciente_id": "P010010",
+          "leito_id": "L0020",
+          "quarto_id": "Q0020"
+        },
+        {
+          "solicitacao_id": "SP00041",
+          "paciente_id": "P006902",
+          "leito_id": "L0024",
+          "quarto_id": "Q0024"
+        },
+        {
+          "solicitacao_id": "SP00079",
+          "paciente_id": "P013427",
+          "leito_id": "L0227",
+          "quarto_id": "Q0178"
+        },
+        {
+          "solicitacao_id": "SP00072",
+          "paciente_id": "P005489",
+          "leito_id": "L0300",
+          "quarto_id": "Q0226"
+        },
+        {
+          "solicitacao_id": "SP00046",
+          "paciente_id": "P007641",
+          "leito_id": "L0029",
+          "quarto_id": "Q0029"
+        },
+        {
+          "solicitacao_id": "SP00019",
+          "paciente_id": "P012591",
+          "leito_id": "L0303",
+          "quarto_id": "Q0229"
+        },
+        {
+          "solicitacao_id": "SP00084",
+          "paciente_id": "P015538",
+          "leito_id": "L0117",
+          "quarto_id": "Q0111"
+        }
+      ]
+    }
+  ]
+}

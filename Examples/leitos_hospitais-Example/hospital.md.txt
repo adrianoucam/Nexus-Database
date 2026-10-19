@@ -1,0 +1,114 @@
+# Ampliação da Proposta — Gestão Integrada de Recursos Humanos, Produção Assistencial e Fluxos Hospitalares
+
+## Caracterização ampliada do Hospital São José do Avaí
+
+O Hospital São José do Avaí (HSJA), localizado em Itaperuna, no estado do Rio de Janeiro, constitui um complexo hospitalar filantrópico de referência regional, com atuação em atendimento clínico, cirúrgico, emergencial, intensivo e especializado.
+
+Informações institucionais e registros históricos indicam uma estrutura com mais de 1.400 colaboradores e aproximadamente 20 mil atendimentos mensais. A instituição também apresenta expressiva produção em internações, procedimentos cirúrgicos, assistência obstétrica, oncologia e atendimentos de alta complexidade.
+
+A diversidade de serviços implica a necessidade de coordenar simultaneamente leitos, equipes multiprofissionais, salas cirúrgicas, equipamentos, procedimentos e pacientes.
+
+Nesse contexto, propõe-se ampliar o NexusDB Hospital Optimizer para incluir a representação computacional das interdependências entre recursos humanos, capacidade assistencial e demanda hospitalar.
+
+O sistema será desenvolvido para apoiar decisões relacionadas à disponibilidade de leitos, adequação de equipes, agendamento de procedimentos e identificação de gargalos operacionais, sem substituir as decisões clínicas e administrativas dos profissionais responsáveis.
+
+## Nova dimensão I — Recursos humanos hospitalares
+
+A gestão dos leitos depende não apenas da capacidade física instalada, mas também da disponibilidade efetiva de profissionais habilitados para prestar os cuidados necessários.
+
+Serão modeladas as seguintes categorias de recursos humanos:
+
+- Médicos especialistas, plantonistas e residentes;
+- Enfermeiros assistenciais e supervisores;
+- Técnicos e auxiliares de enfermagem;
+- Fisioterapeutas e demais profissionais assistenciais;
+- Equipes cirúrgicas e anestesiológicas;
+- Profissionais de diagnóstico e apoio terapêutico;
+- Equipes de transporte, higienização e manutenção.
+
+Cada profissional será relacionado a suas competências, funções, escalas, unidades de atuação e disponibilidade operacional.
+
+O objetivo será identificar restrições de capacidade assistencial sem confundir a existência física de um leito com sua possibilidade efetiva de utilização.
+
+O dimensionamento deverá observar as normas profissionais e sanitárias aplicáveis, os protocolos institucionais e as necessidades específicas de cada unidade.
+
+## Nova dimensão II — Otimização das equipes assistenciais
+
+Será investigada a aplicação de grafos bipartidos e algoritmos de otimização para relacionar necessidades assistenciais a equipes habilitadas.
+
+O sistema poderá avaliar cenários de dimensionamento de pessoal, cobertura de turnos, sobreposição de demandas e necessidade de competências específicas.
+
+Entre os métodos candidatos encontram-se matching com restrições, programação inteira, fluxo em redes e algoritmos evolutivos.
+
+A otimização não terá como objetivo minimizar indiscriminadamente o número de trabalhadores, mas aprimorar a compatibilidade entre demanda assistencial, disponibilidade profissional, segurança e condições de trabalho.
+
+## Nova dimensão III — Planejamento cirúrgico
+
+A produção cirúrgica histórica do HSJA justifica a inclusão de um módulo específico de planejamento.
+
+O módulo deverá representar dependências entre procedimentos, salas, equipes, equipamentos, materiais e leitos de recuperação.
+
+Serão estudadas técnicas de escalonamento de tarefas, grafos de precedência e otimização combinatória.
+
+Uma das questões centrais será identificar como a previsão de disponibilidade de leitos pós-operatórios pode contribuir para o planejamento de procedimentos eletivos, respeitando a prioridade dos atendimentos urgentes e emergenciais.
+
+## Nova dimensão IV — Fluxos obstétricos e neonatais
+
+A assistência obstétrica será representada por um subgrafo que considere admissões, atendimento ao parto, recuperação materna e necessidades de cuidados neonatais.
+
+O modelo deverá manter separadas as capacidades obstétrica, pediátrica e neonatal, respeitando restrições assistenciais específicas.
+
+Serão investigadas possibilidades de previsão de demanda, planejamento de recursos e análise de congestionamento nesses serviços.
+
+## Nova dimensão V — Rede regional de atendimento
+
+A atuação regional do HSJA permite investigar o uso de grafos direcionados para representar a origem dos pacientes e os encaminhamentos entre municípios e instituições.
+
+Nessa abordagem, os municípios poderão ser representados como vértices, enquanto os fluxos assistenciais corresponderão a arestas ponderadas por volume de atendimento, especialidade e período.
+
+O modelo permitirá estudar concentração de demanda, sazonalidade, dependência regional e cenários de expansão da capacidade hospitalar.
+
+## Nova dimensão VI — Otimização conjunta dos recursos
+
+A arquitetura integrará os diferentes subgrafos em um modelo hospitalar heterogêneo temporal.
+
+As decisões de alocação deverão considerar simultaneamente:
+
+1. Disponibilidade física e operacional de leitos;
+2. Elegibilidade clínica dos pacientes;
+3. Equipes e competências disponíveis;
+4. Equipamentos necessários;
+5. Procedimentos programados e emergenciais;
+6. Previsões de altas e transferências;
+7. Restrições específicas das unidades;
+8. Demanda atual e futura.
+
+Para resolver o problema serão comparados algoritmos de fluxo de custo mínimo, programação matemática, otimização robusta e métodos evolutivos.
+
+O aprendizado de máquina será utilizado para estimar variáveis incertas, enquanto a simulação de eventos discretos permitirá avaliar diferentes políticas de gestão hospitalar.
+
+## Resultados adicionais esperados
+
+A ampliação deverá possibilitar a avaliação de indicadores como:
+
+- Disponibilidade operacional de leitos por turno;
+- Adequação da cobertura assistencial às necessidades das unidades;
+- Tempo de espera por procedimentos;
+- Cancelamentos relacionados à indisponibilidade de recursos;
+- Utilização de salas cirúrgicas;
+- Atrasos de transferência entre unidades;
+- Demanda regional por especialidade;
+- Congestionamento de serviços críticos;
+- Desempenho computacional dos métodos híbridos.
+
+O estudo deverá comparar as soluções propostas com políticas convencionais, avaliando tanto os benefícios operacionais quanto as limitações identificadas.
+
+## Contribuição científica ampliada
+
+A contribuição pretendida consiste em desenvolver e avaliar um modelo computacional integrado capaz de representar e otimizar diferentes dimensões da operação hospitalar.
+
+A pesquisa investigará a hipótese de que a combinação entre grafos temporais, previsão de demanda e otimização matemática pode oferecer ganhos mensuráveis em relação a modelos que analisam separadamente leitos, equipes e procedimentos.
+
+A proposta também permitirá avaliar a escalabilidade da arquitetura NexusDB em Rust, utilizando processamento paralelo e aceleração opcional por GPU.
+
+**O resultado esperado é um sistema experimental de apoio à decisão para gestão hospitalar integrada, com potencial de adaptação a outras instituições e redes regionais de saúde.**
